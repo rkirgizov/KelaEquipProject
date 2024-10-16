@@ -1,3 +1,6 @@
+// ---------------------------------------------------
+// Амулеты Абсолют
+// ---------------------------------------------------
 new entry "Shout_MAG_Aid_Self"
 type "SpellData"
 data "SpellType" "Shout"
@@ -43,3 +46,7 @@ data "TooltipUpcastDescription" ""
 data "TooltipUpcastDescriptionParams" ""
 data "UseCosts" "ActionPoint:1"
 data "RootSpellID" ""
+
+// ---------------------------------------------------
+// 
+// ---------------------------------------------------

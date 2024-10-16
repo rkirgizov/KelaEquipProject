@@ -5,7 +5,7 @@
 		<node id="Templates">
 			<children>
 
-			
+				<!-- Оружие в хранилище башни мага -->
 				<node id="GameObjects">
 					<attribute id="Flag" type="int32" value="1" />
 					<attribute id="LevelName" type="FixedString" value="CTY_SorcerousSundriesBasement_A" />

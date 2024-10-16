@@ -4,6 +4,7 @@
     <region id="Origins">
         <node id="root">
             <children>
+                <!-- Добавил Минтаре клеймо -->
                 <node id="Origin">
                     <attribute id="AppearanceLocked" type="bool" value="true"/>
                     <attribute id="AvailableInCharacterCreation" type="uint8" value="2"/>

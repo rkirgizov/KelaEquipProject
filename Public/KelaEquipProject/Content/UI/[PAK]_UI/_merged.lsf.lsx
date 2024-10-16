@@ -4,7 +4,7 @@
    <region id="TextureBank">
        <node id="TextureBank">
 
-            <!-- УДАЛИЛ .lsx - если не зааработает, надо проверит -->
+            <!-- УДАЛИЛ файл .lsx - если не заработает, надо проверит -->
 
            <children>
                <node id="Resource">

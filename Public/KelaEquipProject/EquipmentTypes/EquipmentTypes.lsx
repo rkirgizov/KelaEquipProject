@@ -4,6 +4,7 @@
     <region id="EquipmentTypes">
         <node id="root">
             <children>
+                <!-- Силовая кирка -->
                 <node id="EquipmentType">
                     <attribute id="BoneMainSheathed" type="FixedString" value="Dummy_Sheath_Upper_L"/>
                     <attribute id="BoneMainUnsheathed" type="FixedString" value="Dummy_L_Hand"/>
@@ -22,6 +23,7 @@
                     <attribute id="WeaponType_OneHanded" type="FixedString" value="Slashing1H"/>
                     <attribute id="WeaponType_TwoHanded" type="FixedString" value="Generic2H"/>
                 </node>
+                <!-- Щит Олама -->
                 <node id="EquipmentType">
                     <attribute id="BoneMainUnsheathed" type="FixedString" value="Dummy_L_Hand"/>
                     <attribute id="BoneOffHandUnsheathed" type="FixedString" value="Dummy_L_Hand"/>

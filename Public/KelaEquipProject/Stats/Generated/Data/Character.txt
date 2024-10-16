@@ -1,4 +1,4 @@
-// протегал клеймом
+// протегал клеймом для пассивок Амулетов Абсолют
 // data "DefaultBoosts" "Tag(BRANDED)"
 
 new entry "HAV_Marcus"

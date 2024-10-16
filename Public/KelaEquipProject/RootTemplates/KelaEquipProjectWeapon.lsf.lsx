@@ -5,29 +5,6 @@
 		<node id="Templates">
 			<children>
 
-				<!-- Арбалет Ирре из подземной башни -->
-				<node id="GameObjects">
-					<attribute id="Description" type="TranslatedString" handle="h73dca8dd7e9a4eac8e74c2268d7a05270bc5" version="1" />
-					<attribute id="DisplayName" type="TranslatedString" handle="h23902d2f23d74e5e8272fb6adabd170c327e" version="3" />
-					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="bc26e4a0-57c5-4458-88b4-436ff7719e4f" />
-					<attribute id="Name" type="LSString" value="WBP_KELA_UND_Irre_HeavyCrossbow" />
-					<attribute id="ParentTemplateId" type="FixedString" value="6af59cba-cc38-4511-9c3b-75caac4b96b5" />
-					<attribute id="Stats" type="FixedString" value="WBP_KELA_UND_Irre_HeavyCrossbow" />
-					<attribute id="Type" type="FixedString" value="item" />
-					<attribute id="VisualTemplate" type="FixedString" value="f20fe202-a67a-b95c-9da5-b5d9b3b9ce10" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
-					<children>
-						<node id="Tags">
-							<children>
-								<node id="Tag">
-									<attribute id="Object" type="guid" value="355bddfd-c5c4-4ed4-820b-a0b1bd38b03d" />
-								</node>
-							</children>
-						</node>
-					</children>
-				</node>
-
 				<!-- Силовая кирка в обветшалой деревне в Подземье -->
 				<node id="GameObjects">
 					<attribute id="CanShootThrough" type="bool" value="True" />
@@ -185,41 +162,6 @@
 						</node>
 					</children>
 				</node>
-
-				<!-- Адскому самовзводному арбалету добавить тег для пассивки адского железа -->
-				<node id="GameObjects">
-					<attribute id="Description" type="TranslatedString" handle="hf9cc6cd3geb5dg41b4g9a74gb69c03fa30d0" version="1" />
-					<attribute id="DisplayName" type="TranslatedString" handle="hb3f5a1bcgbc0cg4fa3gabfdg65c7f3fe5ed3" version="4" />
-					<attribute id="TechnicalDescription" type="TranslatedString" handle="h396e59d6f03f4c35a8305a23605338b258fd" version="1" />
-					<attribute id="TechnicalDescriptionParams" type="LSString" value="18" />
-					<attribute id="Icon" type="FixedString" value="Item_WPN_WATCHER_Crossbow" />
-					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="f746397f-c489-4121-8499-40017981e290" />
-					<attribute id="Name" type="LSString" value="MAG_WATCHER_Human_Crossbow" />
-					<attribute id="ParentTemplateId" type="FixedString" value="59c190d2-4b91-44f5-a720-f75d338dd341" />
-					<attribute id="PhysicsTemplate" type="FixedString" value="792ace2b-cadf-6248-0a85-9953e3595263" />
-					<attribute id="Stats" type="FixedString" value="MAG_WATCHER_Human_Crossbow" />
-					<attribute id="Type" type="FixedString" value="item" />
-					<attribute id="VisualTemplate" type="FixedString" value="02448d6d-8622-9421-a1d5-c943a4364a45" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
-					<children>
-						<node id="Tags">
-							<children>
-								<node id="Tag">
-									<attribute id="Object" type="guid" value="9e8ac18b-2328-4dc0-b04c-c7ee42123b5e" />
-								</node>
-							</children>
-						</node>
-						<node id="StatusList">
-							<children>
-								<node id="Status">
-									<attribute id="Object" type="FixedString" value="EXHAUSTED_WATCHERCROSSBOW_TECHNICAL" />
-								</node>
-							</children>
-						</node>
-					</children>
-				</node>
-
 
 				<!-- Молот изобретателя Красного молота -->
 				<node id="GameObjects">
