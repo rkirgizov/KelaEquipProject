@@ -1,0 +1,21 @@
+// Зарелл 
+new equipment "MOO_Executioner_Zarell"
+    add initialweaponset "Melee"
+    add equipmentgroup
+    add equipment entry "WPN_Mace_2"
+    add equipmentgroup
+    add equipment entry "ARM_StuddedLeather_Body_2"
+    add equipmentgroup
+    add equipment entry "MAG_Absolute_Protecter_Shield"
+    add equipmentgroup
+    add equipment entry "GOB_Priest_Amulet_B"
+
+// Красный Молот
+new equipment "EQP_RedHammer"
+    add initialweaponset "Melee"
+    add equipmentgroup
+    add equipment entry "WPN_Warhammer_RedHammer"
+    add equipmentgroup
+    add equipment entry "ARM_Leather_Body"
+    add equipmentgroup
+    add equipment entry "ARM_Shield_1"

@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<!-- <node id="Transform"> -->
+				<!-- Position -->
+				<!-- <attribute id="Position" type="fvec3" value="Запад<->Восток Низ<->Верх Юг<->Север" /> -->
+				<!-- Rotation -->
+				<!-- <attribute id="RotationQuat" type="fvec4" value="0 <горизонт> 0 0.7389326" /> -->
+
+				<!-- Лунные башни //////////////////////////////////////////////////////// -->
+				<!-- Добавляем доспехи ревнителя в сундук с конфискатом -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h043858bbgfb7dg4327g9522g3962ec7bd601" version="1" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="Key" type="FixedString" value="MOO_PrisonCells" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="LockDifficultyClassID" type="guid" value="89f0acd4-346f-479d-8b7a-1a3eb5382f6d" />
+					<!-- <attribute id="MapKey" type="FixedString" value="8b3cce00-c296-4194-89d7-da4bedae2bc7" /> kelamor -->
+					<attribute id="MapKey" type="FixedString" value="3c6a641f-169e-453c-b4ee-234ca670abcc" /> origin
+					<attribute id="Name" type="LSString" value="S_MOO_PrisonChest" />
+					<attribute id="Stats" type="FixedString" value="OBJ_ImmutableContainer" />
+					<attribute id="TemplateName" type="FixedString" value="0b90bf9d-66fd-4741-be1f-39181efca97a" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="MOO_ConfiscatedGoods" />
+								</node>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="TRE_ARM_Plate_Body_Zealot" />
+								</node>
+							</children>
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="SCL_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="eb3fa5f9-f73d-24a5-c27a-506ccc571403" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="84930bb1-a014-8060-9792-d2421768ed26" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="254c29d7-b24e-679f-d950-51d6824946f2" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="568.176 32.86795 -654.2139" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.8140523 0 0.5807917" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+
+				<!-- Щит Олама в Доме целителей -->
+				<node id="GameObjects">
+					<attribute id="Fadeable" type="bool" value="True" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="HierarchyOnlyFade" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="8e388e2e-f9c0-4222-854d-52b14f6888c1" /> kela
+					<attribute id="Name" type="LSString" value="WPN_KELA_Olams_Shadow_Protection_Shield_A" />
+					<attribute id="SeeThrough" type="bool" value="True" />
+					<attribute id="TemplateName" type="FixedString" value="80c618fa-b06b-43ec-9b65-02bb1dbc9ab8" /> kelamor
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="FreezeGravity" type="bool" value="False" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115209550692654" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="SCL_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="1afdce5a-4c84-f16d-29c8-faec3ee4f4b3" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="c059d77c-23e5-9d0f-2fd6-8fbb16efd0db" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="49.59268 26.39502 -1012.936" />
+							<attribute id="RotationQuat" type="fvec4" value="0.5 -0.1572827 0 0.9875536" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>				
+
+
+
+				<!-- <node id="Transform"> -->
+				<!-- Position -->
+				<!-- <attribute id="Position" type="fvec3" value="Запад<->Восток Низ<->Верх Юг<->Север" /> -->
+				<!-- Rotation -->
+				<!-- <attribute id="RotationQuat" type="fvec4" value="0 <горизонт> 0 0.7389326" /> -->
+
+
+
+			</children>
+		</node>
+	</region>
+</save>

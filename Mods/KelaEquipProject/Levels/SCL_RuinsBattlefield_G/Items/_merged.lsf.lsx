@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				
+				<!-- <node id="Transform"> -->
+				<!-- Position -->
+				<!-- <attribute id="Position" type="fvec3" value="Запад<->Восток Низ<->Верх Юг<->Север" /> -->
+				<!-- Rotation -->
+				<!-- <attribute id="RotationQuat" type="fvec4" value="0 <горизонт> 0 0.7389326" /> -->
+
+				<!-- Записка Бальтазара о возможности напоения амулета Селунэ кровью пикси из лунных фонарей -->
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_RuinsBattlefield_G" />
+					<attribute id="MapKey" type="FixedString" value="c3d59582-e23e-4755-94e7-4d71a374784c" />
+					<attribute id="Name" type="LSString" value="BOOK_Kela_Note_Baltazar_Pixi_001" />
+					<attribute id="TemplateName" type="FixedString" value="283dde98-9c6d-49ea-a9b1-6961a4d5b1da" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209015" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="SCL_RuinsBattlefield_G" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="830b9729-4ff7-cee5-1caf-eb9bba1f8f8a" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-149.8397 38.1493 -162.1778" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<!-- Амулет Селунэ в комнате Изабэль в башнях -->
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GroupID" type="uint32" value="45621" />
+					<attribute id="LevelName" type="FixedString" value="SCL_RuinsBattlefield_G" />
+					<attribute id="MapKey" type="FixedString" value="28ed3513-1f16-43c1-be00-5306ecdeb7a4" /> kelamor
+					<!-- <attribute id="MapKey" type="FixedString" value="779a6e1d-f3c9-4c15-a530-869a72702e74" /> origin -->
+					<attribute id="Name" type="LSString" value="FUR_GEN_Cabinet_B_015" />
+					<attribute id="TemplateName" type="FixedString" value="4a7c4fae-2823-4361-9c1d-2b09a469f228" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="ItemList">
+							<children>
+								<node id="Item">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="CanBePickpocketed" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="IsDroppedOnDeath" type="bool" value="True" />
+									<attribute id="IsTradable" type="uint8" value="0" />
+									<attribute id="ItemName" type="LSString" value="LOOT_GEN_Amulet_Selune_A" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TemplateID" type="FixedString" value="50777efe-56f5-4b51-9998-576985e5f0b8" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Item">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="CanBePickpocketed" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="IsDroppedOnDeath" type="bool" value="True" />
+									<attribute id="IsTradable" type="uint8" value="0" />
+									<attribute id="ItemName" type="LSString" value="BOOK_GEN_Gods_SharSeluneConflict" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TemplateID" type="FixedString" value="9d0cbc40-3777-418f-8047-38e18dde2400" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="SCL_RuinsBattlefield_G" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="83ea6cac-3c8d-91e7-9ab4-7fee45d0f5c9" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="aadd25ce-9c78-4e3c-67be-cf965728c499" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="6b2b5197-a7b0-fe84-9237-d7a05ec6078e" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="b55a10fd-f856-ba34-74d5-bb70c4920c70" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-172.6133 37.23264 -198.551" />
+							<attribute id="RotationQuat" type="fvec4" value="0 1 0 2.980238E-08" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<!-- Скрываем старый сундук -->
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GroupID" type="uint32" value="45621" />
+					<attribute id="LevelName" type="FixedString" value="SCL_RuinsBattlefield_G" />
+					<attribute id="MapKey" type="FixedString" value="779a6e1d-f3c9-4c15-a530-869a72702e74" /> origin
+					<attribute id="Name" type="LSString" value="FUR_GEN_Cabinet_B_015" />
+					<attribute id="TemplateName" type="FixedString" value="4a7c4fae-2823-4361-9c1d-2b09a469f228" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="SCL_RuinsBattlefield_G" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="83ea6cac-3c8d-91e7-9ab4-7fee45d0f5c9" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="aadd25ce-9c78-4e3c-67be-cf965728c499" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="6b2b5197-a7b0-fe84-9237-d7a05ec6078e" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="b55a10fd-f856-ba34-74d5-bb70c4920c70" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-172.6133 37.23264 -198.551" />
+							<attribute id="RotationQuat" type="fvec4" value="0 1 0 2.980238E-08" />
+							<attribute id="Scale" type="float" value="0.001" />
+						</node>
+					</children>
+				</node>
+				<!-- Амулет Селунэ в комнате Изабэль в таверне -->
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GroupID" type="uint32" value="44552" />
+					<attribute id="LevelName" type="FixedString" value="SCL_RuinsBattlefield_G" />
+					<attribute id="MapKey" type="FixedString" value="189ca42a-dbe3-42c2-857f-e6d9d50ea052" /> kelamor
+					<!-- <attribute id="MapKey" type="FixedString" value="97996762-54d0-43ea-ac9d-6edd19f33dd6" /> origin -->
+					<attribute id="Name" type="LSString" value="FUR_GEN_Wardrobe_C_000" />
+					<attribute id="TemplateName" type="FixedString" value="8b7ba095-fb6e-4363-a8fc-0ad5fe3733ce" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209026" />
+					<children>
+						<node id="InventoryList" />
+						<node id="ItemList">
+							<children>
+								<node id="Item">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="CanBePickpocketed" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="IsDroppedOnDeath" type="bool" value="True" />
+									<attribute id="IsTradable" type="uint8" value="0" />
+									<attribute id="ItemName" type="LSString" value="ARM_Robe_Selunite" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TemplateID" type="FixedString" value="204de787-46de-4d39-8fe0-2e080bf44a61" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="Item">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="Amount" type="int32" value="1" />
+									<attribute id="CanBePickpocketed" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="IsDroppedOnDeath" type="bool" value="True" />
+									<attribute id="IsTradable" type="uint8" value="0" />
+									<attribute id="ItemName" type="LSString" value="LOOT_GEN_Amulet_Selune_A" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TemplateID" type="FixedString" value="50777efe-56f5-4b51-9998-576985e5f0b8" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="SCL_RuinsBattlefield_G" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="83ea6cac-3c8d-91e7-9ab4-7fee45d0f5c9" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="07c55154-3345-00b6-9eb2-c15705c1f34d" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="45060769-5979-2d25-3a14-3d19d6be89ff" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="0ec81509-80b1-9884-bb03-a3ab53a092c0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-69.95541 31.41792 159.7792" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.9808602 0 -0.1947132" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<!-- Скрываем старый сундук -->
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GroupID" type="uint32" value="44552" />
+					<attribute id="LevelName" type="FixedString" value="SCL_RuinsBattlefield_G" />
+					<attribute id="MapKey" type="FixedString" value="97996762-54d0-43ea-ac9d-6edd19f33dd6" />
+					<attribute id="Name" type="LSString" value="FUR_GEN_Wardrobe_C_000" />
+					<attribute id="TemplateName" type="FixedString" value="8b7ba095-fb6e-4363-a8fc-0ad5fe3733ce" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209026" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="SCL_RuinsBattlefield_G" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="83ea6cac-3c8d-91e7-9ab4-7fee45d0f5c9" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="07c55154-3345-00b6-9eb2-c15705c1f34d" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="45060769-5979-2d25-3a14-3d19d6be89ff" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="0ec81509-80b1-9884-bb03-a3ab53a092c0" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-69.95541 31.41792 159.7792" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.9808602 0 -0.1947132" />
+							<attribute id="Scale" type="float" value="0.001" />
+						</node>
+					</children>
+				</node>				
+
+				<!-- Дом исцеления -->
+				<!-- Перчатки хирурга в доме исцеления -->
+				<node id="GameObjects">
+					<attribute id="Fadeable" type="bool" value="True" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="HierarchyOnlyFade" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="SCL_RuinsBattlefield_G" />
+					<!-- <attribute id="MapKey" type="FixedString" value="453a4c47-f3c5-49d0-87bf-8536327067d3" /> kela -->
+					<attribute id="MapKey" type="FixedString" value="3b5ebaaf-38bb-4d79-83d6-d31cef0d74ba" /> origin
+					<attribute id="Name" type="LSString" value="ARM_Gloves_Cloth_A" />
+					<attribute id="SeeThrough" type="bool" value="True" />
+					<attribute id="TemplateName" type="FixedString" value="99132754-f100-4956-92bc-554b0837c6b8" /> kelamor
+					<!-- <attribute id="TemplateName" type="FixedString" value="49214667-75eb-4880-b210-97e9056d84ce" /> origin -->
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115209550692654" />
+					<children>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-200.4692 43.35413 48.14573" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.9999288 0 -0.01188878" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+
+
+
+
+
+				
+
+
+			</children>
+		</node>
+	</region>
+</save>

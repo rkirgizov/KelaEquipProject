@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<!-- Копье, найденное в астральном плане у Манящей пещеры рядом с гитом -->
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="LevelName" type="FixedString" value="CRE_AstralPlane_E_Art" />
+					<attribute id="MapKey" type="FixedString" value="22ea22bf-c4ff-4f2f-9f1a-95cd58950918" />
+					<attribute id="Name" type="LSString" value="WPN_Spear_Rusty_Astral_A_000" />
+					<attribute id="TemplateName" type="FixedString" value="42f9c7dc-0e69-4c97-9bd4-24a5161c7223" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CRE_AstralPlane_E_Art" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="76e4be18-4ead-e3f9-5837-bc5d206cb299" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="8348d72c-59ed-8bca-58f7-7effe20b15b3" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="25.61012 35.59704 133.1266" />
+							<attribute id="RotationQuat" type="fvec4" value="-0.6072344 -0.06865335 -0.3529871 0.7084867" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<!-- Скрываем старое -->
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="LevelName" type="FixedString" value="CRE_AstralPlane_E_Art" />
+					<attribute id="MapKey" type="FixedString" value="ac1fdf67-f730-45ed-945b-7eb2284c3612" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Spear_A_0_Rusty_A_000" />
+					<attribute id="TemplateName" type="FixedString" value="86450ec8-d876-457f-92c0-7bb11e8f38f8" />
+					<attribute id="Tooltip" type="uint8" value="1" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209018" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CRE_AstralPlane_E_Art" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="76e4be18-4ead-e3f9-5837-bc5d206cb299" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="8348d72c-59ed-8bca-58f7-7effe20b15b3" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="25.61012 35.59704 133.1266" />
+							<attribute id="RotationQuat" type="fvec4" value="-0.6072344 -0.06865335 -0.3529871 0.7084867" />
+							<attribute id="Scale" type="float" value="0.001" />
+						</node>
+					</children>
+				</node>
+
+
+			</children>
+		</node>
+	</region>
+</save>

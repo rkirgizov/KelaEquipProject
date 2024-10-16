@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+
+				<!-- <node id="Transform"> -->
+				<!-- Position -->
+				<!-- <attribute id="Position" type="fvec3" value="Запад<->Восток Низ<->Верх Юг<->Север" /> -->
+				<!-- Rotation -->
+				<!-- <attribute id="RotationQuat" type="fvec4" value="0 <горизонт> 0 0.7389326" /> -->
+				
+				<!-- Кинжал фокусника в чультских джунглях -->
+				<node id="GameObjects">
+					<attribute id="ConstellationConfigName" type="FixedString" value="PerceptionHelper" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="BGO_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="a36314a8-6687-4475-9290-e1d039068006" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Dagger_Cheater_001" />
+					<attribute id="TemplateName" type="FixedString" value="b2de822c-ae13-401a-a04d-c8d710d170ab" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="BGO_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="a5d2e442-4fe3-f147-ca38-b071adb584d1" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="c14f7560-cbfc-9aec-8366-1b0267aef48c" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="8d132f69-6ac4-d231-b907-faecbe795553" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="ConstellationConfigGlobalParameters">
+							<children>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="MaxRadius" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="double">
+																	<attribute id="double" type="double" value="1" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="DC" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="HiddenPerception_Easy_10a7c9ba-bc09-4c30-8cfc-ce0c6766fac7" />
+																	<!-- <attribute id="String" type="LSString" value="HiddenPerception_VeryHard_36a5be3e-74f4-4ae2-aa1a-a2ea7ec36e8d" /> -->
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="Type" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="Highlight" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-1564.214 18.497907 -1522.744" />
+							<attribute id="RotationQuat" type="fvec4" value="-0.54304787 0.4762008 -0.07920872 0.8747033" />
+							<attribute id="Scale" type="float" value="0.8" />
+						</node>
+					</children>
+				</node>
+
+				<!-- <node id="Transform"> -->
+				<!-- Position -->
+				<!-- <attribute id="Position" type="fvec3" value="Запад<->Восток Низ<->Верх Юг<->Север" /> -->
+				<!-- Rotation -->
+				<!-- <attribute id="RotationQuat" type="fvec4" value="0 <горизонт> 0 0.7389326" /> -->
+
+			</children>
+		</node>
+	</region>
+</save>

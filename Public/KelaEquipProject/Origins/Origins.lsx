@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="328"/>
+    <region id="Origins">
+        <node id="root">
+            <children>
+                <node id="Origin">
+                    <attribute id="AppearanceLocked" type="bool" value="true"/>
+                    <attribute id="AvailableInCharacterCreation" type="uint8" value="2"/>
+                    <attribute id="BackgroundUUID" type="guid" value="7e820dee-a8fc-43b2-8661-2b404454bade"/>
+                    <attribute id="BodyShape" type="uint8" value="0"/>
+                    <attribute id="BodyType" type="uint8" value="1"/>
+                    <attribute id="ClassUUID" type="guid" value="ff4d9497-023c-434a-bd14-82fc367e991c"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hc63fce05g66c5g43f3g8855gd6d5f002290c" version="1"/>
+                    <attribute id="GlobalTemplate" type="guid" value="25721313-0c15-4935-8176-9f134385451b"/>
+                    <attribute id="Name" type="FixedString" value="Minthara"/>
+                    <attribute id="Passives" type="LSString" value="DeathSavingThrows"/>
+                    <attribute id="RaceUUID" type="guid" value="4f5d1434-5175-4fa9-b7dc-ab24fba37929"/>
+                    <attribute id="SubClassUUID" type="guid" value="3cc3d397-c47d-4966-87ae-88827f73f645"/>
+                    <attribute id="SubRaceUUID" type="guid" value="c5f8ebdd-f4a5-4d2d-9eab-4a8d1b1dd724"/>
+                    <attribute id="UUID" type="guid" value="eae09670-869d-4b70-b605-33af4ee80b34"/>
+                    <attribute id="Unique" type="bool" value="true"/>
+                    <children>
+                        <node id="ReallyTags">
+                            <attribute id="Object" type="guid" value="3e84e1cd-2193-4f9f-80b4-c2ededefaea6"/>
+                        </node>
+                        <node id="ReallyTags">
+                            <attribute id="Object" type="guid" value="310f7186-bb0b-4905-b8f6-dfc2fe62570a"/> BRANDED
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

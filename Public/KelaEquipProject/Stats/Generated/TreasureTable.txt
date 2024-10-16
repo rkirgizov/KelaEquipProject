@@ -1,0 +1,457 @@
+// new treasuretable "DEN_Weaponsmith_Trade"
+// CanMerge 1
+// new subtable "1,1"
+// object category "I_BOOK_LOW_Kela_Common_Smithing_Notes",1,0,0,0,0,0,0,0
+// CanMerge 1
+// new subtable "1,1"
+// object category "I_GLO_SoulCoin",1,0,0,0,0,0,0,0
+// CanMerge 1
+// new subtable "1,1"
+// object category "I_BOOK_LOW_SorcerousSundries_NotableWizards2",1,0,0,0,0,0,0,0
+
+// Example 1 Below are a few examples to demonstrate the use of the treasure tables:
+
+// Name	MinLevelDiff	MaxLevelDiff	StartLevel	EndLevel	DropCount	        ObjectCategory	Frequency
+//                                                              10,1	            Ingredient	    1
+//                                                              0,3;1,1;2,1	        Sword	        1
+//                                                              -1	                Dagger	        1
+//                                                              0,1;1,1;2,1;3,1;4,1	Painting	    3
+//                                                                                  Precious	    1
+//                                                                                  T_ST_Dogs	    1
+//                                                              0,1	                Food	        1
+// On the initial roll, the above table:
+// Ingredient
+// Всегда будет появляться 10 предметов категории ингредиентов (x,y равно 10,1: количество равно 10, шанс равен 1 из 1, потому что это единственная возможность)
+// Sword
+// Имеет 3 из 5 шансов ничего не выпасть (0,3 и общий шанс 3+1+1)
+// Имеет 1 шанс из 5 выпасть 1 предмет категории Меч (1,1 и общий шанс 3+1+1)
+// Имеет 1 шанс из 5 выпасть 2 предмет категории Меч (2,1 и общий шанс 3+1+1)
+// Dagger
+// Будет вынужден спавниться что-то из категории Кинжал, игнорируя ограничения по уровню при необходимости.
+// Painting, Precious, T_ST_Dogs
+// Имеет 1 шанс из 5 ничего не выпасть (0,1 и общий шанс 1+1+1+1+1)
+// Имеет 1 шанс из 5 выпасть что-то из Живописи ИЛИ Драгоценности ИЛИ T_ST_Dogs (1,1 и общий шанс 1+1+1+1+1)
+// Имеет 1 шанс из 5 выбросить 2 вещи из Живописи ИЛИ Драгоценности ИЛИ T_ST_Dogs (2,1 и общий шанс 1+1+1+1+1)
+// Имеет 1 шанс из 5 выпасть 3 вещи из Живописи ИЛИ Драгоценности ИЛИ T_ST_Dogs (3,1 и общий шанс 1+1+1+1+1)
+// Имеет 1 шанс из 5 выбросить 4 вещи из Живописи ИЛИ Драгоценности ИЛИ T_ST_Dogs (4,1 и общий шанс 1+1+1+1+1)
+// В последнем случае ST_Dogs подтаблицы будет перебирать свои возможности, если она выбрана. Если в самой подтаблице ST_Dogs есть запись DropCount, в которой указано 5,1, и она выбрана один раз, она удалит 5 элементов.
+// Food
+// Из него никогда не выпадает еда.
+//
+// Столы имеют больше шансов выбросить картины, чем что-то драгоценное или что-то из ST_Dogs стола. На самом деле он будет выбран в 3 случаях из 5, потому что его Частота равна 3, а сумма Частот для всей его группы (т.е. Живописи, Драгоценности и T_ST_Dogs записей) равна 3+1+1=5.
+// После первоначального броска выбранные DropCounts будут удалены. Если на этот раз за столом выпадет 2 меча, он не сделает этого снова, пока не выпадет 1 меч один раз и не выпадет ни одного меча трижды.
+
+
+// DropCount	ObjectCategory	            Frequency	Common	Uncommon	Rare	Epic	Legendary
+// 5,1	        T_ST_WeaponNormal	        1	        3	    1		            1	
+// 3,1	        T_ST_ArmorNormal	        1	        2				                    1
+// 2,1	        T_ST_RingAmuletBeltNormal	1			                    1	    1	
+// 1,1	        Trader Gold	                1					
+// The above table will:
+// Прокатитесь по ST_WeaponNormal столу пять раз. Полученные предметы с вероятностью 3/5 станут обычными, 1/5 — необычными и 1/5 — эпическими.
+// Прокатайте по ST_ArmorNormal столу три раза. Полученные предметы с вероятностью 2/3 станут обычными, а с 1/3 — легендарными.
+// Раскатайте на ST_RingAmuletBeltNormal столе два раза. Получившиеся предметы с вероятностью 1/2 станут редкими, а с вероятностью 1/2 — эпическими.
+// Создайте 1 объект категории "Золото трейдера".
+
+// Name	        MinLevelDiff	MaxLevelDiff	IgnoreLevelDiff	UseTreasureGroups	StartLevel	EndLevel	DropCount	ObjectCategory
+// Animals_Owl					                                                        1	        12	        1,1	        I_Loot_Feather_A
+//                                                                                     1	        12	        1,1	        I_Loot_Essence_Air_A
+//                                                                                     13		                1,1	        I_Loot_Feather_A_Fancy
+//                                                                                     13		                1,1	        I_Loot_Essence_Air_Step2_A
+// Взглянув на эту таблицу, мы видим, что если персонаж убьет сову, произойдет следующее:
+// Если они находятся на уровнях с 1 по 12, они получат 1 перо, при условии, что Loot_Feather_A не ограничен в выпадении на их уровне.
+// Если у них уровни с 1 по 12, они получат 1 эссенцию воздуха, при условии, что Loot_Essence_Air_A не ограничен в выпадении на их уровне.
+// Если он достиг 13-го уровня или выше, он получит 1 причудливое перо, при условии, что Loot_Feather_A_Fancy не ограничен в выпадении на его уровне.
+// Если у них 13-й уровень или выше, они получат 1 эссенцию воздуха 2-го уровня (т.е. эссенцию воздуха более высокого уровня), при условии, что Loot_Essence_Air_Step2_A не ограничен в выпадении на их уровне.
+
+
+new treasuretable "TRE_BOOK_Kela_Blacksmith_Handbook"
+new subtable "1,1"
+object category "I_BOOK_Kela_Blacksmith_Handbook",1,0,0,0,0,0,0,0
+
+new treasuretable "TRE_BOOK_Kela_Recipe_Potion_Healing"
+new subtable "1,1"
+object category "I_BOOK_Kela_Recipe_Potion_Healing",1,0,0,0,0,0,0,0
+
+new treasuretable "TRE_BOOK_Kela_Recipe_Oil_Sussur"
+new subtable "1,1"
+object category "I_BOOK_Kela_Recipe_Oil_Sussur",1,0,0,0,0,0,0,0
+
+new treasuretable "TRE_BOOK_Kela_Recipe_Weapon_Oil"
+new subtable "1,1"
+object category "I_BOOK_Kela_Recipe_Weapon_Oil",1,0,0,0,0,0,0,0
+
+new treasuretable "TRE_BOOK_Kela_Recipe_Oil_Sussur_Temper"
+new subtable "1,1"
+object category "I_BOOK_Kela_Recipe_Oil_Sussur_Temper",1,0,0,0,0,0,0,0
+
+new treasuretable "TRE_BOOK_Kela_Recipe_Oil_Adamant_Temper"
+new subtable "1,1"
+object category "I_BOOK_Kela_Recipe_Oil_Adamant_Temper",1,0,0,0,0,0,0,0
+
+new treasuretable "TRE_BOOK_Kela_Recipe_Oil_Infernal_Temper"
+new subtable "1,1"
+object category "I_BOOK_Kela_Recipe_Oil_Infernal_Temper",1,0,0,0,0,0,0,0
+
+new treasuretable "TRE_BOOK_Kela_Recipe_Oil_Infernal_Temper_CTY"
+new subtable "1,1"
+object category "I_BOOK_Kela_Recipe_Oil_Infernal_Temper_CTY",1,0,0,0,0,0,0,0
+
+new treasuretable "TRE_BOOK_Kela_Recipe_Oil_Stone_Temper"
+new subtable "1,1"
+object category "I_BOOK_Kela_Recipe_Oil_Stone_Temper",1,0,0,0,0,0,0,0
+
+new treasuretable "TRE_KELA_Oil_Sussur"
+new subtable "1,1"
+object category "I_KELA_Sussur_Oil",1,0,0,0,0,0,0,0
+
+new treasuretable "TRE_KELA_Oil_Sussur_Temper"
+new subtable "1,1"
+object category "I_KELA_Oil_Sussur_Temper",1,0,0,0,0,0,0,0
+
+new treasuretable "TRE_KELA_Weapon_Oil"
+new subtable "1,1"
+object category "I_KELA_Weapon_Oil",1,0,0,0,0,0,0,0
+
+new treasuretable "TRE_KELA_AdamantineScrap"
+new subtable "2,1"
+object category "I_KELA_AdamantineScrap_1",1,0,0,0,0,0,0,0
+new subtable "2,1"
+object category "I_KELA_AdamantineScrap_2",1,0,0,0,0,0,0,0
+
+// Рецепты Оружие
+new treasuretable "TRE_WPN_KELA_UND_Irre_HeavyCrossbow"
+new subtable "1,1"
+object category "I_BOOK_Kela_Draft_Irre_HeavyCrossbow_4_Slots",1,0,0,0,0,0,0,0
+
+new treasuretable "TRE_WPN_KELA_Masterwork"
+new subtable "1,1"
+object category "I_BOOK_Kela_Draft_MasterworkPlans_3_Slots",1,0,0,0,0,0,0,0
+
+// Вещи 
+new treasuretable "TRE_ARM_Plate_Body_Zealot"
+new subtable "1,1"
+object category "I_ARM_Plate_Body_Zealot",1,0,0,0,0,0,0,0
+
+
+
+new treasuretable "KELA_DEBUG_Supply"
+new subtable "1,1"
+object category "I_MAG_DevilsBlackmith_ScaleMail_Completed",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_MAG_DevilsBlackmith_Boots_Completed",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_MAG_DevilsBlackmith_Gloves_Completed",1,0,0,0,0,0,0,0
+// new subtable "1,1"
+// object category "I_WPN_KELA_Favorite_LightHammer",1,0,0,0,0,0,0,0
+// new subtable "1,1"
+// object category "I_BOOK_Kela_Blacksmith_Handbook",1,0,0,0,0,0,0,0
+// new subtable "1,1"
+// object category "I_BOOK_Kela_Recipe_Potion_Healing",1,0,0,0,0,0,0,0
+// new subtable "1,1"
+// object category "I_BOOK_Kela_Recipe_Oil_Sussur",1,0,0,0,0,0,0,0
+// new subtable "1,1"
+// object category "I_BOOK_Kela_Recipe_Weapon_Oil",1,0,0,0,0,0,0,0
+// new subtable "1,1"
+// object category "I_BOOK_Kela_Recipe_Oil_Sussur_Temper",1,0,0,0,0,0,0,0
+// new subtable "1,1"
+// object category "I_BOOK_Kela_Recipe_Oil_Adamant_Temper",1,0,0,0,0,0,0,0
+// new subtable "1,1"
+// object category "I_BOOK_Kela_Recipe_Oil_Infernal_Temper",1,0,0,0,0,0,0,0
+// new subtable "1,1"
+// object category "I_BOOK_Kela_Recipe_Oil_Stone_Temper",1,0,0,0,0,0,0,0
+// new subtable "10,1"
+// object category "I_KELA_Sussur_Oil",1,0,0,0,0,0,0,0
+// new subtable "10,1"
+// object category "I_KELA_Weapon_Oil",1,0,0,0,0,0,0,0
+// new subtable "10,1"
+// object category "I_KELA_Oil_Sussur_Temper",1,0,0,0,0,0,0,0
+// new subtable "10,1"
+// object category "I_KELA_Oil_Adamant_Temper",1,0,0,0,0,0,0,0
+// new subtable "10,1"
+// object category "I_KELA_Oil_Adamant_Temper_Ideal",1,0,0,0,0,0,0,0
+// new subtable "10,1"
+// object category "I_KELA_Oil_Infernal_Temper",1,0,0,0,0,0,0,0
+// new subtable "10,1"
+// object category "I_KELA_Oil_Infernal_Temper_Ideal",1,0,0,0,0,0,0,0
+// new subtable "10,1"
+// object category "I_KELA_Oil_Stone_Temper",1,0,0,0,0,0,0,0
+// new subtable "10,1"
+// object category "I_KELA_Oil_Stone_Temper_Ideal",1,0,0,0,0,0,0,0
+// new subtable "10,1"
+// object category "I_OBJ_GreaseBottle",1,0,0,0,0,0,0,0
+// new subtable "10,1"
+// object category "I_QUEST_FOR_SussurBark",1,0,0,0,0,0,0,0
+
+
+new treasuretable "Weapon_Oil_Supply"
+new subtable "0,4;1,3;2,1"
+object category "I_OBJ_GreaseBottle",1,0,0,0,0,0,0,0
+new subtable "0,4;1,2;2,1"
+object category "I_KELA_Weapon_Oil",1,0,0,0,0,0,0,0
+new subtable "0,4;1,2;2,1"
+object category "I_ALCH_Solution_Oil_AttackBuff",1,0,0,0,0,0,0,0
+new subtable "0,4;1,2;2,1"
+object category "I_ALCH_Solution_Oil_DamageAttackBuff",1,0,0,0,0,0,0,0
+
+new treasuretable "GEN_Crate_Tools"
+CanMerge 1
+new subtable "1,1"
+object category "T_Weapon_Oil_Supply",1,0,0,0,0,0,0,0
+
+// GENERAL
+new treasuretable "Alchemy_Oil"
+CanMerge 1
+new subtable "2,1"
+object category "T_Weapon_Oil_Supply",1,0,0,0,0,0,0,0
+
+new treasuretable "Alchemy_Potion_Trade"
+CanMerge 1
+new subtable "0,2;1,1"
+object category "I_BOOK_Kela_Recipe_Potion_Healing",1,0,0,0,0,0,0,0
+new subtable "0,4;1,1"
+object category "I_BOOK_Kela_Recipe_Weapon_Oil",1,0,0,0,0,0,0,0
+
+new treasuretable "AlchemistTrader"
+CanMerge 1
+new subtable "0,2;1,1"
+object category "I_BOOK_Kela_Recipe_Potion_Healing",1,0,0,0,0,0,0,0
+new subtable "0,4;1,1"
+object category "I_BOOK_Kela_Recipe_Weapon_Oil",1,0,0,0,0,0,0,0
+
+new treasuretable "ST_AlchemistTrader_GuaranteedThreeStacks"
+CanMerge 1
+new subtable "0,2;1,1"
+object category "I_BOOK_Kela_Recipe_Potion_Healing",1,0,0,0,0,0,0,0
+
+new treasuretable "EquipmentTrader_Melee"
+CanMerge 1
+new subtable "0,4;1,1"
+object category "I_BOOK_Kela_Recipe_Weapon_Oil",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "T_Weapon_Oil_Supply",1,0,0,0,0,0,0,0
+
+// 1 Act Emerald Grove
+new treasuretable "DEN_Weaponsmith_Trade"
+CanMerge 1
+new subtable "-1"
+object category "T_Weapon_Oil_Supply",1,0,0,0,0,0,0,0
+new subtable "0,3;1,1"
+object category "I_BOOK_Kela_Recipe_Weapon_Oil",1,0,0,0,0,0,0,0
+
+new treasuretable "DEN_Ethel"
+CanMerge 1
+new subtable "0,1;1,1"
+object category "I_BOOK_Kela_Recipe_Potion_Healing",1,0,0,0,0,0,0,0
+new subtable "0,6;1,1"
+object category "I_BOOK_Kela_Recipe_Oil_Sussur",1,0,0,0,0,0,0,0
+
+
+// 1 Act Blighted Village
+new treasuretable "FOR_BlacksmithsCellar_Crate"
+CanMerge 1
+new subtable "-1"
+object category "T_Weapon_Oil_Supply",1,0,0,0,0,0,0,0
+
+// // 1 Act Blighted Village
+// new treasuretable "FOR_BlacksmithsCellar_Generic"
+// CanMerge 1
+// new subtable "0,1;1,2"
+// object category "T_Weapon_Oil_Supply",3,0,0,0,0,0,0,0
+
+// // 1 Act Blighted Village
+// new treasuretable "FOR_BlacksmithsCellar_Tools"
+// CanMerge 1
+// new subtable "0,1;1,3"
+// object category "T_Weapon_Oil_Supply",3,0,0,0,0,0,0,0
+
+
+// 1 Act Goblin Camp
+new treasuretable "GOB_Quartermaster"
+CanMerge 1
+new subtable "-1"
+object category "T_Weapon_Oil_Supply",1,0,0,0,0,0,0,0
+
+new treasuretable "GOB_Quartermaster_Potions"
+CanMerge 1
+new subtable "0,1;1,1"
+object category "I_BOOK_Kela_Recipe_Potion_Healing",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "T_Weapon_Oil_Supply",3,0,0,0,0,0,0,0
+
+new treasuretable "GOB_ZhentQuarters"
+CanMerge 1
+new subtable "-1"
+object category "T_Weapon_Oil_Supply",3,0,0,0,0,0,0,0
+
+new treasuretable "GOB_ZhentQuarters_Chest_Gold"
+CanMerge 1
+new subtable "-1"
+object category "T_Weapon_Oil_Supply",1,0,0,0,0,0,0,0
+
+// new treasuretable "GOB_King_Treasures"
+// CanMerge 1
+// new subtable "0,2;2,1"
+// object category "T_MetalBars_Rare_Supply",5,0,0,0,0,0,0,0
+// object category "T_MetalBars_VeryRare_Supply",2,0,0,0,0,0,0,0
+// object category "T_MetalBars_Legendary_Supply",1,0,0,0,0,0,0,0
+// new subtable "1,1"
+// object category "T_MetalBars_Upgrading_Simple_Supply_Kela",1,0,0,0,0,0,0,0
+
+// 1 Act Risen Roads
+// new treasuretable "PLA_Confiscated_MetalBars"
+// CanMerge 1
+// new subtable "1,1"
+// object category "T_Valuables_MetalBars_For_Upgrade",1,0,0,0,0,0,0,0
+// new subtable "0,6;1,1"
+// object category "T_MetalBars_VeryRare_Supply",1,0,0,0,0,0,0,0
+// new subtable "0,9;1,1"
+// object category "T_MetalBars_Legendary_Supply",1,0,0,0,0,0,0,0
+// new subtable "1,1"
+// object category "T_MetalBars_Upgrading_Simple_Supply_Kela",1,0,0,0,0,0,0,0
+
+new treasuretable "PLA_Tollhouse_SuppliesTrader"
+CanMerge 1
+new subtable "0,1;1,1"
+object category "I_BOOK_Kela_Recipe_Potion_Healing",1,0,0,0,0,0,0,0
+
+// 1 Act Underdark
+new treasuretable "UND_DuergarBlacksmith_Chest"
+CanMerge 1
+new subtable "-1"
+object category "T_Weapon_Oil_Supply",1,0,0,0,0,0,0,0
+
+// 1 Act Underdark, хобгоблин в лагере миконидов
+new treasuretable "UND_SocietyOfBrilliance_Hobgoblin"
+CanMerge 1
+new subtable "0,2;1,1"
+object category "I_BOOK_Kela_Recipe_Oil_Sussur",1,0,0,0,0,0,0,0
+new subtable "0,4;1,1"
+object category "I_BOOK_Kela_Recipe_Oil_Sussur_Temper",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_KELA_Sussur_Oil",1,0,0,0,0,0,0,0
+
+// 2 Act Moon Tower
+new treasuretable "MOO_BugBearvendor_Trade"
+CanMerge 1
+new subtable "-1"
+object category "I_ARM_Plate_Body_Zealot",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "T_Weapon_Oil_Supply",1,0,0,0,0,0,0,0
+
+// 2 Act Tollhouse
+new treasuretable "SCL_TollHouseExplorationChest"
+CanMerge 1
+new subtable "-1"
+object category "T_Weapon_Oil_Supply",1,0,0,0,0,0,0,0
+
+new treasuretable "SCL_Supplies_Trader"
+CanMerge 1
+new subtable "-1"
+object category "T_Weapon_Oil_Supply",1,0,0,0,0,0,0,0
+
+// 2 Act Rosymorn Monastery
+new treasuretable "CRE_GithQuartermistress_Trade"
+CanMerge 1
+new subtable "0,1;1,1"
+object category "I_BOOK_Kela_Recipe_Weapon_Oil",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "T_Weapon_Oil_Supply",1,0,0,0,0,0,0,0
+
+new treasuretable "CRE_TrainingSupplies"
+CanMerge 1
+new subtable "1,1"
+object category "T_Weapon_Oil_Supply",1,0,0,0,0,0,0,0
+
+
+
+// 2 Act Last Light Inn
+new treasuretable "HAV_FlamingFistCorpse"
+CanMerge 1
+new subtable "-1"
+object category "T_Weapon_Oil_Supply",1,0,0,0,0,0,0,0
+// DAMMON
+new treasuretable "HAV_Weaponsmith_Trade"
+CanMerge 1
+new subtable "-1"
+object category "T_Weapon_Oil_Supply",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BOOK_Kela_Recipe_Weapon_Oil",1,0,0,0,0,0,0,0
+// TALLI
+new treasuretable "HAV_HarperQuarterMaster"
+CanMerge 1
+new subtable "0,2;1,1"
+object category "I_BOOK_Kela_Recipe_Potion_Healing",1,0,0,0,0,0,0,0
+new subtable "1,4;2,1"
+object category "I_KELA_Weapon_Oil",1,0,0,0,0,0,0,0
+// new subtable "-1"
+// object category "T_Weapon_Oil_Supply",1,0,0,0,0,0,0,0
+
+
+
+// 3 Act Lower City
+new treasuretable "LOW_Weaponsmith_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "T_Weapon_Oil_Supply",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_BOOK_Kela_Recipe_Weapon_Oil",1,0,0,0,0,0,0,0
+
+// Сейф в подземелье Кассадора
+new treasuretable "TRE_Cazador_DungeonSafe"
+new subtable "-1"
+object category "I_UNI_LOW_Vellioth",1,0,0,0,0,0,0,0
+
+// Сейф в дьявольской кузне
+new treasuretable "TRE_DevilandSmith_BasementSafe"
+new subtable "-1"
+object category "I_KELA_Oil_Sussur_Temper",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_KELA_Oil_Adamant_Temper",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_KELA_Oil_Infernal_Temper",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_KELA_Oil_Stone_Temper",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_BOOK_Kela_Blacksmith_Handbook",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_BOOK_Kela_Draft_DevilsBlackmith_4_Slots",1,0,0,0,0,0,0,0
+new subtable "-1"
+object category "I_MAG_DevilsBlackmith_ScaleMail",1,0,0,0,0,0,0,0
+
+// Сейф в подвале Грушки
+new treasuretable "LOW_PeartreeBasement_Treasures"
+new subtable "2,1"
+object category "I_OBJ_InfernalPlate",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_ARM_KELA_Peartree_HalfPlate_Body_2",1,0,0,0,0,0,0,0
+
+// 3 Act Wyrm's Rock
+new treasuretable "WYR_AlchemyTrader"
+CanMerge 1
+new subtable "0,2;1,1"
+object category "I_BOOK_Kela_Recipe_Potion_Healing",1,0,0,0,0,0,0,0
+new subtable "0,2;1,1"
+object category "I_BOOK_Kela_Recipe_Weapon_Oil",1,0,0,0,0,0,0,0
+
+new treasuretable "WYR_BlacksmithCellar_Grease"
+CanMerge 1
+new subtable "1,4;2,1"
+object category "I_KELA_Weapon_Oil",1,0,0,0,0,0,0,0
+
+new treasuretable "WYR_OrinsImpersonation_Smith"
+CanMerge 1
+new subtable "-1"
+object category "T_Weapon_Oil_Supply",1,0,0,0,0,0,0,0
+new subtable "0,1;1,1"
+object category "I_BOOK_Kela_Blacksmith_Expert",1,0,0,0,0,0,0,0
+new subtable "0,4;1,1"
+object category "I_BOOK_Kela_Recipe_Weapon_Oil",1,0,0,0,0,0,0,0
+
+// 3 Act Lower City
+// new treasuretable "LOW_Foundry_Crate_MetalBars"
+// CanMerge 1
+// new subtable "0,1;1,4"
+// object category "T_Valuables_MetalBars_For_Upgrade",1,0,0,0,0,0,0,0
+// new subtable "0,2;1,1"
+// object category "T_MetalBars_Upgrading_Simple_Supply_Kela",1,0,0,0,0,0,0,0

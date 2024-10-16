@@ -1,0 +1,256 @@
+// Пассивки кузнеца
+new entry "PassiveFeature_KelaBlacksmith"
+    type "PassiveData"
+    data "Icon" "PassiveFeature_KelaBlacksmith"
+    data "DisplayName" "hd5ec247786f241c699bb4243ec029f0f8a6d;1"
+    data "Description" "h78cd8468eca343fcbbbab3f350972a7670gf;1"
+    data "PriorityOrder" "1"
+    data "Properties" "Highlighted"
+
+new entry "PassiveFeature_KelaBlacksmith_LightHammer"
+    type "PassiveData"
+    data "Icon" "PassiveFeature_KelaBlacksmith_LightHammer"
+    data "DisplayName" "hd5ec247786f241c699bb4243ec029f0f8a6d;1"
+    data "Description" "h78cd8468eca343fcbbbab3f350972a7670gf;1"
+    data "Boosts" "Proficiency(LightHammers)"
+
+// пассивка для оберега абсолюта
+new entry "KELA_Branded_Passive"
+    type "PassiveData"
+    data "DisplayName" "hb1fe5e71gd9a9g453dga95bg79e23b59e331;2"
+    data "Description" "h405fc3ceg7adag499bgb860g76fce3dfc4df;1"
+    data "DescriptionParams" "1;2"
+    data "BoostConditions" "Tagged('BRANDED')"
+    data "Boosts" "RollBonus(SavingThrow, 1);AC(2)"
+
+// пассивка для амулета Селунэ, напоенного кровью пикси
+new entry "KELA_SeluneAmulet_Pixi_Passive"
+    type "PassiveData"
+    data "DisplayName" "ha887ed412c0d49ce880b2ce44ef507f7458b;1"
+    data "Description" "h126585cfdb2b40ec98c282447fb65d749c3b;1"
+    data "BoostConditions" "Tagged('BRANDED')"
+    data "Boosts" "Disadvantage(Wisdom);IF(HasStatus('SCL_MOONSHIELD') and IsSpell()):DamageReduction(All, Half)"
+    // data "BoostConditions" "HasStatus('SCL_MOONSHIELD')"
+
+// пассивка для астрального ржавого копья
+new entry "Poison_AstralRusty_Passive"
+    type "PassiveData"
+    data "DisplayName" "hd95336299d6f4ae2aadf8ab4e451172a7e7a;1"
+    data "Description" "he8643be9753f46e5add4dab677e4ebd39e70;1"
+    data "StatsFunctorContext" "OnDamage"
+    data "Conditions" "AttackedWithPassiveSourceWeapon() and not HasStatus('POISON_ASTRAL_RUSTY_CONDITION', context.Target)"
+    data "StatsFunctors" "ApplyStatus(POISON_ASTRAL_RUSTY_TECHNICAL_APPLIER,100,0)"
+    // data "Properties" "IsHidden"
+
+
+// пассивка для Перчаток хирурга в доме исцеления
+new entry "KELA_Gloves_Surgeon_Passive_Bad"
+    type "PassiveData"
+    data "DisplayName" "h3e19d7c8a56041508861eed41e45fd964572;1"
+    data "Description" "ha2202b47b8014a5a8e0e5e1674e6380c3018;1"
+    data "DescriptionParams" "1d4;14"
+    data "TooltipSave" "Dexterity"
+    data "StatsFunctorContext" "OnAttack"
+    data "Conditions" "IsMeleeWeaponAttack() and (IsMiss() or IsCriticalMiss())"
+    data "StatsFunctors" "IF(IsMainHandAttack()):DealDamage(SELF,1d4,MainMeleeWeaponDamageType);IF(IsOffHandAttack()):DealDamage(SELF,1d4,OffhandMeleeWeaponDamageType);ApplyStatus(SELF,BLEEDING,100,3,,,,IsCriticalMiss() or not SavingThrow(Ability.Dexterity, 14))"
+new entry "KELA_Gloves_Surgeon_Passive_Good"
+    type "PassiveData"
+    data "DisplayName" "ha305c14d4a8f4f7bb33b6bd86ec0816a6830;1"
+    data "Description" "h54c585d8ab7a43a39ae7cafae59f56642ac2;1"
+    data "DescriptionParams" "2"
+    data "Boosts" ""
+
+// пассивка для Щита в морге возле дома исцеления
+new entry "MAG_Light_OlamsShield_Passive_Light"
+    type "PassiveData"
+    using "MAG_Light_FarlinDagger_Passive"
+    data "DisplayName" "h04bab7e48e6343c188926a739b25b811687e;1"
+    data "ToggleOnFunctors" "IF(HasStatus('PROTECTION_FROM_EVIL_TECHNICAL_AURA', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Source))):ApplyEquipmentStatus(MeleeOffHand, MAG_LIGHT_DIVINE, 100, -1)"
+    data "ToggleOffFunctors" "IF(HasStatus('MAG_LIGHT_DIVINE', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Source)) and HasStatus('PROTECTION_FROM_EVIL_TECHNICAL_AURA', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Source))):ApplyEquipmentStatus(MeleeOffHand, MAG_MAGIC_ITEM_LIGHT_REMOVER, 100, 0)"
+    data "BoostConditions" "HasStatus('MAG_LIGHT_DIVINE', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Source))"
+    data "Boosts" "GameplayLight(6,false,0.1)"
+    // data "Boosts" "IF(HasStatus('MAG_LIGHT_DIVINE', GetItemInEquipmentSlot(EquipmentSlot.MeleeOffHand, context.Source))):GameplayLight(6,false,0.1);"
+new entry "MAG_Light_OlamsShield_Passive"
+    type "PassiveData"
+    data "DisplayName" "hb1f8bcb5b07b402394122ec4c905ccad9fea;1"
+    data "Description" "h5d8c0965b61e43eb83bd8f20cdd649315260;1"
+    data "DescriptionParams" "2"
+    data "Boosts" "IF(IsMeleeWeaponAttack() and HasStatus('PROTECTION_FROM_EVIL_TECHNICAL_TARGET', context.Target)):RollBonus(Attack,2);IF(IsMeleeWeaponAttack() and HasStatus('PROTECTION_FROM_EVIL_TECHNICAL_TARGET', context.Target) and (Tagged('ABERRATION', context.Target) or Tagged('FEY', context.Target) or Tagged('FIEND', context.Target) or Tagged('UNDEAD', context.Target) or Tagged('UNDEAD_BEAST', context.Source) or Tagged('SHADOW', context.Target))):Advantage(AttackRoll)"
+
+    // data "BoostConditions" "HasStatus('MAG_LIGHT_DIVINE', GetActiveWeapon(context.Source, false)) or HasStatus('MAG_LIGHT_DIVINE', GetActiveWeapon(context.Source, true)) or HasStatus('MAG_LIGHT_DIVINE', GetActiveWeapon())"
+
+// Пассивки для кинжала фокусника из чультских джунглей
+new entry "MAG_WPN_Dagger_Cheater_Passive_1"
+    type "PassiveData"
+    data "DisplayName" "h5fe7c4c5b04948b5858d97dc753095c5e5dc;1"
+    data "Description" "h7d3fa66a843249eb99ed36aa0309a1529610;1"
+    data "DescriptionParams" ""
+    data "Boosts" "IF(IsWeaponAttack() and not Item() and Tagged('KELADAGGERCHEATER', GetAttackWeapon(context.Source)) and AttackRollAbility(Ability.Dexterity) and AbilityGreaterThan('Dexterity', context.Target.Dexterity, context.Source)):Advantage(AttackRoll);IF(IsWeaponAttack() and not Item() and Tagged('KELADAGGERCHEATER', GetAttackWeapon(context.Source)) and AttackRollAbility(Ability.Dexterity) and not AbilityGreaterThan('Dexterity', context.Target.Dexterity, context.Source)):Disadvantage(AttackRoll)"
+new entry "MAG_WPN_Dagger_Cheater_Passive_2"
+    type "PassiveData"
+    data "DisplayName" "he4b1c45447e94c0d8c0c2f28b70b79ded3c5;1"
+    data "Description" "h326d32b5f4c24777adb63971a58879f3c402;1"
+    data "DescriptionParams" ""
+    data "StatsFunctorContext" "OnDamage"
+    data "Conditions" "AttackedWithPassiveSourceWeapon() and IsCritical()"
+    data "StatsFunctors" "IF(IsWeaponAttack() and not Item() and AttackRollAbility(Ability.Dexterity) and AbilityGreaterThan('Dexterity', context.Target.Dexterity, context.Source) and Tagged('KELADAGGERCHEATER', GetAttackWeapon(context.Source))):ApplyStatus(COLOR_SPRAY,100, 2)"
+
+// Пассивки для кольца Гаргота из гробницы Хуннов    
+new entry "MAG_Gargot_Ring_Passive_1"
+    type "PassiveData"
+    data "DisplayName" "h13277cec238d40979c7a1ca9b57878bafc08;1"
+    data "Description" "h09e5bc5e7a4b4bcfb444f2281495c71827g4;1"
+    data "DescriptionParams" "2;20"
+    data "Properties" "Highlighted"
+    data "Boosts" "Ability(Charisma, 2, 20);IF(AbilityGreaterThan('Charisma', context.Target.Charisma, context.Source)):Advantage(Skill, Deception);IF(not AbilityGreaterThan('Charisma', context.Target.Charisma, context.Source)):Disadvantage(Skill, Deception)"
+new entry "MAG_Gargot_Ring_Passive_2"
+    type "PassiveData"
+    data "DisplayName" "ha9952c41fdd343f8896a144616d4955202c1;1"
+    data "Description" "h28fc24f214da4356b12a044cbd0024a6e933;1"
+    data "DescriptionParams" "15;2"
+    data "Properties" "Highlighted"
+    data "TooltipSave" "Charisma"
+    data "Boosts" "IF(HasStatus('SG_Charmed', context.Target)):Advantage(AttackRoll)"
+    data "StatsFunctorContext" "OnDamaged"
+    data "Conditions" "IsMeleeAttack() and not SavingThrow(Ability.Charisma, context.Target.Charisma, false, false, context.Source)"
+    data "StatsFunctors" "IF(Tagged('HUMANOID',context.Source)):ApplyStatus(SWAP,CHARM_GARROT,100, 2)"
+
+// Пассивки для кольца Велиота   
+new entry "UNI_LOW_Vellioth_Ring_Passive_1"
+    type "PassiveData"
+    data "DisplayName" "hd38d6e6d06da4754b153da55da68bef53g91;1"
+    data "Description" "h80246f0d3a4448be87cb8c24354b7bfd73bf;1"
+    data "DescriptionParams" "3;23"
+    data "Properties" "Highlighted"
+
+// //  and not HasAllyWithinRange('SG_Incapacitated',5,'INTELLECT_DEVOURER_US')
+
+// new entry "UNI_LOW_Vellioth_Ring_Passive_2"
+//     type "PassiveData"
+//     data "DisplayName" "ha9952c41fdd343f8896a144616d4955202c1;1"
+//     data "Description" "h28fc24f214da4356b12a044cbd0024a6e933;1"
+//     data "DescriptionParams" "15;2"
+//     data "Properties" "Highlighted"
+//     // data "TooltipSave" "Charisma"
+//     // data "Boosts" "IF(HasStatus('SG_Charmed', context.Target)):Advantage(AttackRoll)"
+//     // data "StatsFunctorContext" "OnDamaged"
+//     // data "Conditions" "IsMeleeAttack() and not SavingThrow(Ability.Charisma, context.Target.Charisma, false, false, context.Source)"
+//     // data "StatsFunctors" "IF(Tagged('HUMANOID',context.Source)):ApplyStatus(SWAP,CHARM_GARROT,100, 2)"
+
+
+// Пассивки для Двуручного топора Джингулшада из хранилища с книгой Карсуса
+new entry "MAG_Jhingleshod_Greataxe_Passive_1"
+    type "PassiveData"
+    using "MAG_WYRM_UndeadBane_GreatAxe_Passive"
+    data "DescriptionParams" "DealDamage(2d6, Slashing)"
+    data "Boosts" "IF(Character() and not IsMiss() and not IsCriticalMiss() and Tagged('JHINGLESHODGREATEAXE', GetAttackWeapon(context.Source)) and (Tagged('UNDEAD') or Tagged('FIEND'))):DamageBonus(2d6, Slashing, false)" 
+new entry "MAG_Jhingleshod_Greataxe_Passive_2"
+    type "PassiveData"
+    data "Properties" "IsHidden"
+    data "DisplayName" "hb056c1b1g1556g49cag8060g1bf4c6ed6cdc;2"
+    data "StatsFunctorContext" "OnAttack"
+    data "Conditions" "Character() and HasDamageEffectFlag(DamageFlags.Hit) and not IsMiss() and not IsCriticalMiss() and IsMeleeAttack() and SpellId('Target_MAG_Jhingleshod_Greataxe')"
+    data "StatsFunctors" "IF(not SavingThrow(Ability.Constitution, ManeuverSaveDC()+2)):ApplyStatus(CRIPPLED,100,2)"
+new entry "MAG_Jhingleshod_Greataxe_Passive_3"
+    type "PassiveData"
+    data "Properties" "IsHidden"
+    data "DisplayName" "h672b30d6bf574a34a85dd140ddfe86d3ae4b;1"
+    data "StatsFunctorContext" "OnAttack"
+    data "Conditions" "Character() and HasDamageEffectFlag(DamageFlags.Critical) and not IsCriticalMiss() and IsMeleeAttack() and SpellId('Target_MAG_Jhingleshod_Greataxe')"
+    data "StatsFunctors" "IF(not SavingThrow(Ability.Constitution, context.Source.Strength)):DealDamage(150, MainMeleeWeaponDamageType)"
+
+// Пассивка для Молота изобретателя Красного молота
+new entry "MAG_RedHammer_Warhammer_Passive"
+    type "PassiveData"
+    data "DisplayName" "hd4c16454b9374c849a7090e1c51abab7b69f;1"
+    data "Description" "h99c3ccd909054b53afd82b9532756aa6aa5b;1"
+    data "DescriptionParams" "DealDamage(1d10, Force)"
+    data "StatsFunctorContext" "OnAttack"
+    data "Conditions" "Character() and not IsMiss() and not IsCriticalMiss() and Tagged('REDHAMMERWARHAMMER', GetAttackWeapon(context.Source))"
+    data "StatsFunctors" "IF(Tagged('CONSTRUCT', context.Target)):DealDamage(1d10, Force, false)"
+    data "Boosts" "IF(Character() and Tagged('REDHAMMERWARHAMMER', GetAttackWeapon(context.Source)) and Tagged('CONSTRUCT', context.Target)):IgnoreResistance(Force, Resistant);IF(Character() and Tagged('REDHAMMERWARHAMMER', GetAttackWeapon(context.Source)) and Tagged('CONSTRUCT', context.Target) and HasStatus('MAG_ATTACK_DEBUFF', context.Target)):Advantage(AttackRoll)"
+
+// Пассивка для Мастерских перчаток Девяти
+new entry "MAG_DevilsBlackmith_Gloves_Completed_Passive"
+    type "PassiveData"
+    data "DisplayName" "he95595bd572f4451b334e064899da2dd826c;1"
+    data "Description" "h094e8798gbe22g4b11ga611gf1b905a0950b;1"
+    data "DescriptionParams" "DealDamage(1d4, Fire)"
+    data "Icon" "GenericIcon_DamageType_Fire"
+    data "Properties" "Highlighted"
+    data "StatsFunctorContext" "OnTurn"
+    data "StatsFunctors" "ApplyEquipmentStatus(SELF,MainHand,DEVILSBLACKSMITH_GLOVES_FIRE_DIPPED,100,1)"
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Общие пассивки
+///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Суссурное оружейное масло
+new entry "KELA_Sussur_Oil_Passive"
+    type "PassiveData"
+    data "DisplayName" "h31737c72fb2149d0b1d2d8c54d9ec586499d;1"
+    data "Description" "h76d39435gfe13g4a54ga0c0g9c3c6f2169ce;1"
+    data "DescriptionParams" "2;13"
+    data "TooltipSave" "Constitution"
+    data "StatsFunctorContext" "OnAttack"
+    data "Conditions" "(IsMeleeWeaponAttack() or IsRangedWeaponAttack() or IsWeaponAttack()) and not (IsMiss() or IsCriticalMiss())"
+    data "StatsFunctors" "IF(not SavingThrow(Ability.Constitution, 13)):ApplyStatus(SILENCED, 100, 2)"
+
+// Суссурное масло закаливания
+new entry "KELA_Sussur_Oil_Tempered_Passive"
+    type "PassiveData"
+    data "DisplayName" "h2a2d622cfb0d4adea457f75ae5f9c8e69e12;1"
+    data "Description" "he2aa7ed8be0f455d8d850bc9c9fc6baeg09a;1"
+    data "DescriptionParams" "13;2"
+    data "TooltipSave" "Constitution"
+    data "StatsFunctorContext" "OnAttack"
+    data "Conditions" "(IsMeleeWeaponAttack() or IsRangedWeaponAttack() or IsWeaponAttack()) and not (IsMiss() or IsCriticalMiss())"
+    data "StatsFunctors" "IF(Character() and not SavingThrow(Ability.Constitution, 13)):ApplyStatus(SILENCED, 100, 2)"
+
+// Каменное масло закаливания
+new entry "KELA_Stone_Oil_Tempered_Passive"
+    type "PassiveData"
+    data "DisplayName" "h3ed8be9c35984c22930e4122520c1370c435;1"
+    data "Description" "h6758819c07f6455d992661d58fdc7ebe6115;1"
+    data "DescriptionParams" "13;3"
+    data "TooltipSave" "Constitution"
+    data "StatsFunctorContext" "OnAttack"
+    data "Conditions" "(IsWeaponAttack()) and not (IsMiss() or IsCriticalMiss())"
+    data "StatsFunctors" "IF(Character() and not SavingThrow(Ability.Constitution, 13)):ApplyStatus(FLESH_TO_STONE_1,100,1,,,,,true)"
+
+// Пассивка для оружия, покрытого/из адского железа
+new entry "MAG_InfernalPlateCoatingWeapon_Passive"
+    type "PassiveData"
+    data "DisplayName" "h58d48e61d3bf4ad08603a8b1696d7bd0dg4g;1"
+    data "Description" "h1c002f880c6040c8b8fad3d8ebdafc026418;1"
+    data "DescriptionParams" ""
+    data "Boosts" "IF(IsWeaponAttack() and Tagged('KELAINFERNALPLATECOATING', GetAttackWeapon(context.Source)) and (HasStatus('BURNING', context.Target) or HasStatus('SEARING_SMITE', context.Target) or HasStatus('FLAMING_SPHERE', context.Target) or HasStatus('WALLOFFIRE_AURA', context.Target))):Advantage(AttackRoll);IF(IsWeaponAttack() and IsDamageTypeFire() and Tagged('KELAINFERNALPLATECOATING', GetAttackWeapon(context.Source))):IgnoreResistance(Fire, Resistant)"
+
+// Пассивка для брони c покрытого/сделанного из адского железа
+new entry "MAG_InfernalPlateCoatingArmor_Passive"
+    type "PassiveData"
+    data "DisplayName" "h58d48e61d3bf4ad08603a8b1696d7bd0dg4g;1"
+    data "Description" "hb8d24b12fbfb4669a28c0fa19d88cecd5526;1"
+    data "BoostContext" "OnCreate"
+    data "Boosts" "IF(HasStatus('BURNING', context.Source) or HasStatus('SEARING_SMITE', context.Source) or HasStatus('FLAMING_SPHERE', context.Source) or HasStatus('WALLOFFIRE_AURA', context.Source)):Disadvantage(AttackTarget)"
+
+// Пассивка Тяжёлый удар (выносливость)
+new entry "MAG_MeleeDebuff_AttackDebuff12versatile_OnDamage_Constitution_Passive"
+    type "PassiveData"
+    using "MAG_MeleeDebuff_AttackDebuff12versatile_OnDamage_Passive"
+    data "DisplayName" "he12e9c4ageda6g4b6fga7d7g936bd687102a;3"
+    data "Description" "h56686a51e2884badbe451e97f27c059bd4b5;1"
+    data "TooltipSave" "Constitution"
+    data "StatsFunctorContext" "OnDamage"
+    data "Conditions" "AttackedWithPassiveSourceWeapon() and Character() and not SavingThrow(Ability.Constitution, ManeuverSaveDC())"
+    data "StatsFunctors" "IF(HasVersatileOneHanded()):ApplyStatus(MAG_ATTACK_DEBUFF,100,1); IF(HasVersatileTwoHanded()):ApplyStatus(MAG_ATTACK_DEBUFF,100,2)"
+
+// Пассивка Крепкие руки
+new entry "MAG_Buff_Attack_StrengthSavingThrow_Passive"
+    type "PassiveData"
+    data "DisplayName" "h7a30f6cdde6d4040b8e5117423b3c26144ab;1"
+    data "Description" "h1551ed1bd375421786f9f07fc2252b5c2fa8;1"
+    data "DescriptionParams" "2"
+    data "Boosts" "RollBonus(Attack, 2);RollBonus(SavingThrow, 2, Strength)"
+

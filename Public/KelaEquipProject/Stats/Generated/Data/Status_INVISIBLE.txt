@@ -1,0 +1,8 @@
+new entry "INVISIBLE_CAZADORSAFE"
+    type "StatusData"
+    data "StatusType" "INVISIBLE"
+    data "StatusPropertyFlags" "UnavailableInActiveRoll;ExcludeFromPortraitRendering;IgnoreResting"
+    data "Boosts" "Invisibility()"
+    data "RemoveEvents" ""
+    data "RemoveConditions" ""
+    data "OnRemoveFunctors" ""

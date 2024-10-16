@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+
+			
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_SorcerousSundriesBasement_A" />
+					<!-- <attribute id="MapKey" type="FixedString" value="7ede8fa2-a28e-415f-970c-194d3f0059ef" /> -->
+					<attribute id="MapKey" type="FixedString" value="27524e39-14d4-4c50-b248-e395279498ba" /> origin
+					<attribute id="Name" type="LSString" value="WPN_HUM_Longsword_A_1" />
+					<attribute id="SeeThrough" type="bool" value="True" />
+					<attribute id="TemplateName" type="FixedString" value="e3b2adb6-7493-466e-9c65-4281fb74e83f" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Main_A" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-29.76566 2.130448 -48.95435" />
+							<attribute id="RotationQuat" type="fvec4" value="0.6532803 0.6532803 0.2705975 0.2705975" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_SorcerousSundriesBasement_A" />
+					<!-- <attribute id="MapKey" type="FixedString" value="abcd9241-4b73-4af7-a49e-f9dfdb6ed8c9" /> -->
+					<attribute id="MapKey" type="FixedString" value="459c6db8-25e6-42c7-85db-36980c4b9c41" /> origin
+					<attribute id="Name" type="LSString" value="WPN_HUM_Greatsword_B_1" />
+					<attribute id="TemplateName" type="FixedString" value="2741505a-9d0b-4c9e-adcd-2e6339491e95" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209025" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Main_A" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-35.23547 1.800687 -45.62158" />
+							<attribute id="RotationQuat" type="fvec4" value="-0.4999961 0.4999965 -0.4999961 0.4999965" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_SorcerousSundriesBasement_A" />
+					<!-- <attribute id="MapKey" type="FixedString" value="479b7d70-8088-4174-9144-22d568ee6300" /> -->
+					<attribute id="MapKey" type="FixedString" value="c9064d6e-eab3-45f8-b4cf-62823c0fe5a4" /> origin
+					<attribute id="Name" type="LSString" value="WPN_HUM_Glaive_A_1" />
+					<attribute id="SeeThrough" type="bool" value="True" />
+					<attribute id="TemplateName" type="FixedString" value="bc1c2a84-27f5-46e4-b4b4-0f5ca534469c" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Main_A" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-31.68665 2.504683 -57.83899" />
+							<attribute id="RotationQuat" type="fvec4" value="0.2705975 0.2705975 0.65328 0.65328" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+
+				<!-- Двуручный топор Джингулшада  -->
+				<node id="GameObjects">
+					<attribute id="ConstellationConfigName" type="FixedString" value="PerceptionHelper" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_SorcerousSundriesBasement_A" />
+					<!-- <attribute id="MapKey" type="FixedString" value="a47524d5-3e47-4a13-b635-29816aad2ad2" />  -->
+					<attribute id="MapKey" type="FixedString" value="dbbddb38-378d-4d2b-8d4d-c49f2beaaa66" /> origin
+					<attribute id="Name" type="LSString" value="WPN_HUM_Greataxe_B_000" />
+					<attribute id="TemplateName" type="FixedString" value="e1e090ec-ab8c-4db4-a0c3-8b7ab24bb181" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h231c710626f94ca4afe23fb0b0e41887f081" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h60b3b4aca7e7437abe159615ad6d0581egfe" version="1" />
+					<!-- <attribute id="TechnicalDescription" type="TranslatedString" handle="ha0ecc5e1b3d040cf9a69eb5e00809ce453aa" version="1" />
+					<attribute id="TechnicalDescriptionParams" type="LSString" value="25" /> -->
+					<attribute id="Stats" type="FixedString" value="MAG_Jhingleshod_Greataxe" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209016" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_SorcerousSundriesBasement_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="1f412bc6-24dd-b2d2-6021-561b6a6aa466" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="ConstellationConfigGlobalParameters">
+							<children>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="MaxRadius" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="double">
+																	<attribute id="double" type="double" value="1" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="DC" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="HiddenPerception_Medium_cd1800ab-1b11-4c7a-9f50-fdeb8d35481f" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="Type" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="Highlight" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="EXHAUSTED_JHINGLESHOD_TECHNICAL" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="INVISIBLE" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="dcef3190-594e-48f6-940c-1527d10a129d" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-35.81164 1.766356 -59.23196" />
+							<attribute id="RotationQuat" type="fvec4" value="0.4859783 0.5136387 0.4859787 0.5136392" />
+							<attribute id="Scale" type="float" value="1.2" />
+						</node>
+					</children>
+				</node>
+
+				<!-- Алебарда меррегонов -->
+				<node id="GameObjects">
+					<attribute id="ConstellationConfigName" type="FixedString" value="PerceptionHelper" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_SorcerousSundriesBasement_A" />
+					<!-- <attribute id="MapKey" type="FixedString" value="29bfb85b-2b8e-4b90-ab69-a2592256134c" /> -->
+					<attribute id="MapKey" type="FixedString" value="fdec6ce9-17a5-4e86-a74c-a77c5170ba09" /> origin
+					<attribute id="Name" type="LSString" value="WPN_Merregon_Halberd_A_000" />
+					<attribute id="SeeThrough" type="bool" value="True" />
+					<attribute id="TemplateName" type="FixedString" value="c86a3bf4-16b4-4d76-a33d-3df5c265aca8" />
+					<attribute id="Stats" type="FixedString" value="WPN_Merregon_Halberd_2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_SorcerousSundriesBasement_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="1f412bc6-24dd-b2d2-6021-561b6a6aa466" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="ConstellationConfigGlobalParameters">
+							<children>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="MaxRadius" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="double">
+																	<attribute id="double" type="double" value="1" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="DC" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="HiddenPerception_Medium_cd1800ab-1b11-4c7a-9f50-fdeb8d35481f" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="Type" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="Highlight" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="INVISIBLE" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="9e8ac18b-2328-4dc0-b04c-c7ee42123b5e" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-32.44389 2.138323 -46.22986" />
+							<attribute id="RotationQuat" type="fvec4" value="-0.2705982 -0.2705981 0.6532817 0.6532812" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

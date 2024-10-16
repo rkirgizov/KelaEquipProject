@@ -1,0 +1,30 @@
+
+function StrengthEqualOrGreaterThan(value, entity)
+    entity = entity or context.Target
+    local errorTrue = {ConditionError("StrengthEqualOrGreaterThan_True", {ConditionErrorData.MakeFromNumber(value, EErrorDataType.SimpleNumber)})}
+    local errorFalse = {ConditionError("StrengthEqualOrGreaterThan_False", {ConditionErrorData.MakeFromNumber(value, EErrorDataType.SimpleNumber)})}
+    return ConditionResult(entity.Strength >= value, errorFalse, errorTrue)
+end
+
+function HasNotSummonWithinRange(distance)
+    distance = distance or 1.5
+
+    local allies = GetAlliesWithinRange(distance, context.Source)
+    if allies ~= nil then
+        for _, entity in ipairs(allies.Allies) do
+
+            local isAllySummon = Tagged('SUMMON',entity) | Tagged('SUMMONWITHOUTMOUTH',entity) | Tagged('INTELLECT_DEVOURER_US',entity)
+            
+            if not isAllySummon.Result then
+                return ConditionResult(true)
+            end
+        end
+    end
+
+    return ConditionResult(false)
+end
+
+function HasAnyHasteNoBloodlust(entity)
+    local entity = entity or context.Source
+    return HasAnyStatus({'HASTE','LONGSTRIDER','POTION_OF_SPEED','MAG_CELESTIAL_HASTE','HASTE_SURFACE', 'CONS_DRUG_STIMULANT','TAD_MIND_SANCTUARY_HASTE'}, {}, {}, entity)
+end

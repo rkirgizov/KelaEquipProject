@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+
+
+
+				<!-- Ключ от сейфа Кассадора -->
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="7947e4e2-d824-4354-a5fd-ee489e683fb6" />
+					<attribute id="Name" type="LSString" value="S_LOW_CazadorDungeonSafe_key" />
+					<attribute id="Key" type="FixedString" value="CazadorDungeonSafe" />
+					<attribute id="TemplateName" type="FixedString" value="ede89af4-5416-406b-a2d2-2fdf261f98bc" />
+					<attribute id="Tooltip" type="uint8" value="1" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209021" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="57e10301-831b-f6cf-1258-a93ddbdfa8a0" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="2760d1d9-37b7-1df7-524c-de9786d1649b" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="8b704fec-dc76-bb5c-91f5-622c8af0cfac" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-1985.01 6.843628 853.7598" />
+							<attribute id="RotationQuat" type="fvec4" value="0.01269676 -0.7210277 0.03975391 0.6916484" />
+							<attribute id="Scale" type="float" value="0.4" />
+						</node>
+					</children>
+				</node>
+
+				<!-- <node id="Transform"> -->
+				<!-- Position -->
+				<!-- <attribute id="Position" type="fvec3" value="Запад<->Восток Низ<->Верх Юг<->Север" /> -->
+				<!-- Rotation -->
+				<!-- <attribute id="RotationQuat" type="fvec4" value="0 <горизонт> 0 0.7389326" /> -->
+
+
+				<!-- Сейф Кассадора -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h9f7c4ed0gd0cbg4a84g863dgff21c6c64add" version="3" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GroupID" type="uint32" value="45392" />
+					<attribute id="Key" type="FixedString" value="CazadorDungeonSafe" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Main_A" />
+					<attribute id="LockDifficultyClassID" type="guid" value="60916b01-ba4c-418e-9f30-19a669704b4d" />
+					<attribute id="MapKey" type="FixedString" value="eb9769e4-94d4-4ef6-865a-9d240046c7a9" />
+					<attribute id="Name" type="LSString" value="CTY_Cazador_DungeontSafe" />
+					<attribute id="SeeThrough" type="bool" value="True" />
+					<attribute id="TemplateName" type="FixedString" value="6091d0b3-8619-4a32-965c-c01d454d0205" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="TRE_Cazador_DungeonSafe" />
+								</node>
+							</children>
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="57e10301-831b-f6cf-1258-a93ddbdfa8a0" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="2760d1d9-37b7-1df7-524c-de9786d1649b" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="8b704fec-dc76-bb5c-91f5-622c8af0cfac" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="INVISIBLE_CAZADORSAFE" />
+								</node>
+							</children>
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="CAZADORSAFE_SEEINVIS_CHECK" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-1983.263 6.663628 848.3598" />
+							<attribute id="RotationQuat" type="fvec4" value="0 1 0 0" />
+							<attribute id="Scale" type="float" value="0.7" />
+						</node>
+					</children>
+				</node>		
+
+				<!-- Череп Велиота -->
+				<node id="GameObjects">
+					<attribute id="CanBeMoved" type="bool" value="True" />
+					<attribute id="CanBePickedUp" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hedba1cf831694357ad4fe2bb0237376b337c" version="1" />
+					<!-- <attribute id="DisplayName" type="TranslatedString" handle="h79fd92d7gd499g45b9g9233gb7526d459aed" version="1" /> origin -->
+					<attribute id="Flag" type="int32" value="128" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="c5ea0052-c961-45fe-8144-9d4a7836882c" />
+					<!-- <attribute id="MapKey" type="FixedString" value="72104d6e-365a-4ccf-8ad1-c7d448c9e403" /> origin -->
+					<attribute id="Name" type="LSString" value="S_LOW_CazadorsPalace_Crypt_Skull" />
+					<attribute id="Stats" type="FixedString" value="OBJ_Vellioth_Crypt_Skull" />
+					<!-- <attribute id="Stats" type="FixedString" value="OBJ_GenericImmutableObjectHeavy" /> origin -->
+					<!-- <attribute id="TemplateName" type="FixedString" value="23820932-7a1e-436d-b88b-0ebc9ca07881" />  -->
+					<attribute id="TemplateName" type="FixedString" value="08eb3977-d38b-4b68-be74-8ffd0bc8f2a6" /> origin
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="UseOnDistance" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="57e10301-831b-f6cf-1258-a93ddbdfa8a0" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="2760d1d9-37b7-1df7-524c-de9786d1649b" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="8b704fec-dc76-bb5c-91f5-622c8af0cfac" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-1984.963 6.843628 853.7598" />
+							<attribute id="RotationQuat" type="fvec4" value="0.01269676 -0.7210277 0.03975391 0.6916484" />
+							<attribute id="Scale" type="float" value="1.5" />
+						</node>
+						<!-- <node id="Transform"> origin
+							<attribute id="Position" type="fvec3" value="-1984.963 6.843628 853.7598" />
+							<attribute id="RotationQuat" type="fvec4" value="0.01269676 -0.7210277 0.03975391 0.6916484" />
+							<attribute id="Scale" type="float" value="1.2" />
+						</node> -->
+					</children>
+				</node>
+				<!-- Скрываем череп -->
+				<node id="GameObjects">
+					<attribute id="CanBeMoved" type="bool" value="False" />
+					<attribute id="CanBePickedUp" type="bool" value="False" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h79fd92d7gd499g45b9g9233gb7526d459aed" version="1" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="72104d6e-365a-4ccf-8ad1-c7d448c9e403" />
+					<attribute id="Name" type="LSString" value="S_LOW_CazadorsPalace_Crypt_Skull" />
+					<attribute id="Stats" type="FixedString" value="OBJ_GenericImmutableObjectHeavy" />
+					<attribute id="TemplateName" type="FixedString" value="08eb3977-d38b-4b68-be74-8ffd0bc8f2a6" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="UseOnDistance" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209006" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="57e10301-831b-f6cf-1258-a93ddbdfa8a0" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="2760d1d9-37b7-1df7-524c-de9786d1649b" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="8b704fec-dc76-bb5c-91f5-622c8af0cfac" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="8" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-1984.963 6.843628 853.7598" />
+							<attribute id="RotationQuat" type="fvec4" value="0.01269676 -0.7210277 0.03975391 0.6916484" />
+							<attribute id="Scale" type="float" value="0.001" />
+						</node>
+					</children>
+				</node>
+
+				<!-- Сейф в подвале Грушки -->
+				<!-- Добавляем адского железа и усиленный доспех в сейф -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h9f7c4ed0gd0cbg4a84g863dgff21c6c64add" version="3" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GroupID" type="uint32" value="45392" />
+					<attribute id="Key" type="FixedString" value="LOW_Peartree_BasementSafe" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Main_A" />
+					<attribute id="LockDifficultyClassID" type="guid" value="6298329e-255c-4826-9209-e911873b64e7" />
+					<attribute id="MapKey" type="FixedString" value="b8770738-0577-4241-8805-7d744a30ccf4" />
+					<attribute id="Name" type="LSString" value="LOW_Peartree_BasementSafe" />
+					<attribute id="TemplateName" type="FixedString" value="6091d0b3-8619-4a32-965c-c01d454d0205" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="LOW_PeartreeBasement_Treasures" />
+								</node>
+							</children>
+						</node>
+						<node id="ItemList">
+							<children>
+								<node id="Item">
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<attribute id="Amount" type="int32" value="2" />
+									<attribute id="CanBePickpocketed" type="bool" value="True" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="IsDroppedOnDeath" type="bool" value="True" />
+									<attribute id="IsTradable" type="uint8" value="0" />
+									<attribute id="ItemName" type="LSString" value="LOOT_SoulCoin" />
+									<attribute id="LevelName" type="LSString" value="" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="TemplateID" type="FixedString" value="8c68e68d-96d4-45d6-804c-5f31ac948ff3" />
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="UUID" type="FixedString" value="" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="BGH_CountingHouseVaultConnection_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="623ef922-5230-d894-cb56-45c5f60d8468" />
+												</node>
+											</children>
+										</node>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="fdddc0a8-f28c-00c4-edee-5c5b5eb5f266" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="d370f147-26cb-6a0a-259f-557843b2343c" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="571.6736 3.005279 757.0085" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.9999994 0 0.001086296" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>				
+
+				<!-- Кольцо Гаргота из гробницы Хуннов -->
+				<node id="GameObjects">
+					<attribute id="ConstellationConfigName" type="FixedString" value="PerceptionHelper" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="ac194a00-31d9-429a-b6e9-f5749e849078" />
+					<attribute id="Name" type="LSString" value="MAG_Gargot_Ring_001" />
+					<attribute id="TemplateName" type="FixedString" value="81b1f7cf-4b41-4132-ae81-b2fe8af6dc99" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209027" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="fdddc0a8-f28c-00c4-edee-5c5b5eb5f266" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="d370f147-26cb-6a0a-259f-557843b2343c" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="3c6ab6ce-93a2-90c6-16f2-e995cd6d7d21" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="ConstellationConfigGlobalParameters">
+							<children>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="MaxRadius" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="double">
+																	<attribute id="double" type="double" value="1" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="DC" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="HiddenPerception_Easy_10a7c9ba-bc09-4c30-8cfc-ce0c6766fac7" />
+																	<!-- <attribute id="String" type="LSString" value="HiddenPerception_VeryHard_36a5be3e-74f4-4ae2-aa1a-a2ea7ec36e8d" /> -->
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="Type" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="Highlight" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="1194.05 1.214047 892.9951" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.7071058 0 -0.7071059" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+
+
+
+				
+			</children>
+		</node>
+	</region>
+</save>

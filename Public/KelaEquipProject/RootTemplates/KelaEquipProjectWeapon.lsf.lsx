@@ -1,0 +1,397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="900" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+
+				<!-- Арбалет Ирре из подземной башни -->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h73dca8dd7e9a4eac8e74c2268d7a05270bc5" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h23902d2f23d74e5e8272fb6adabd170c327e" version="3" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="bc26e4a0-57c5-4458-88b4-436ff7719e4f" />
+					<attribute id="Name" type="LSString" value="WBP_KELA_UND_Irre_HeavyCrossbow" />
+					<attribute id="ParentTemplateId" type="FixedString" value="6af59cba-cc38-4511-9c3b-75caac4b96b5" />
+					<attribute id="Stats" type="FixedString" value="WBP_KELA_UND_Irre_HeavyCrossbow" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="f20fe202-a67a-b95c-9da5-b5d9b3b9ce10" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="355bddfd-c5c4-4ed4-820b-a0b1bd38b03d" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+				<!-- Силовая кирка в обветшалой деревне в Подземье -->
+				<node id="GameObjects">
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hed82986680894ababbdfe80155dc96f7ea15" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h54cf1781b74c4b70a0460f2f9c5375e47baa" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="272063ad-daf2-462e-995c-d096a6b95329" />
+					<attribute id="Icon" type="FixedString" value="Item_TOOL_GEN_Mine_Pickaxe_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="e1dd6933-12c2-4d5c-a926-d483bd64da44" />
+					<attribute id="Name" type="LSString" value="WPN_MinePickaxe_Power" />
+					<attribute id="ParentTemplateId" type="FixedString" value="2e65cacd-f96d-46d9-b9b5-0f4fc0df190d" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="43c9d088-246f-653a-79a0-7bd64feca36c" />
+					<attribute id="ReadinessFlags" type="uint32" value="148" />
+					<attribute id="Stats" type="FixedString" value="WPN_MinePickaxe_Power" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="0ce8102c-6fd5-858f-7bff-09e51162fc04" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115203108241814" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.1231696" />
+									<attribute id="Max" type="fvec3" value="0.3146691 0.07222809 0.2716033" />
+									<attribute id="Min" type="fvec3" value="-0.321291 -0.05094154 -0.7354451" />
+									<attribute id="Radius" type="float" value="0.2993496" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.1231696" />
+									<attribute id="Max" type="fvec3" value="0.3146691 0.07222809 0.2716033" />
+									<attribute id="Min" type="fvec3" value="-0.321291 -0.05094154 -0.7354451" />
+									<attribute id="Radius" type="float" value="0.2993496" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.1231696" />
+									<attribute id="Max" type="fvec3" value="0.1573346 0.07222809 0.1358017" />
+									<attribute id="Min" type="fvec3" value="-0.1606455 -0.05094154 -0.3677226" />
+									<attribute id="Radius" type="float" value="0.1496748" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="b148e963-283a-4c02-a7c4-3193ce2ec8e9" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+				<!-- Копье, найденное в астральном плане у Манящей пещеры рядом с гитом -->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hcbce834b8bcf42d29cfc7d84676b98fec3bb" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h2e53cbe65eb5441b8b7ebf3b5c7c56623d18" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Spear_A_0_Rusty_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="42f9c7dc-0e69-4c97-9bd4-24a5161c7223" />
+					<attribute id="Name" type="LSString" value="WPN_Spear_Rusty_Astral_A" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9f0f1c0e-012d-44e1-9b29-86c64d2bf675" />
+					<attribute id="Stats" type="FixedString" value="WPN_Spear_Rusty_Astral" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="9b4a02d3-9731-1ca1-508d-68ee6a439eb7" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115205255725059" />
+				</node>
+
+				<!-- Кинжал фокусника, найденный в чультских джунглях -->
+				<node id="GameObjects">
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="Description" type="TranslatedString" handle="h3d2ee3ff6b154314b8ed36abe64edc48bf8g" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h9d36317b78a144f89d5cf62390d2a43fbcfd" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="2d85d633-d496-44a1-a643-0e95ef879a6d" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_Dagger_Shar" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int32" value="-1" />
+					<attribute id="MapKey" type="FixedString" value="b2de822c-ae13-401a-a04d-c8d710d170ab" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Dagger_Cheater" />
+					<attribute id="ParentTemplateId" type="FixedString" value="569b0f3d-abcd-4b01-aaf0-979091288163" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="76fd694e-35c8-9109-0d8c-78bf8e107c76" />
+					<attribute id="Race" type="int8" value="0" />
+					<attribute id="ReadinessFlags" type="uint32" value="144" />
+					<attribute id="Stats" type="FixedString" value="WPN_Dagger_Cheater" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="cb8ea426-fecc-de0f-ffb2-be1596ae68c0" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855919" />
+					<children>
+						<node id="GameMaster" />
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="b7247f48-b604-4595-aa24-a581523089e5" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+
+				<!-- Алебарды меррегонов, добавить тег для пассивки адского железа -->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h75b21afbg6f70g40e9gb686g1521fe2f463d" version="2" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ha562ca5ag62c5g44bagae37g2ad0c7378c2f" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_Merregon_Halberd_A" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c86a3bf4-16b4-4d76-a33d-3df5c265aca8" />
+					<attribute id="Name" type="LSString" value="WPN_Merregon_Halberd_A" />
+					<attribute id="ParentTemplateId" type="FixedString" value="2efeda1e-c5d1-48ef-af6f-b1706fd4c3e2" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="a27fb132-a60b-2126-dcca-64173a6e70f1" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Stats" type="FixedString" value="WPN_Merregon_Halberd" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="835ba334-2c55-3fcd-a3af-8a6148255332" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="983087c8-c9d3-4a87-bc69-65f9329666c8" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="9e8ac18b-2328-4dc0-b04c-c7ee42123b5e" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+				<!-- Адскому самовзводному арбалету добавить тег для пассивки адского железа -->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="hf9cc6cd3geb5dg41b4g9a74gb69c03fa30d0" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb3f5a1bcgbc0cg4fa3gabfdg65c7f3fe5ed3" version="4" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="h396e59d6f03f4c35a8305a23605338b258fd" version="1" />
+					<attribute id="TechnicalDescriptionParams" type="LSString" value="18" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_WATCHER_Crossbow" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="f746397f-c489-4121-8499-40017981e290" />
+					<attribute id="Name" type="LSString" value="MAG_WATCHER_Human_Crossbow" />
+					<attribute id="ParentTemplateId" type="FixedString" value="59c190d2-4b91-44f5-a720-f75d338dd341" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="792ace2b-cadf-6248-0a85-9953e3595263" />
+					<attribute id="Stats" type="FixedString" value="MAG_WATCHER_Human_Crossbow" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="02448d6d-8622-9421-a1d5-c943a4364a45" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="9e8ac18b-2328-4dc0-b04c-c7ee42123b5e" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="EXHAUSTED_WATCHERCROSSBOW_TECHNICAL" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+
+				<!-- Молот изобретателя Красного молота -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="hedba1cf831694357ad4fe2bb0237376b337c" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="hd69728e5925a435f9aef0b64cb51ff4dec73" version="1" />
+					<attribute id="TechnicalDescription" type="TranslatedString" handle="hd7fb840a351e45a4b0393d2a17803cc19876" version="1" />
+					<attribute id="TechnicalDescriptionParams" type="LSString" value="" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_HUM_Azer_Warhammer_A" />
+					<attribute id="IsSurfaceCloudBlocker" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="af2d44ed-e4b5-41b2-8051-9207f7761f13" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Warhammer_RedHammer_A" />
+					<attribute id="ParentTemplateId" type="FixedString" value="2e65cacd-f96d-46d9-b9b5-0f4fc0df190d" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="d07faf74-7eb9-9987-20b6-780b4222dd09" />
+					<attribute id="Stats" type="FixedString" value="WPN_Warhammer_RedHammer" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="d744bdb0-dd80-6cc4-8b19-bcf6a45cdd90" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209022" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.0483273" />
+									<attribute id="Max" type="fvec3" value="0.2594979 0.08057822 0.3268803" />
+									<attribute id="Min" type="fvec3" value="-0.1500173 -0.07558827 -0.6862577" />
+									<attribute id="Radius" type="float" value="0.0911205" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.0483273" />
+									<attribute id="Max" type="fvec3" value="0.2594979 0.08057822 0.3268803" />
+									<attribute id="Min" type="fvec3" value="-0.1500173 -0.07558827 -0.6862577" />
+									<attribute id="Radius" type="float" value="0.182241" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.0483273" />
+									<attribute id="Max" type="fvec3" value="0.2594979 0.08057822 0.3268803" />
+									<attribute id="Min" type="fvec3" value="-0.1500173 -0.07558827 -0.6862577" />
+									<attribute id="Radius" type="float" value="0.182241" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="c83bfd9a-b430-47f6-9843-08ce7c452166" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+				<!-- Любимый молот кузнеца -->
+				<node id="GameObjects">
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h512e0c4eb53e4fee8688b8fdced9ce503b2d" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="he3d7cf3ed8124a30a150be1ce3fcca62bc42" version="1" />
+					<attribute id="EquipmentTypeID" type="guid" value="896f8a20-7dda-4bff-b726-08c3dacccc7b" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_WPN_KELA_Favorite_LightHammer_A" />
+					<attribute id="IsInspector" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LevelOverride" type="int32" value="-1" />
+					<attribute id="MapKey" type="FixedString" value="a5c5616d-d7ed-4e64-aadb-2c6eaac0eed2" />
+					<attribute id="Name" type="LSString" value="WPN_KELA_Favorite_LightHammer" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c3bf6216-310c-4b71-ab7e-9997d8c8d251" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="95c1af40-8cc3-4552-b523-fcf7fb44b20b" />
+					<attribute id="Race" type="int8" value="0" />
+					<attribute id="ReadinessFlags" type="uint32" value="144" />
+					<attribute id="Stats" type="FixedString" value="WPN_KELA_Favorite_LightHammer" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="107a48ab-7234-4977-92db-fbed287e987a" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855930" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.0483273" />
+									<attribute id="Max" type="fvec3" value="0.07328856 0.02549566 0.2316022" />
+									<attribute id="Min" type="fvec3" value="-0.07289286 -0.01255039 -0.4564184" />
+									<attribute id="Radius" type="float" value="0.182241" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.0483273" />
+									<attribute id="Max" type="fvec3" value="0.1378386 0.05479563 0.2361521" />
+									<attribute id="Min" type="fvec3" value="-0.1574429 -0.01585041 -0.4609683" />
+									<attribute id="Radius" type="float" value="0.182241" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="0.0483273" />
+									<attribute id="Max" type="fvec3" value="0.03664428 0.02549566 0.1158011" />
+									<attribute id="Min" type="fvec3" value="-0.03644643 -0.01255039 -0.2282092" />
+									<attribute id="Radius" type="float" value="0.0911205" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster">
+							<attribute id="GameMasterSpawnSubSection" type="TranslatedString" handle="h5c6f4fb6gdef9g4435gba84g79501dee8f2c" version="1" />
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="KELA_HANDMADE_WEAPON" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="355bddfd-c5c4-4ed4-820b-a0b1bd38b03d" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			</children>
+		</node>
+	</region>
+</save>

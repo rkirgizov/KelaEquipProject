@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+
+
+
+	<!-- /////////////////////////////////////////////////////// -->
+	<!-- ErrorDescriptions-->
+	<!-- /////////////////////////////////////////////////////// -->
+	<!-- Способности -->
+    <content contentuid="h3e5ea688d80a4afe8cf47f9b1def05295gf2" version="1">Сила должна быть ниже [1]</content>
+    <content contentuid="h3254b79ce288491f84cae053d7d06a2401aa" version="1">Сила должна быть не ниже [1]</content>
+	
+    <!-- Оружие -->
+	<!-- Любимый молоток кузнеца, не сделан чертёж -->
+   	<content contentuid="h512e0c4eb53e4fee8688b8fdced9ce503b2d" version="1">Любимый молоток кузнеца</content>
+    <content contentuid="he3d7cf3ed8124a30a150be1ce3fcca62bc42" version="1">Кузнец, создавший форму и рецепт такого молотка, наверно, был очень опытным и любил своё дело. &lt;br&gt;Молоток легче, чем обычно, и с отличной балансировкой, но в нём чувствуется сила возможного удара.</content>
+    
+	<!-- Силовая кирка -->
+    <content contentuid="hed82986680894ababbdfe80155dc96f7ea15" version="1">Силовая кирка</content>
+    <content contentuid="h54cf1781b74c4b70a0460f2f9c5375e47baa" version="1">Совершенно обычная на вид кирка, но немного облегчённая и с силовой аурой вокруг зазубренного острия. &lt;br&gt;Когда-то эта кирка принадлежала непростому гному, который знал свою работу и всегда был настороже...</content>
+
+	<!-- Копье, найденное в астральном плане у Манящей пещеры рядом с гитом -->
+    <content contentuid="h2e53cbe65eb5441b8b7ebf3b5c7c56623d18" version="1">Ржавое копье</content>
+    <content contentuid="hcbce834b8bcf42d29cfc7d84676b98fec3bb" version="1">Старое копье, найденное рядом с мёртвым гитом у Манящей пещеры в астральном плане. Пусть металл и потерял прочность, но астральная ржавчина и гниль придала ему парализующие свойства.</content>
+
+	<!-- Доспехи ревнителя Кризт из ямы в Лунных башнях -->
+	<!-- Доспех -->
+    <content contentuid="hc7ae9c0fgb0fag4d74g9d0egadbe96e840bf" version="1">Латные доспехи ревнителя</content>
+    <content contentuid="ha66c7629g2b25g4734g92bfg12871f8453d5" version="1">Доспехи ревностных последователей Абсолют из Лунных Башен, пропитанные истинной верой, что даёт своему владельцу психическую устойчивость, а наличие клейма Абсолют даёт бонус к испытаниям и дополнительную защиту.</content>
+
+	<!-- Перчатки хирурга в доме исцеления -->
+    <content contentuid="h8bd18f6dbb0c4c71aa4a11e07fd722e7033d" version="1">Перчатки хирурга</content>
+    <content contentuid="hc4c3a93e1ff944f685c0701c201490a4fcbc" version="1">Эти перчатки не только обеспечивают ловкость движений, невозможную в тяжелых рукавицах, но и строго карают за малейшую промашку... Ведь быть хирургом - это огромная ответственность!</content>
+    <content contentuid="h3e19d7c8a56041508861eed41e45fd964572" version="1">Опасная работа</content>
+    <content contentuid="ha2202b47b8014a5a8e0e5e1674e6380c3018" version="1">При промахе в ближнем бою владелец уколется своим же оружием с уроном [1], а если не пройдёт &lt;LSTag Tooltip="SavingThrow"&gt;испытание&lt;/LSTag&gt; на ловкость &lt;LSTag Tooltip="DifficultyClass"&gt;КС&lt;/LSTag&gt; [2], то получит &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;кровотечение&lt;/LSTag&gt; (при критическом промахе без испытания).</content>
+    <content contentuid="ha305c14d4a8f4f7bb33b6bd86ec0816a6830" version="1">Точность хирурга</content>
+    <content contentuid="h54c585d8ab7a43a39ae7cafae59f56642ac2" version="1">Получает &lt;LSTag Type="Status" Tooltip="SURGEONS_DEXTERITY"&gt;точность хирурга&lt;/LSTag&gt; и бонус [1] к броскам на &lt;LSTag Tooltip="SleightOfHand"&gt;ловкость рук&lt;/LSTag&gt;.</content>
+    <content contentuid="h348928a8f4a14d73acf27b538ba8131ec1gc" version="1">Получает бонус к атаке [1] и &lt;LSTag Tooltip="Advantage"&gt;преимущество&lt;/LSTag&gt; при &lt;LSTag Tooltip="AbilityCheck"&gt;проверках&lt;/LSTag&gt; и &lt;LSTag Tooltip="SavingThrow"&gt;испытаниях&lt;/LSTag&gt; ловкости.</content>
+
+	<!-- Щит в морге возле дома целителей -->
+    <content contentuid="h3178aa65711f4ada8952a04027145a80cg3c" version="1">Щит Олама</content>
+    <content contentuid="hf034e7c64f1c4d2a89a987473b0d270107f9" version="1">Этот щит весь покрыт вмятинами и зазубринами, но он напоен магией, которой Олам его напитал в отчаянных попытках спастись от Теней.</content>
+	<content contentuid="hf13524bd47884d0b9f60cf81669954563670" version="1">Защита от зла</content>
+    <content contentuid="ha4e5aa0f16584ab692911ee716b3e910562b" version="1">Цель защищена от аберраций, фей, бестий, нежити и существ, сотканных из тени. &lt;LSTag Tooltip="AttackRoll"&gt;Броски атаки&lt;/LSTag&gt; таких существ по цели получают &lt;LSTag Tooltip="Disadvantage"&gt;помеху&lt;/LSTag&gt;.</content>
+    <content contentuid="h04bab7e48e6343c188926a739b25b811687e" version="1">Щит Олама: сияет</content>
+    <content contentuid="hb1f8bcb5b07b402394122ec4c905ccad9fea" version="1">Свет надежды</content>
+    <content contentuid="h5d8c0965b61e43eb83bd8f20cdd649315260" version="1">Получает &lt;LSTag Type="Status" Tooltip="PROTECTION_FROM_EVIL"&gt;защиту от зла&lt;/LSTag&gt; и бонус [1] к атаке в ближнем бою против освещённых врагов, а также &lt;LSTag Tooltip="Advantage"&gt;преимущество&lt;/LSTag&gt; при &lt;LSTag Tooltip="AttackRoll"&gt;бросках атаки &lt;/LSTag&gt; против аберраций, фей, бестий, нежити и существ, сотканных из тени.</content>
+
+	<!-- Амулеты Абсолют -->
+    <content contentuid="ha168ea5a660e495881d1f5a48639c079bc90" version="1">Связь клеймёных</content>
+    <content contentuid="h85d4bdd115424fd5993415f000c67d8003e3" version="1">Воля Абсолют распространяет пассивные свойства амулетов Абсолют на всех персонажей с клеймом Абсолют в радиусе [1] от носителя амулета.</content>
+
+	<!-- Селунитский амулет, напоенный кровью пикси -->
+	<content contentuid="h3bf1621b18e34b7c81975e406559fff2b117" version="1">Лунный амулет пикси</content>
+    <content contentuid="h1463150fc7774f50b7a59cd4d89a39e3491d" version="1">Этот амулет Селунэ до отказа напоен страданиями и кровью пикси, умерших в лунных фонарях... &lt;br&gt;Результат экспериментов извращённого, но весьма пытливого ума Бальтазара.</content>
+	<!-- Пассивка -->
+	<content contentuid="ha887ed412c0d49ce880b2ce44ef507f7458b" version="1">Отчаянье пикси</content>
+    <content contentuid="h126585cfdb2b40ec98c282447fb65d749c3b" version="1">Владелец c клеймом Абсолют получает &lt;LSTag Tooltip="Disadvantage"&gt;помеху&lt;/LSTag&gt; при &lt;LSTag Tooltip="SavingThrow"&gt;испытаниях&lt;/LSTag&gt; на &lt;LSTag Tooltip="Wisdom"&gt;мудрость&lt;/LSTag&gt;, но аура Лунного щита даёт ему снижение &lt;b&gt;наполовину&lt;/b&gt; всего входящего урона заклинаний.</content>
+
+	<!-- Кольцо Гаргота из гробницы Хуннов -->
+    <content contentuid="h493ff0b080984eeda1b22989f33cf09d9g44" version="1">Кольцо Гаргота</content>
+    <content contentuid="h25ea51cc6c0d48ffacccb3686bd3962ad446" version="1">Такое кольцо мог носить только влиятельный последователь Гаргота, известного также, как Десятый Лорд Девяти или Скрытый Лорд. </content>
+    <content contentuid="h13277cec238d40979c7a1ca9b57878bafc08" version="1">Обмани меня</content>
+    <content contentuid="h09e5bc5e7a4b4bcfb444f2281495c71827g4" version="1">&lt;LSTag Tooltip="Charisma"&gt;Харизма&lt;/LSTag&gt; увеличивается на [1], вплоть до [2]. Кроме того, владелец получает &lt;LSTag Tooltip="Advantage"&gt;преимущество&lt;/LSTag&gt; при попытках обмана тех, чья харизма меньше его, в противном случае проверка на обман будет с &lt;LSTag Tooltip="Disadvantage"&gt;помехой&lt;/LSTag&gt;.</content>
+    <content contentuid="ha9952c41fdd343f8896a144616d4955202c1" version="1">Защита Лорда</content>
+    <content contentuid="h28fc24f214da4356b12a044cbd0024a6e933" version="1">Каждый, кто нанесёт владельцу урон в ближнем бою, должен успешно пройти  &lt;LSTag Tooltip="SavingThrow"&gt;испытание&lt;/LSTag&gt; &lt;LSTag Tooltip="Charisma"&gt;харизмы&lt;/LSTag&gt; с &lt;LSTag Tooltip="DifficultyClass"&gt;КС&lt;/LSTag&gt; равным харизме владельца, иначе подпадёт под его &lt;LSTag Type="Status" Tooltip="CHARM_GARROT"&gt;влияние&lt;/LSTag&gt; на [1] хода. &lt;br&gt;Атаки владельца по всем очарованным врагам будут проходить с &lt;LSTag Tooltip="Advantage"&gt;преимуществом&lt;/LSTag&gt;.</content>
+    <content contentuid="h06fb21dd2bd9486d93579e98953c8a4f529c" version="1">Влияние Лорда</content>
+    <content contentuid="hf4f0e56004f045e782700ebef7f7409a6edc" version="1">Существо попало под ваше влияние и не может атаковать вас каким-либо образом. При получении урона эффект снимается.</content>
+
+	<!-- Оружие из подвала Грушки -->
+    <content contentuid="h562e399d0dd64861b20be752efe679fag6c7" version="1">Усиленный тяжёлый арбалет</content>
+    <content contentuid="h1429461a9e974fc08d81186e487b1eebb15a" version="1">Усиленный боевой топор</content>
+    <content contentuid="hf56ad34f247147fd81865aa12b3c202293d7" version="1">Усиленный двуручный меч</content>
+    <content contentuid="hf11c9e99d4c94e95b2b533cc9f79588fgf1d" version="1">Усиленный двуручный топор</content>
+    <content contentuid="ha757e2b3dae4415ab3df6a9a20fb6877675d" version="1">Усиленный кинжал</content>
+    <content contentuid="hb0925dcae11f40c19558090d46571d28413a" version="1">Усиленный пилум</content>
+    <content contentuid="h16a1a00745a741629dc6011baaa618b37b5a" version="1">Усиленный длинный меч</content>
+    <content contentuid="h34b73e5944054837b6a4c5eb084733551c60" version="1">Усиленный короткий меч</content>
+    <content contentuid="h08f49419fc964c179496add43d747f5e4745" version="1">Усиленный длинный лук</content>
+    <content contentuid="hd99c218988d74fcba3c1f963872fc7f58g88" version="1">Усиленный короткий лук</content>
+    <content contentuid="h0f137619c053492ba560533b2fb0fb90fbgg" version="1">Оружие из последней партии Грушки, которую он не успел отправить. Адское железо, использованное при изготовлении, придало ему особые свойства.</content>
+    <content contentuid="hd19ca53c778d41f6af4c7cf302b3c79f60g9" version="1">Усиленный большой щит</content>
+    <content contentuid="h06332ed23fce4c5087dbff0b7a0a3772713c" version="1">Усиленный щит с шипами</content>
+    <content contentuid="h545e1c0d6cd240b2b094f67758e8a49181cd" version="1">Щит из последней партии Грушки, которую он не успел отправить. Адское железо, использованное при изготовлении, придало ему особые свойства.</content>
+    <content contentuid="h531a8f350f744e158c1a30f3fe3e56a80c81" version="1">Усиленные латы</content>
+    <content contentuid="h27f4de47e83a4cf59303c0be163e5367187f" version="1">Доспех из последней партии Грушки, которую он не успел отправить. Адское железо, использованное при изготовлении, придало ему особые свойства.</content>
+
+	<!-- Кинжал фокусника, найденный в чультских джунглях -->
+    <content contentuid="h9d36317b78a144f89d5cf62390d2a43fbcfd" version="1">Кинжал фокусника</content>
+    <content contentuid="h3d2ee3ff6b154314b8ed36abe64edc48bf8g" version="1">Найденный в чультских джунглях, этот простой кинжал великолепно лежит в руке, намекая хозяину, что может выпотрошить врага ещё до того, как тот опомнится.</content>
+	<!-- Пассивка -->
+    <content contentuid="h5fe7c4c5b04948b5858d97dc753095c5e5dc" version="1">Ловкость рук</content>
+    <content contentuid="h7d3fa66a843249eb99ed36aa0309a1529610" version="1">Атака этим оружием с использованием ловкости получает &lt;LSTag Tooltip="Advantage"&gt;преимущество&lt;/LSTag&gt; или &lt;LSTag Tooltip="Disadvantage"&gt;помеху&lt;/LSTag&gt;, в зависимости от того, кто более ловкий.</content>
+    <content contentuid="he4b1c45447e94c0d8c0c2f28b70b79ded3c5" version="1">Никакого мошенничества</content>
+    <content contentuid="h326d32b5f4c24777adb63971a58879f3c402" version="1">При нанесении &lt;LSTag Tooltip="CriticalHit"&gt;критического удара&lt;/LSTag&gt; из глаз противника посыпятся &lt;LSTag Type="Status" Tooltip="COLOR_SPRAY"&gt;«Цветные брызги»&lt;/LSTag&gt;</content>
+
+	<!-- Двуручный топор Джингулшада из хранилища с книгой Карсуса -->
+    <content contentuid="h231c710626f94ca4afe23fb0b0e41887f081" version="1">Топор Джингулшада</content>
+    <content contentuid="h60b3b4aca7e7437abe159615ad6d0581egfe" version="1">Легендарный топор, обладающий невероятной силой и увеличенной дальностью удара, но слишком громоздкий и тяжёлый для большинства смертных. Разве что великан и сможет им биться.</content>
+    <content contentuid="ha0ecc5e1b3d040cf9a69eb5e00809ce453aa" version="1">Требуется сила [1]</content>
+    <content contentuid="hc6fb1b5096dc4cfb88a2fd9f4a24dc60f3c8" version="1">Тушу пополам</content>
+	<content contentuid="h672b30d6bf574a34a85dd140ddfe86d3ae4b" version="1">Разрублено</content>
+    <content contentuid="h91745d9a4ed44f2da939a8552d64f937880a" version="1">Попытаться рассечь врага пополам, добавляя к броскам урона ваш бонус мастерства. Такой удар может &lt;LSTag Type="Status" Tooltip="CRIPPLED"&gt;покалечить&lt;/LSTag&gt;, и уж точно причинит &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;кровотечение&lt;/LSTag&gt;. &lt;br&gt;При &lt;LSTag Tooltip="CriticalHit"&gt;критическом ударе&lt;/LSTag&gt; враг должен успешно пройти испытание выносливости &lt;LSTag Tooltip="DifficultyClass"&gt;КС&lt;/LSTag&gt;, равным вашему показателю силы, иначе он получит [1].</content>
+    <content contentuid="h571da0d5890f4416930f1621b3de1c5b89cg" version="1">Летающих существ нельзя покалечить, а нежить и конструкции не могут страдать от кровотечения.</content>
+
+	<!-- Молот изобретателя Красного молота -->
+    <content contentuid="hedba1cf831694357ad4fe2bb0237376b337c" version="1">Молот Красного Молота</content>
+    <content contentuid="hd69728e5925a435f9aef0b64cb51ff4dec73" version="1">Что, как не боевой молот, может быть любимым оружием Изобретателя Красного Молота! Выкованный с особой искусностью, этот молот - грозное оружие в умелых руках.</content>
+    <content contentuid="hd7fb840a351e45a4b0393d2a17803cc19876" version="1">Особенно хорош против конструкций</content>
+    <content contentuid="h7b46bb6724894db885b5692801a56b0a705b" version="1">Молотилка</content>
+    <content contentuid="h56e7873d26c149e1943f8772ab724200b95a" version="1">При наличии &lt;LSTag Tooltip="Proficiency"&gt;умения&lt;/LSTag&gt; в обращении с боевыми молотами и значении &lt;LSTag Tooltip="Strength"&gt;силы&lt;/LSTag&gt; или &lt;LSTag Tooltip="Charisma"&gt;харизмы&lt;/LSTag&gt; (если молот &lt;LSTag Type="Status" Tooltip="PACT_BLADE"&gt;привязан&lt;/LSTag&gt; колдуном) более [1], вы можете провести дополнительную атаку ближнего боя этим молотом.</content>
+    <content contentuid="hd4c16454b9374c849a7090e1c51abab7b69f" version="1">Знание механизмов</content>
+    <content contentuid="h99c3ccd909054b53afd82b9532756aa6aa5b" version="1">Удары по конструкциям дополнительно наносят [1], игнорируя &lt;LSTag Tooltip="Resistant"&gt;устойчивость&lt;/LSTag&gt;, а по &lt;LSTag Type="Status" Tooltip="MAG_ATTACK_DEBUFF"&gt;пошатнувшимся&lt;/LSTag&gt; конструкциям атаки проходят с &lt;LSTag Tooltip="Advantage"&gt;преимуществом&lt;/LSTag&gt;.</content>
+
+    <!-- Кольцо Велиота -->
+    <content contentuid="h7f9c7b52b7ff43adb1b2f08e54cd2a4351ec" version="1">Перстень Велиота</content>
+    <content contentuid="h2770bb65511b45bf97215325151fd4635b1e" version="1">Перстень Велиота, одного из величайших вампиров, правившего кланом Врат Балдура до Кассадора Зарра. Сила перстня доступна только усвоившим его уроки.</content>
+    <content contentuid="hd38d6e6d06da4754b153da55da68bef53g91" version="1">Уроки Велиота</content>
+    <content contentuid="h80246f0d3a4448be87cb8c24354b7bfd73bf" version="1">Усвоивший уроки Велиота получает бонус к мудрости и интеллекту [1], но не более [2].</content>
+    <content contentuid="hf5c7233230024d598d301d7892bc132e3ecb" version="1">Познавший</content>
+    <content contentuid="h2bcb048b52054b60893cb3ac79410c95b8b2" version="1">Выучивший уроки Велиота получает бонус к мудрости и интеллекту [1], но не более [2].</content>
+
+	<!-- ПАССИВКИ -->
+	<content contentuid="h405fc3ceg7adag499bgb860g76fce3dfc4df" version="1">Владелец, имеющий клеймо Абсолют, получает бонус +[1] к &lt;LSTag Tooltip="SavingThrow"&gt;испытаниям&lt;/LSTag&gt;, +[2] к КБ.</content>
+	
+    <content contentuid="hd95336299d6f4ae2aadf8ab4e451172a7e7a" version="1">Астральная ржавчина</content>
+    <content contentuid="he8643be9753f46e5add4dab677e4ebd39e70" version="1">Оружие покрыто странной астральной ржавчиной. Пораженные им цели могут быть &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;парализованы&lt;/LSTag&gt; и &lt;LSTag Type="Status" Tooltip="POISONED"&gt;отравлены&lt;/LSTag&gt;.</content>
+    <content contentuid="h6bc2159d5e354594a50b85461a64eb98e072" version="1">Закалка: астральная ржавчина</content>
+    <content contentuid="hb2c6e449f59c44658a76961ee2405358adb4" version="1">Вы успешно прошли &lt;LSTag Tooltip="SavingThrow"&gt;испытание&lt;/LSTag&gt; против &lt;LSTag Type="Status" Tooltip="POISON_ASTRAL_RUSTY_CONDITION"&gt;астральной ржавчины&lt;/LSTag&gt; и больше не можете быть ею поражены.</content>
+    <content contentuid="h81e30024964840a39d948731b3c81d926baf" version="1">Страдает от астральной ржавчины</content>
+
+    <content contentuid="h58d48e61d3bf4ad08603a8b1696d7bd0dg4g" version="1">Покрытие адским железом</content>
+    <content contentuid="h1c002f880c6040c8b8fad3d8ebdafc026418" version="1">Атаки по &lt;LSTag Type="Status" Tooltip="BURNING"&gt;горящим&lt;/LSTag&gt; целям проходят с &lt;LSTag Tooltip="Advantage"&gt;преимуществом&lt;/LSTag&gt;, кроме того, это оружие игнорирует &lt;LSTag Tooltip="Resistant"&gt;устойчивость&lt;/LSTag&gt; к урону огнём.</content>
+    <content contentuid="hb8d24b12fbfb4669a28c0fa19d88cecd5526" version="1">Горящие враги имеют &lt;LSTag Tooltip="Disadvantage"&gt;помеху&lt;/LSTag&gt; при &lt;LSTag Tooltip="AttackRoll"&gt;бросках атаки&lt;/LSTag&gt; против владельца.</content>
+
+    <content contentuid="ha7b77d73cb5942b8b328a3b39356ea08e260" version="1">Обессиленый</content>
+    <content contentuid="h0083f7d209894425b972e41b2bc0abd3af2e" version="1">Не хватает силы для используемой аммуниции. &lt;br&gt;Скорость движения снижается до минимума, атака и урон снижены. Кроме того возникают помехи при любых проверках и испытаниях, а враги имеют премущество при бросках атаки против вас.</content>
+
+    <content contentuid="h56686a51e2884badbe451e97f27c059bd4b5" version="1">Ваше оружие бьет так сильно, что получившая удар цель должна успешно пройти &lt;LSTag Tooltip="SavingThrow"&gt;испытание&lt;/LSTag&gt; выносливости &lt;LSTag Tooltip="DifficultyClass"&gt;КС&lt;/LSTag&gt; [1] или &lt;LSTag Type="Status" Tooltip="MAG_ATTACK_DEBUFF"&gt;пошатнётся&lt;/LSTag&gt; на 1 ход, если вы держите оружие одной рукой, и 2 хода, если держите его двумя руками.</content>
+
+    <content contentuid="h7a30f6cdde6d4040b8e5117423b3c26144ab" version="1">Крепкие руки</content>
+    <content contentuid="h1551ed1bd375421786f9f07fc2252b5c2fa8" version="1">Вы получаете бонус +[1] к &lt;LSTag Tooltip="AttackRoll"&gt;броскам атаки&lt;/LSTag&gt; и &lt;LSTag Tooltip="SavingThrow"&gt;испытаниям&lt;/LSTag&gt; на силу.</content>
+
+
+
+	
+</contentList>

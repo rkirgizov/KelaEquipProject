@@ -1,0 +1,574 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+
+				<!-- Усиленное оружие в подвале Грушки -->
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Peartree_Basement_A" />
+					<!-- <attribute id="MapKey" type="FixedString" value="241cc668-8ea4-4d09-941b-f66918a24ab9" /> -->
+					<attribute id="MapKey" type="FixedString" value="2071fb57-e8ca-4335-b5bb-c1addf3044e2" /> origin
+					<attribute id="DisplayName" type="TranslatedString" handle="h562e399d0dd64861b20be752efe679fag6c7" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h0f137619c053492ba560533b2fb0fb90fbgg" version="1" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_HeavyCrossbow_A_000" />
+					<attribute id="TemplateName" type="FixedString" value="59c190d2-4b91-44f5-a720-f75d338dd341" />
+					<attribute id="Stats" type="FixedString" value="WPN_KELA_Peartree_HeavyCrossbow_2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209013" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Peartree_Basement_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="92d46de6-25f5-0ebb-80ac-35bdc2acf9ba" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="9e8ac18b-2328-4dc0-b04c-c7ee42123b5e" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-2.607172 2.725713 -11.20822" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.6031518 0 0.7976264" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Peartree_Basement_A" />
+					<!-- <attribute id="MapKey" type="FixedString" value="6f1658a0-1e0e-4d15-8b1f-084836076f98" /> -->
+					<attribute id="MapKey" type="FixedString" value="499cd2f7-f8e7-4113-b88e-cd2779f014ee" /> origin
+					<attribute id="DisplayName" type="TranslatedString" handle="h1429461a9e974fc08d81186e487b1eebb15a" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h0f137619c053492ba560533b2fb0fb90fbgg" version="1" />
+					<attribute id="Name" type="LSString" value="WPN_HUM_Battleaxe_A_000" />
+					<attribute id="TemplateName" type="FixedString" value="7faff867-9cb3-432b-aa27-8de281b7428e" />
+					<attribute id="Stats" type="FixedString" value="WPN_KELA_Peartree_Battleaxe_2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209013" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Peartree_Basement_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="92d46de6-25f5-0ebb-80ac-35bdc2acf9ba" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="9e8ac18b-2328-4dc0-b04c-c7ee42123b5e" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-4.178657 2.172812 -7.925305" />
+							<attribute id="RotationQuat" type="fvec4" value="0.3475382 -0.1619112 0.5941135 0.7071288" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Peartree_Basement_A" />
+					<!-- <attribute id="MapKey" type="FixedString" value="d7feec84-6045-4ea5-a9bd-5f46bbe70df1" /> -->
+					<attribute id="MapKey" type="FixedString" value="49ea76bb-f3b4-4142-8ba6-69e51c6ccc5d" /> origin
+					<attribute id="Name" type="LSString" value="WPN_HUM_Greatsword_B_000" />
+					<attribute id="TemplateName" type="FixedString" value="2741505a-9d0b-4c9e-adcd-2e6339491e95" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hf56ad34f247147fd81865aa12b3c202293d7" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h0f137619c053492ba560533b2fb0fb90fbgg" version="1" />
+					<attribute id="Stats" type="FixedString" value="WPN_KELA_Peartree_Greatsword_2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209013" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Peartree_Basement_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="92d46de6-25f5-0ebb-80ac-35bdc2acf9ba" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="9e8ac18b-2328-4dc0-b04c-c7ee42123b5e" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-4.867862 3.287359 -7.780279" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.5534608 0 0.8328752" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Peartree_Basement_A" />
+					<!-- <attribute id="MapKey" type="FixedString" value="36721fa5-8130-401d-9722-fd29e2222555" /> -->
+					<attribute id="MapKey" type="FixedString" value="6bf88bed-5990-43d9-bda4-9ade4e0efdf7" /> origin
+					<attribute id="Name" type="LSString" value="WPN_HUM_Greataxe_A_000" />
+					<attribute id="TemplateName" type="FixedString" value="ce8a894c-3dc6-48dc-bb8f-af5390890d43" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hf11c9e99d4c94e95b2b533cc9f79588fgf1d" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h0f137619c053492ba560533b2fb0fb90fbgg" version="1" />
+					<attribute id="Stats" type="FixedString" value="WPN_KELA_Peartree_Greataxe_2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209013" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Peartree_Basement_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="92d46de6-25f5-0ebb-80ac-35bdc2acf9ba" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="9e8ac18b-2328-4dc0-b04c-c7ee42123b5e" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-3.155979 1.85663 -13.43681" />
+							<attribute id="RotationQuat" type="fvec4" value="-0.4493849 -0.007384156 0.8929536 0.02515182" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Peartree_Basement_A" />
+					<!-- <attribute id="MapKey" type="FixedString" value="99385979-6632-4e89-9194-a9beeea17284" /> -->
+					<attribute id="MapKey" type="FixedString" value="992a3797-ea8c-4e47-a6e9-119e8dd5d554" /> origin
+					<attribute id="Name" type="LSString" value="WPN_HUM_Dagger_B_000" />
+					<attribute id="TemplateName" type="FixedString" value="c68026c8-8af9-4a05-b77a-246a01bafe61" />
+					<attribute id="DisplayName" type="TranslatedString" handle="ha757e2b3dae4415ab3df6a9a20fb6877675d" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h0f137619c053492ba560533b2fb0fb90fbgg" version="1" />
+					<attribute id="Stats" type="FixedString" value="WPN_KELA_Peartree_Dagger_2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209013" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Peartree_Basement_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="92d46de6-25f5-0ebb-80ac-35bdc2acf9ba" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="9e8ac18b-2328-4dc0-b04c-c7ee42123b5e" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-2.244678 2.735597 -12.6645" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.4259105 0 0.9047654" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Peartree_Basement_A" />
+					<!-- <attribute id="MapKey" type="FixedString" value="186b5476-009e-47b6-8932-daa78524a6b3" /> -->
+					<attribute id="MapKey" type="FixedString" value="b5b07a6c-1855-422e-ad41-863f02a292c6" /> origin
+					<attribute id="Name" type="LSString" value="WPN_HUM_Javelin_A_000" />
+					<attribute id="TemplateName" type="FixedString" value="d8461adb-44f5-49b3-87ff-ea652f6d4081" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb0925dcae11f40c19558090d46571d28413a" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h0f137619c053492ba560533b2fb0fb90fbgg" version="1" />
+					<attribute id="Stats" type="FixedString" value="WPN_KELA_Peartree_Javelin_2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209013" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Peartree_Basement_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="92d46de6-25f5-0ebb-80ac-35bdc2acf9ba" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="9e8ac18b-2328-4dc0-b04c-c7ee42123b5e" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-4.804531 2.374607 -8.185405" />
+							<attribute id="RotationQuat" type="fvec4" value="0.5758331 -0.4697141 0.4407827 0.5034834" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Peartree_Basement_A" />
+					<!-- <attribute id="MapKey" type="FixedString" value="9bc8f270-2206-4d6e-8a15-0e9848e7fe50" /> -->
+					<attribute id="MapKey" type="FixedString" value="ee0d985d-8ad4-4b05-9128-cd6d67691653" /> origin
+					<attribute id="Name" type="LSString" value="WPN_HUM_Longsword_A_000" />
+					<attribute id="TemplateName" type="FixedString" value="e3b2adb6-7493-466e-9c65-4281fb74e83f" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h16a1a00745a741629dc6011baaa618b37b5a" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h0f137619c053492ba560533b2fb0fb90fbgg" version="1" />
+					<attribute id="Stats" type="FixedString" value="WPN_KELA_Peartree_Longsword_2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209013" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Peartree_Basement_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="92d46de6-25f5-0ebb-80ac-35bdc2acf9ba" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="9e8ac18b-2328-4dc0-b04c-c7ee42123b5e" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-4.720496 3.563966 -7.853315" />
+							<attribute id="RotationQuat" type="fvec4" value="0 -0.5535958 0 0.8327855" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Peartree_Basement_A" />
+					<!-- <attribute id="MapKey" type="FixedString" value="ae90cb8e-ad3e-468a-ba17-bbfbf7c25a34" /> -->
+					<attribute id="MapKey" type="FixedString" value="9ebca31a-ca5c-4d8c-8cbf-260866b05e4f" /> origin
+					<attribute id="Name" type="LSString" value="WPN_HUM_Shortsword_A_101" />
+					<attribute id="TemplateName" type="FixedString" value="0839fb15-24ab-4c3a-b168-413a47ed710a" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h34b73e5944054837b6a4c5eb084733551c60" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h0f137619c053492ba560533b2fb0fb90fbgg" version="1" />
+					<attribute id="Stats" type="FixedString" value="WPN_KELA_Peartree_Shortsword_2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209013" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Peartree_Basement_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="92d46de6-25f5-0ebb-80ac-35bdc2acf9ba" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="9e8ac18b-2328-4dc0-b04c-c7ee42123b5e" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-6.839302 2.519227 -7.936947" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0.04256142 0 0.9990939" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Peartree_Basement_A" />
+					<!-- <attribute id="MapKey" type="FixedString" value="e31d8a38-7318-4a3d-8fe9-d37b7cb01873" /> -->
+					<attribute id="MapKey" type="FixedString" value="cf39e0e2-e565-42aa-99ea-05f0b73a88cc" /> origin
+					<attribute id="Name" type="LSString" value="WPN_HUM_Longbow_A_001" />
+					<attribute id="TemplateName" type="FixedString" value="118967f7-14de-41fa-bec8-3ba383252e9a" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h08f49419fc964c179496add43d747f5e4745" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h0f137619c053492ba560533b2fb0fb90fbgg" version="1" />
+					<attribute id="Stats" type="FixedString" value="WPN_KELA_Peartree_Longbow_2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209013" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Peartree_Basement_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="92d46de6-25f5-0ebb-80ac-35bdc2acf9ba" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="9e8ac18b-2328-4dc0-b04c-c7ee42123b5e" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-6.670306 3.612945 -7.633031" />
+							<attribute id="RotationQuat" type="fvec4" value="-0.490409 0.5094095 0.50941 -0.4904105" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Peartree_Basement_A" />
+					<!-- <attribute id="MapKey" type="FixedString" value="2db80a86-4b68-4f90-a737-44c5e4f90ce1" /> -->
+					<attribute id="MapKey" type="FixedString" value="da5d2072-c7cd-4155-ae9d-7488c531e187" /> origin
+					<attribute id="Name" type="LSString" value="WPN_HUM_Shortbow_A_000" />
+					<attribute id="TemplateName" type="FixedString" value="d9a98dce-1027-4324-939c-3c9cfe776731" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd99c218988d74fcba3c1f963872fc7f58g88" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h0f137619c053492ba560533b2fb0fb90fbgg" version="1" />
+					<attribute id="Stats" type="FixedString" value="WPN_KELA_Peartree_Shortbow_2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209013" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Peartree_Basement_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="92d46de6-25f5-0ebb-80ac-35bdc2acf9ba" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="9e8ac18b-2328-4dc0-b04c-c7ee42123b5e" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-7.089671 2.519227 -7.900357" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Peartree_Basement_A" />
+					<!-- <attribute id="MapKey" type="FixedString" value="4192c72a-3f19-41dd-8d30-28a214e75a9f" /> -->
+					<attribute id="MapKey" type="FixedString" value="f43a4308-ff0c-41ce-8974-a2f5ba90c1c8" /> origin
+					<attribute id="Name" type="LSString" value="WPN_HUM_Shortbow_A_002" />
+					<attribute id="TemplateName" type="FixedString" value="d9a98dce-1027-4324-939c-3c9cfe776731" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd99c218988d74fcba3c1f963872fc7f58g88" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h0f137619c053492ba560533b2fb0fb90fbgg" version="1" />
+					<attribute id="Stats" type="FixedString" value="WPN_KELA_Peartree_Shortbow_2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209013" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Peartree_Basement_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="92d46de6-25f5-0ebb-80ac-35bdc2acf9ba" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="9e8ac18b-2328-4dc0-b04c-c7ee42123b5e" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-6.271785 2.519227 -7.917732" />
+							<attribute id="RotationQuat" type="fvec4" value="0 0 0 1" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Peartree_Basement_A" />
+					<!-- <attribute id="MapKey" type="FixedString" value="b0503034-d67f-4a6c-b1e4-f13acc154c35" /> -->
+					<attribute id="MapKey" type="FixedString" value="590cea54-dc9a-47f0-b809-50dfede7cf0d" /> origin
+					<attribute id="Name" type="LSString" value="WPN_HUM_Shield_E_000" />
+					<attribute id="TemplateName" type="FixedString" value="89792dc1-221b-462e-adcb-026f2cafbb95" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hd19ca53c778d41f6af4c7cf302b3c79f60g9" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h545e1c0d6cd240b2b094f67758e8a49181cd" version="1" />
+					<attribute id="Stats" type="FixedString" value="WPN_KELA_Peartree_Shield_E" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209013" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Peartree_Basement_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="92d46de6-25f5-0ebb-80ac-35bdc2acf9ba" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="9e8ac18b-2328-4dc0-b04c-c7ee42123b5e" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-1.967459 2.331267 -14.44079" />
+							<attribute id="RotationQuat" type="fvec4" value="-0.3913834 0.3899775 0.2654296 0.7901163" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="CTY_Peartree_Basement_A" />
+					<!-- <attribute id="MapKey" type="FixedString" value="d5c9717b-1ae6-4dd1-b1af-3a9817cc5236" /> -->
+					<attribute id="MapKey" type="FixedString" value="8a24e9f5-3dae-4f69-918b-e91724c56e09" /> origin
+					<attribute id="Name" type="LSString" value="WPN_HUM_Shield_A_001" />
+					<attribute id="TemplateName" type="FixedString" value="d2af60ea-1b72-4d25-a188-6d8bc4fe255b" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h06332ed23fce4c5087dbff0b7a0a3772713c" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h545e1c0d6cd240b2b094f67758e8a49181cd" version="1" />
+					<attribute id="Stats" type="FixedString" value="WPN_KELA_Peartree_Shield_A" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209013" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="CTY_Peartree_Basement_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="cb2d6c27-ec29-4555-adf2-41e8c1952439" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="9e8ac18b-2328-4dc0-b04c-c7ee42123b5e" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-2.021144 2.105594 -13.77697" />
+							<attribute id="RotationQuat" type="fvec4" value="0.01739301 0.03005522 0.5005765 0.8649956" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+
+
+
+			</children>
+		</node>
+	</region>
+</save>

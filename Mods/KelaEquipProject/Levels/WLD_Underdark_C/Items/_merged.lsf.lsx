@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+
+				<!-- Обветшалая деревня -->
+				<!-- Силовая кирка -->
+				<node id="GameObjects">
+					<attribute id="ConstellationConfigName" type="FixedString" value="PerceptionHelper" />
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GravityType" type="uint8" value="1" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Underdark_C" />
+					<attribute id="MapKey" type="FixedString" value="a452e276-53c1-4b78-b502-d035521f5492" /> kelamor
+					<attribute id="Name" type="LSString" value="WPN_MinePickaxe_Power_001" />
+					<attribute id="TemplateName" type="FixedString" value="e1dd6933-12c2-4d5c-a926-d483bd64da44" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209020" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Underdark_C" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="13cf13e4-8ab7-1ac8-2699-a103272335ff" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="ConstellationConfigGlobalParameters">
+							<children>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="MaxRadius" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="double">
+																	<attribute id="double" type="double" value="3" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="DC" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<!-- <attribute id="String" type="LSString" value="HiddenPerception_Medium_cd1800ab-1b11-4c7a-9f50-fdeb8d35481f" /> -->
+																	<attribute id="String" type="LSString" value="Act1_HiddenPerception_Easy_10a7c9ba-bc09-4c30-8cfc-ce0c6766fac7" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="Type" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="Interactable" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-32.55472 13.03 13.80087" />
+							<attribute id="RotationQuat" type="fvec4" value="0.2138544 0.7042096 -0.6739928 0.06394475" />
+							<attribute id="Scale" type="float" value="1" />
+						</node>
+					</children>
+				</node>
+				<!-- Скрываем старую кирку -->
+				<node id="GameObjects">
+					<attribute id="CanShootThrough" type="bool" value="False" />
+					<attribute id="FadeGroup" type="FixedString" value="" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="GravityType" type="uint8" value="1" />
+					<attribute id="GroupID" type="uint32" value="29718" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Underdark_C" />
+					<attribute id="MapKey" type="FixedString" value="061e6811-94a0-4087-9e72-1a7c2c67d076" />
+					<attribute id="Name" type="LSString" value="TOOL_GEN_Mine_Pickaxe_A_004" />
+					<attribute id="TemplateName" type="FixedString" value="8693aa7e-cd47-4990-80e7-51041f036400" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209020" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_Underdark_C" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="13cf13e4-8ab7-1ac8-2699-a103272335ff" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="-32.55472 13.03 13.80087" />
+							<attribute id="RotationQuat" type="fvec4" value="0.2138544 0.7042096 -0.6739928 0.06394475" />
+							<attribute id="Scale" type="float" value="0.001" />
+						</node>
+					</children>
+				</node>
+
+
+
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="900" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+
+				<!-- Кольцо Гаргота из гробницы Хуннов -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h493ff0b080984eeda1b22989f33cf09d9g44" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h25ea51cc6c0d48ffacccb3686bd3962ad446" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="81b1f7cf-4b41-4132-ae81-b2fe8af6dc99" />
+					<attribute id="Name" type="LSString" value="MAG_Gargot_Ring" />
+					<attribute id="ParentTemplateId" type="FixedString" value="5b22795e-8193-4933-98f9-9667d6f60b53" />
+					<attribute id="Stats" type="FixedString" value="MAG_Gargot_Ring" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+				</node>
+
+				<!-- Селунитский амулет, напоенный кровью пикси -->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h1463150fc7774f50b7a59cd4d89a39e3491d" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h3bf1621b18e34b7c81975e406559fff2b117" version="1" />
+					<attribute id="DropSound" type="FixedString" value="a77249ac-7929-43de-b1a2-9690a7a71024" />
+					<attribute id="EquipSound" type="FixedString" value="c0c9b3e7-b3bc-2cbc-9de5-0a148cb098cc" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Amulet_Selune_A" />
+					<attribute id="ImpactSound" type="FixedString" value="439fcec3-6032-f489-6e80-260d26fab23d" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="a77249ac-7929-43de-b1a2-9690a7a71024" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="00c06411-8621-45fc-a4d7-0849f8b8011d" /> 
+					<attribute id="Name" type="LSString" value="ARM_KELA_Amulet_Selune_Pixi" />
+					<attribute id="ParentTemplateId" type="FixedString" value="303990e3-5546-44a3-9c5a-f9aa1702ad51" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="f7b83f0e-0757-a0f5-b01c-67cb198a831f" />
+					<attribute id="PickupSound" type="FixedString" value="92550df7-e13e-4474-8a7e-a59825eaa805" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Stats" type="FixedString" value="ARM_KELA_Amulet_Selune_Pixi" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="UnequipSound" type="FixedString" value="f69d46c0-213b-038a-5281-9533b61dca7b" />
+					<attribute id="VisualTemplate" type="FixedString" value="ca07a2d6-a73d-b9b7-bf51-fe5b688cd11d" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.09182636 0.02623955 0.08460009" />
+									<attribute id="Min" type="fvec3" value="-0.095908 -0.001186157 -0.1981805" />
+									<attribute id="Radius" type="float" value="0.2165065" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.09182636 0.02623955 0.08460009" />
+									<attribute id="Min" type="fvec3" value="-0.095908 -0.001186157 -0.1981805" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.09182636 0.02623955 0.08460009" />
+									<attribute id="Min" type="fvec3" value="-0.095908 -0.001186157 -0.1981805" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<!-- Замена амулета Селунэ, для возможности создания амулета пикси -->
+				<node id="GameObjects">
+					<attribute id="Description" type="TranslatedString" handle="h2c40d858gb6f9g4456ga239gb42336f2772b" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hc0a000bagd694g4804gb2efgaec38a51e02f" version="2" />
+					<attribute id="DropSound" type="FixedString" value="a77249ac-7929-43de-b1a2-9690a7a71024" />
+					<attribute id="EquipSound" type="FixedString" value="c0c9b3e7-b3bc-2cbc-9de5-0a148cb098cc" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Amulet_Selune_B" />
+					<attribute id="ImpactSound" type="FixedString" value="439fcec3-6032-f489-6e80-260d26fab23d" />
+					<attribute id="InventoryMoveSound" type="FixedString" value="a77249ac-7929-43de-b1a2-9690a7a71024" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="50777efe-56f5-4b51-9998-576985e5f0b8" />
+					<attribute id="Name" type="LSString" value="LOOT_GEN_Amulet_Selune_A" />
+					<attribute id="ParentTemplateId" type="FixedString" value="303990e3-5546-44a3-9c5a-f9aa1702ad51" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="f7b83f0e-0757-a0f5-b01c-67cb198a831f" />
+					<attribute id="PickupSound" type="FixedString" value="92550df7-e13e-4474-8a7e-a59825eaa805" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="Stats" type="FixedString" value="ARM_KELA_Amulet_Selune" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="UnequipSound" type="FixedString" value="f69d46c0-213b-038a-5281-9533b61dca7b" />
+					<attribute id="VisualTemplate" type="FixedString" value="ca07a2d6-a73d-b9b7-bf51-fe5b688cd11d" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.09182636 0.02623955 0.08460009" />
+									<attribute id="Min" type="fvec3" value="-0.095908 -0.001186157 -0.1981805" />
+									<attribute id="Radius" type="float" value="0.2165065" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.09182636 0.02623955 0.08460009" />
+									<attribute id="Min" type="fvec3" value="-0.095908 -0.001186157 -0.1981805" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.09182636 0.02623955 0.08460009" />
+									<attribute id="Min" type="fvec3" value="-0.095908 -0.001186157 -0.1981805" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="OnUsePeaceActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="23" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="CombineSlots" type="int8" value="2" />
+											<attribute id="IsBase" type="bool" value="True" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+				<!-- Амулеты Абсолют, нужные статы -->
+				<node id="GameObjects">
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Description" type="TranslatedString" handle="h80c18d9cg78e9g4b54g958egf613f54bf2f8" version="3" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hfd6df087g2e4bg4c85ga815gcbe68c4c3c5b" version="2" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Amulet_Absolute_A" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="0b30d06e-5bd4-45e5-bb89-a0b167e06d06" />
+					<attribute id="Name" type="LSString" value="LOOT_GEN_Amulet_Absolute_A" />
+					<attribute id="ParentTemplateId" type="FixedString" value="303990e3-5546-44a3-9c5a-f9aa1702ad51" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="68df2e08-b66c-0c3b-cea2-7061d711e50f" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="GOB_Priest_Amulet_A" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="603b0fe3-e8cd-e112-c0bd-eccdb77dc57e" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855913" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.08591095 0.02816016 0.09820241" />
+									<attribute id="Min" type="fvec3" value="-0.09164116 1.192465E-05 -0.2637051" />
+									<attribute id="Radius" type="float" value="0.2165065" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.08591095 0.02816016 0.09820241" />
+									<attribute id="Min" type="fvec3" value="-0.09164116 1.192465E-05 -0.2637051" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.08591095 0.02816016 0.09820241" />
+									<attribute id="Min" type="fvec3" value="-0.09164116 1.192465E-05 -0.2637051" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Amulet_Absolute_B" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="b933c594-f953-4de6-85a9-65c2ed3a2a0c" />
+					<attribute id="Name" type="LSString" value="LOOT_GEN_Amulet_Absolute_B" />
+					<attribute id="ParentTemplateId" type="FixedString" value="0b30d06e-5bd4-45e5-bb89-a0b167e06d06" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="68df2e08-b66c-0c3b-cea2-7061d711e50f" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="Stats" type="FixedString" value="GOB_Priest_Amulet_B" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="3330b6ae-4f8f-bfbf-5854-e383527a2604" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855919" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.08591095 0.02816016 0.09820241" />
+									<attribute id="Min" type="fvec3" value="-0.09164116 1.192465E-05 -0.2637051" />
+									<attribute id="Radius" type="float" value="0.2165065" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="0" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.08591095 0.02816016 0.09820241" />
+									<attribute id="Min" type="fvec3" value="-0.09164116 1.192465E-05 -0.2637051" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="1" />
+								</node>
+								<node id="Bound">
+									<attribute id="Height" type="float" value="1" />
+									<attribute id="Max" type="fvec3" value="0.08591095 0.02816016 0.09820241" />
+									<attribute id="Min" type="fvec3" value="-0.09164116 1.192465E-05 -0.2637051" />
+									<attribute id="Radius" type="float" value="0.433013" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Type" type="uint8" value="2" />
+								</node>
+							</children>
+						</node>
+						<node id="GameMaster" />
+					</children>
+				</node>
+
+				<!-- Перстень Велиота -->
+				<node id="GameObjects">
+					<attribute id="DisplayName" type="TranslatedString" handle="h7f9c7b52b7ff43adb1b2f08e54cd2a4351ec" version="1" />
+					<attribute id="Description" type="TranslatedString" handle="h2770bb65511b45bf97215325151fd4635b1e" version="1" />
+					<attribute id="Icon" type="FixedString" value="Item_UNI_LOW_SzarrRing" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="059eb57e-08d3-4846-87ba-d311e6dd3b4d" />
+					<attribute id="Name" type="LSString" value="UNI_LOW_Vellioth" />
+					<attribute id="ParentTemplateId" type="FixedString" value="a631b70a-22e9-4e2c-bb07-2164c2beb5d0" />
+					<attribute id="Stats" type="FixedString" value="UNI_LOW_Vellioth" />
+					<attribute id="StoryItem" type="bool" value="False" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="VisualTemplate" type="FixedString" value="96a2f7dd-0ec5-c221-1ca6-f99f68c3014f" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
+					<children>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="VELLIOTH_RING_TECHNICAL_AURA" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+
+			</children>
+		</node>
+	</region>
+</save>
