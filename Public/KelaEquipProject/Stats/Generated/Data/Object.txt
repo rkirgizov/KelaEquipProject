@@ -2,7 +2,7 @@
 // Разное
 ////////////////////////////////////////////////////////
 
-// Чере Велиота
+// Череп Велиота
 new entry "OBJ_Vellioth_Crypt_Skull"
 type "Object"
 using "_BaseItem"
