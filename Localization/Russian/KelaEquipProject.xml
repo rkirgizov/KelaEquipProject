@@ -12,8 +12,8 @@
 	
     <!-- Оружие -->
 	<!-- Любимый молоток кузнеца, не сделан чертёж -->
-   	<content contentuid="h512e0c4eb53e4fee8688b8fdced9ce503b2d" version="1">Любимый молоток кузнеца</content>
-    <content contentuid="he3d7cf3ed8124a30a150be1ce3fcca62bc42" version="1">Кузнец, создавший форму и рецепт такого молотка, наверно, был очень опытным и любил своё дело. &lt;br&gt;Молоток легче, чем обычно, и с отличной балансировкой, но в нём чувствуется сила возможного удара.</content>
+   	<content contentuid="h512e0c4eb53e4fee8688b8fdced9ce503b2d" version="1">Любимый молот кузнеца</content>
+    <content contentuid="he3d7cf3ed8124a30a150be1ce3fcca62bc42" version="1">Очевидно, что это молот очень опытного кузнеца. &lt;br&gt;Он легче, чем обычно, с отличной балансировкой, и в нём чувствуется сила возможного удара.</content>
     
 	<!-- Силовая кирка -->
     <content contentuid="hed82986680894ababbdfe80155dc96f7ea15" version="1">Силовая кирка</content>
@@ -41,10 +41,10 @@
     <content contentuid="h3178aa65711f4ada8952a04027145a80cg3c" version="1">Щит Олама</content>
     <content contentuid="hf034e7c64f1c4d2a89a987473b0d270107f9" version="1">Этот щит весь покрыт вмятинами и зазубринами, но он напоен магией, которой Олам его напитал в отчаянных попытках спастись от Теней.</content>
 	<content contentuid="hf13524bd47884d0b9f60cf81669954563670" version="1">Защита от зла</content>
-    <content contentuid="ha4e5aa0f16584ab692911ee716b3e910562b" version="1">Цель защищена от аберраций, фей, бестий, нежити и существ, сотканных из тени. &lt;LSTag Tooltip="AttackRoll"&gt;Броски атаки&lt;/LSTag&gt; таких существ по цели получают &lt;LSTag Tooltip="Disadvantage"&gt;помеху&lt;/LSTag&gt;.</content>
+    <content contentuid="ha4e5aa0f16584ab692911ee716b3e910562b" version="1">Цель защищена от бестий, нежити и существ, сотканных из тени. &lt;LSTag Tooltip="AttackRoll"&gt;Броски атаки&lt;/LSTag&gt; таких существ по цели получают &lt;LSTag Tooltip="Disadvantage"&gt;помеху&lt;/LSTag&gt;.</content>
     <content contentuid="h04bab7e48e6343c188926a739b25b811687e" version="1">Щит Олама: сияет</content>
     <content contentuid="hb1f8bcb5b07b402394122ec4c905ccad9fea" version="1">Свет надежды</content>
-    <content contentuid="h5d8c0965b61e43eb83bd8f20cdd649315260" version="1">Получает &lt;LSTag Type="Status" Tooltip="PROTECTION_FROM_EVIL"&gt;защиту от зла&lt;/LSTag&gt; и бонус [1] к атаке в ближнем бою против освещённых врагов, а также &lt;LSTag Tooltip="Advantage"&gt;преимущество&lt;/LSTag&gt; при &lt;LSTag Tooltip="AttackRoll"&gt;бросках атаки &lt;/LSTag&gt; против аберраций, фей, бестий, нежити и существ, сотканных из тени.</content>
+    <content contentuid="h5d8c0965b61e43eb83bd8f20cdd649315260" version="1">Получает &lt;LSTag Type="Status" Tooltip="PROTECTION_FROM_EVIL"&gt;защиту от зла&lt;/LSTag&gt; и бонус [1] к атаке в ближнем бою против освещённых врагов, а также &lt;LSTag Tooltip="Advantage"&gt;преимущество&lt;/LSTag&gt; при &lt;LSTag Tooltip="AttackRoll"&gt;бросках атаки &lt;/LSTag&gt; против бестий, нежити и существ, сотканных из тени.</content>
 
 	<!-- Амулеты Абсолют -->
     <content contentuid="ha168ea5a660e495881d1f5a48639c079bc90" version="1">Связь клеймёных</content>
@@ -63,7 +63,7 @@
     <content contentuid="h13277cec238d40979c7a1ca9b57878bafc08" version="1">Обмани меня</content>
     <content contentuid="h09e5bc5e7a4b4bcfb444f2281495c71827g4" version="1">&lt;LSTag Tooltip="Charisma"&gt;Харизма&lt;/LSTag&gt; увеличивается на [1], вплоть до [2]. Кроме того, владелец получает &lt;LSTag Tooltip="Advantage"&gt;преимущество&lt;/LSTag&gt; при попытках обмана тех, чья харизма меньше его, в противном случае проверка на обман будет с &lt;LSTag Tooltip="Disadvantage"&gt;помехой&lt;/LSTag&gt;.</content>
     <content contentuid="ha9952c41fdd343f8896a144616d4955202c1" version="1">Защита Лорда</content>
-    <content contentuid="h28fc24f214da4356b12a044cbd0024a6e933" version="1">Каждый, кто нанесёт владельцу урон в ближнем бою, должен успешно пройти  &lt;LSTag Tooltip="SavingThrow"&gt;испытание&lt;/LSTag&gt; &lt;LSTag Tooltip="Charisma"&gt;харизмы&lt;/LSTag&gt; с &lt;LSTag Tooltip="DifficultyClass"&gt;КС&lt;/LSTag&gt; равным харизме владельца, иначе подпадёт под его &lt;LSTag Type="Status" Tooltip="CHARM_GARROT"&gt;влияние&lt;/LSTag&gt; на [1] хода. &lt;br&gt;Атаки владельца по всем очарованным врагам будут проходить с &lt;LSTag Tooltip="Advantage"&gt;преимуществом&lt;/LSTag&gt;.</content>
+    <content contentuid="h28fc24f214da4356b12a044cbd0024a6e933" version="1">Если гуманоид наносит владельцу урон в ближнем бою, он должен успешно пройти  &lt;LSTag Tooltip="SavingThrow"&gt;испытание&lt;/LSTag&gt; &lt;LSTag Tooltip="Charisma"&gt;харизмы&lt;/LSTag&gt; с &lt;LSTag Tooltip="DifficultyClass"&gt;КС&lt;/LSTag&gt; равным харизме владельца, иначе подпадёт под его &lt;LSTag Type="Status" Tooltip="CHARM_GARROT"&gt;влияние&lt;/LSTag&gt; на [1] хода. Атаки владельца по всем очарованным врагам будут проходить с &lt;LSTag Tooltip="Advantage"&gt;преимуществом&lt;/LSTag&gt;.</content>
     <content contentuid="h06fb21dd2bd9486d93579e98953c8a4f529c" version="1">Влияние Лорда</content>
     <content contentuid="hf4f0e56004f045e782700ebef7f7409a6edc" version="1">Существо попало под ваше влияние и не может атаковать вас каким-либо образом. При получении урона эффект снимается.</content>
 
@@ -114,11 +114,24 @@
 
     <!-- Кольцо Велиота -->
     <content contentuid="h7f9c7b52b7ff43adb1b2f08e54cd2a4351ec" version="1">Перстень Велиота</content>
-    <content contentuid="h2770bb65511b45bf97215325151fd4635b1e" version="1">Перстень Велиота, одного из величайших вампиров, правившего кланом Врат Балдура до Кассадора Зарра. Сила перстня доступна только усвоившим его уроки.</content>
+    <content contentuid="h2770bb65511b45bf97215325151fd4635b1e" version="1">Перстень Велиота, одного из величайших вампиров, правившего кланом Врат Балдура до Касадора Зарра. На внутренней стороне гравировка "В чём сила...".</content>
+    <!-- Пассивка -->
     <content contentuid="hd38d6e6d06da4754b153da55da68bef53g91" version="1">Уроки Велиота</content>
-    <content contentuid="h80246f0d3a4448be87cb8c24354b7bfd73bf" version="1">Усвоивший уроки Велиота получает бонус к мудрости и интеллекту [1], но не более [2].</content>
-    <content contentuid="hf5c7233230024d598d301d7892bc132e3ecb" version="1">Познавший</content>
-    <content contentuid="h2bcb048b52054b60893cb3ac79410c95b8b2" version="1">Выучивший уроки Велиота получает бонус к мудрости и интеллекту [1], но не более [2].</content>
+    <content contentuid="h80246f0d3a4448be87cb8c24354b7bfd73bf" version="1">Усвоивший уроки Велиота овладевает всей силой перстня, а также получает преимущество в испытаниях и бонус [1], но не более [2], к мудрости и интеллекту.</content>
+    <content contentuid="h2bcb048b52054b60893cb3ac79410c95b8b2" version="1">Глупец, надевший перстень Велиота без должной подготовки, получает лишь крохи настоящей мощи перстня, а также помехи в испытаниях и штраф [1] к мудрости и интеллекту.</content>
+    <content contentuid="h39e70e976ce24372a3d06d9e6bc5dba3747g" version="1">Здоровье Велиота</content>
+    <content contentuid="hde04409920454925ac1d82680685357db1ab" version="1">Носящий перстень Велиота увеличивает здоровье на [1], а также восстанавливает [2] в начале своего хода, если не находится на солнечном свету и не получал лучистого урона или урона от святой воды.</content>
+    <content contentuid="h003f1b6947ef4d248b1a572bd85abc9bce9e" version="1">Неприкасаемость Велиота</content>
+    <content contentuid="h7cf26438559b4d0c8235ea28c2245087bc40" version="1">Носящий перстень Велиота получает слабые заклинания Полёта, Туманного бегства, Подчинения гуманоида.</content>    
+    <content contentuid="h91514502abc944e6a18d0692c6ff7f84d7ag" version="1">Носящий перстень Велиота получает дополнительное действие и мощные заклинания Полёта, Туманного бегства, Подчинения гуманоида.</content>    
+    <!-- Заклинания -->
+   	<content contentuid="hcf933ac19c224376ad60f9f72a734152cc2c" version="1">Превратиться в крошечное облако тумана. Оно не может упасть и способно просачиваться через крохотные проходы. Ему очень сложно нанести урон. Враги в пределах [1] от облачка могут оказаться &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;ослеплены&lt;/LSTag&gt; и получают [2] в начале хода владельца перстня Велиота.</content>
+
+    <!-- Ключ от сейфа Касадора -->
+    <content contentuid="h3e4fa9e0864b4f0a98c614b9cb13af88fd1g" version="1">Изящный ключ</content>
+    <content contentuid="h42a9f5d7b8004d13b3285f7d8041f2d79899" version="1">Изящный небольшой ключ, похоже, что от какого-то сейфа. Надо найти, что он открывает. &lt;br&gt;С одной стороны ключа выгравировано сразу два символа семьи Зарр...</content>
+
+
 
 	<!-- ПАССИВКИ -->
 	<content contentuid="h405fc3ceg7adag499bgb860g76fce3dfc4df" version="1">Владелец, имеющий клеймо Абсолют, получает бонус +[1] к &lt;LSTag Tooltip="SavingThrow"&gt;испытаниям&lt;/LSTag&gt;, +[2] к КБ.</content>
@@ -143,5 +156,5 @@
 
 
 
-	
+
 </contentList>

@@ -39,7 +39,7 @@ new entry "ARM_KELA_Gloves_Surgeon"
     data "Rarity" "Rare"
     data "Unique" "1"
 
-// Щит в морге возле дома целителей
+// Щит Олама в морге возле дома целителей
 // SO_Shield_1d8_1_Passive пассивка из ShieldsOverhaul, должно работать, если он стоит
 new entry "WPN_KELA_Olams_Shadow_Protection_Shield"
     type "Armor"
@@ -125,15 +125,20 @@ new entry "UNI_LOW_SzarrRing"
     type "Armor"
     using "ARM_Ring_C_Gold_A"
     data "RootTemplate" "846d27b5-c247-4049-9872-86171c172015"
-    data "StatusOnEquip" "SZARRRING_TECHNICAL"
+    data "StatusOnEquip" "SZARRRING_TECHNICAL_1"
+new entry "UNI_LOW_SzarrRing_Godey"
+    type "Armor"
+    using "ARM_Ring_C_Gold_A"
+    data "RootTemplate" "846d27b5-c247-4049-9872-86171c172015"
+    data "StatusOnEquip" "SZARRRING_TECHNICAL_2"
 
 // Перстень Велиота
 new entry "UNI_LOW_Vellioth"
     type "Armor"
     using "_Ring_Magic"
     data "RootTemplate" "059eb57e-08d3-4846-87ba-d311e6dd3b4d"
-    data "ValueScale" "20.0"
-    data "Rarity" "VeryRare"
+    data "ValueScale" "30.0"
+    data "Rarity" "Legendary"
     data "UseConditions" ""
-    data "PassivesOnEquip" ""
+    data "PassivesOnEquip" "UNI_LOW_Vellioth_Ring_Passive;UNI_LOW_Vellioth_Ring_Passive_Technical;Alert"
     data "Unique" "1"

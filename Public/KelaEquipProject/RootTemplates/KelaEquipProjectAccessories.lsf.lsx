@@ -256,6 +256,7 @@
 
 				<!-- Перстень Велиота -->
 				<node id="GameObjects">
+					<!-- <attribute id="ConstellationConfigName" type="FixedString" value="WieldedOrDroppedStatus" /> -->
 					<attribute id="DisplayName" type="TranslatedString" handle="h7f9c7b52b7ff43adb1b2f08e54cd2a4351ec" version="1" />
 					<attribute id="Description" type="TranslatedString" handle="h2770bb65511b45bf97215325151fd4635b1e" version="1" />
 					<attribute id="Icon" type="FixedString" value="Item_UNI_LOW_SzarrRing" />
@@ -269,6 +270,30 @@
 					<attribute id="VisualTemplate" type="FixedString" value="96a2f7dd-0ec5-c221-1ca6-f99f68c3014f" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209024" />
 					<children>
+						<!-- <node id="ConstellationConfigGlobalParameters">
+							<children>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="Status" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="VELLIOTH_RING_TECHNICAL_AURA" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node> -->
 						<node id="StatusList">
 							<children>
 								<node id="Status">

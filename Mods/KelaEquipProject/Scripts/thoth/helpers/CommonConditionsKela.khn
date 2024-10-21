@@ -6,25 +6,26 @@ function StrengthEqualOrGreaterThan(value, entity)
     return ConditionResult(entity.Strength >= value, errorFalse, errorTrue)
 end
 
-function HasNotSummonWithinRange(distance)
-    distance = distance or 1.5
+function HasAnyHasteNoBloodlust(entity)
+    local entity = entity or context.Source
+    local isHasAnyHasteNoBloodlust = HasAnyStatus({'HASTE','LONGSTRIDER','POTION_OF_SPEED','MAG_CELESTIAL_HASTE','HASTE_SURFACE', 'CONS_DRUG_STIMULANT','TAD_MIND_SANCTUARY_HASTE'}, {}, {}, entity)
+    return ConditionResult(isHasAnyHasteNoBloodlust)
+end
 
-    local allies = GetAlliesWithinRange(distance, context.Source)
+function HasAllyWithoutSummonWithinRange(distance, target, source)
+    distance = distance or 1.5
+    target = target or context.Target
+    source = source or context.Source
+
+    local allies = GetAlliesWithinRange(distance, target, source)
     if allies ~= nil then
         for _, entity in ipairs(allies.Allies) do
-
-            local isAllySummon = Tagged('SUMMON',entity) | Tagged('SUMMONWITHOUTMOUTH',entity) | Tagged('INTELLECT_DEVOURER_US',entity)
-            
-            if not isAllySummon.Result then
+            local isSummon = Tagged('SUMMON',entity) or Tagged('SUMMONWITHOUTMOUTH',entity)
+            if not isSummon.Result then
                 return ConditionResult(true)
             end
         end
     end
 
     return ConditionResult(false)
-end
-
-function HasAnyHasteNoBloodlust(entity)
-    local entity = entity or context.Source
-    return HasAnyStatus({'HASTE','LONGSTRIDER','POTION_OF_SPEED','MAG_CELESTIAL_HASTE','HASTE_SURFACE', 'CONS_DRUG_STIMULANT','TAD_MIND_SANCTUARY_HASTE'}, {}, {}, entity)
 end

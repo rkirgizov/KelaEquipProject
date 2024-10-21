@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="900" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+
+				<!-- Ключ от сейфа Касадора -->
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="Description" type="TranslatedString" handle="h42a9f5d7b8004d13b3285f7d8041f2d79899" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h3e4fa9e0864b4f0a98c614b9cb13af88fd1g" version="1" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="0f510839-c02a-47e0-b077-fff073f0b210" />
+					<attribute id="Name" type="LSString" value="S_LOW_CazadorDungeonSafe_key" />
+					<attribute id="Stats" type="FixedString" value="S_LOW_CazadorDungeonSafe_key" />
+					<attribute id="Key" type="FixedString" value="CazadorDungeonSafe" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ede89af4-5416-406b-a2d2-2fdf261f98bc" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209021" />
+				</node>
+
+
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,4 +1,4 @@
-// Зарелл 
+// Зарелл, добавление амулета 
 new equipment "MOO_Executioner_Zarell"
     add initialweaponset "Melee"
     add equipmentgroup
@@ -10,7 +10,7 @@ new equipment "MOO_Executioner_Zarell"
     add equipmentgroup
     add equipment entry "GOB_Priest_Amulet_B"
 
-// Красный Молот
+// Красный Молот, добавление Красного молота
 new equipment "EQP_RedHammer"
     add initialweaponset "Melee"
     add equipmentgroup
@@ -19,3 +19,13 @@ new equipment "EQP_RedHammer"
     add equipment entry "ARM_Leather_Body"
     add equipmentgroup
     add equipment entry "ARM_Shield_1"
+
+// Касадор, добавление ключа от сейфа
+new equipment "GLO_Cazador"
+    add initialweaponset "Melee"
+    add equipmentgroup
+    add equipment entry "MAG_LC_CazadorVampiric_Quarterstaff"
+    add equipmentgroup
+    add equipment entry "UNI_LOW_SzarrRing"
+    add equipmentgroup
+    add equipment entry "S_LOW_CazadorDungeonSafe_key"

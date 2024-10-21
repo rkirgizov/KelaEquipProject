@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<!-- <node id="Transform"> -->
+				<!-- Position -->
+				<!-- <attribute id="Position" type="fvec3" value="Запад<->Восток Низ<->Верх Юг<->Север" /> -->
+				<!-- Rotation -->
+				<!-- <attribute id="RotationQuat" type="fvec4" value="0 <горизонт> 0 0.7389326" /> -->
+
+				<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+				<!-- Заброшенная деревня, подвал кузницы -->
+				<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+
+				<!-- Любимый молот кузнеца -->
+				<node id="GameObjects">
+					<attribute id="ConstellationConfigName" type="FixedString" value="PerceptionHelper" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="LevelName" type="FixedString" value="WLD_VillageSubs_C" />
+					<attribute id="MapKey" type="FixedString" value="e50f918e-2473-493f-9d52-477adc10be23" />
+					<attribute id="Name" type="LSString" value="WPN_KELA_Favorite_LightHammer_001" />
+					<attribute id="TemplateName" type="FixedString" value="a5c5616d-d7ed-4e64-aadb-2c6eaac0eed2" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="Tooltip" type="uint8" value="1" />
+					<attribute id="GravityType" type="uint8" value="2" />
+					<attribute id="Fadeable" type="bool" value="True" />
+					<attribute id="FreezeGravity" type="bool" value="False" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209019" />
+					<children>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="WLD_VillageSubs_C" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="b2873934-d483-a33d-1aac-0def9a02a341" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="ConstellationConfigGlobalParameters">
+							<children>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="MaxRadius" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="double">
+																	<attribute id="double" type="double" value="2" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="DC" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="Act1_VeryHard_8986db4d-09af-46ee-9781-ac88ec10fa0e" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+								<node id="ConstellationConfigParameter">
+									<attribute id="Name" type="LSString" value="Type" />
+									<children>
+										<node id="Value">
+											<children>
+												<node id="Scalar">
+													<children>
+														<node id="Scalar">
+															<children>
+																<node id="String">
+																	<attribute id="String" type="LSString" value="Highlight" />
+																</node>
+															</children>
+														</node>
+													</children>
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="81.205 11.937 79.82" />
+							<attribute id="RotationQuat" type="fvec4" value="-0.737183 0 0 0.6756931" />
+							<attribute id="Scale" type="float" value="1.0" />
+						</node>
+					</children>
+				</node>
+
+				
+
+			</children>
+		</node>
+	</region>
+</save>
