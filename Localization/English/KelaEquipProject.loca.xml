@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+
+	<!-- /////////////////////////////////////////////////////// -->
+	<!-- ErrorDescriptions-->
+	<!-- /////////////////////////////////////////////////////// -->
+	<!-- Способности -->
+    <content contentuid="h3e5ea688d80a4afe8cf47f9b1def05295gf2" version="1">&lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; should be less than [1]</content>
+    <content contentuid="h3254b79ce288491f84cae053d7d06a2401aa" version="1">&lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; must be at least [1]</content>
+	
+    <!-- Оружие -->
+	<!-- Любимый молот кузнеца, не сделан чертёж -->
+   	<content contentuid="h512e0c4eb53e4fee8688b8fdced9ce503b2d" version="1">The Blacksmith's Favorite Hammer</content>
+    <content contentuid="he3d7cf3ed8124a30a150be1ce3fcca62bc42" version="1">Clearly this is the hammer of a very experienced blacksmith. &lt;br&gt;It is lighter than usual, with excellent balance, and you can feel the power of a possible blow in it.</content>
+    
+	<!-- Силовая кирка -->
+    <content contentuid="hed82986680894ababbdfe80155dc96f7ea15" version="1">Power Pickaxe</content>
+    <content contentuid="h54cf1781b74c4b70a0460f2f9c5375e47baa" version="1">A perfectly ordinary-looking pickaxe, but slightly lighter and with an aura of power around the jagged tip. &lt;br&gt;Once upon a time this pick belonged to a difficult gnome who knew his job and was always on the alert...</content>
+
+	<!-- Копье, найденное в астральном плане у Манящей пещеры рядом с гитом -->
+    <content contentuid="h2e53cbe65eb5441b8b7ebf3b5c7c56623d18" version="1">Rusty Spear</content>
+    <content contentuid="hcbce834b8bcf42d29cfc7d84676b98fec3bb" version="1">An old spear found near a dead gith outside the Alluring Cave in the Astral Plane. &lt;br&gt;The metal may have lost its strength, but astral rust and rot have given it paralyzing properties.</content>
+
+	<!-- Доспехи ревнителя Кризт из ямы в Лунных башнях -->
+	<!-- Доспех -->
+    <content contentuid="hc7ae9c0fgb0fag4d74g9d0egadbe96e840bf" version="1">Zealot's Plate Armor</content>
+    <content contentuid="ha66c7629g2b25g4734g92bfg12871f8453d5" version="1">Armor of the zealous followers of the Absolute from the Moon Towers, imbued with true faith, which gives its owner mental stability, and the presence of the Absolute brand gives a bonus to trials and additional protection.</content>
+
+	<!-- Перчатки хирурга в доме исцеления -->
+    <content contentuid="h8bd18f6dbb0c4c71aa4a11e07fd722e7033d" version="1">Surgeon's gloves</content>
+    <content contentuid="hc4c3a93e1ff944f685c0701c201490a4fcbc" version="1">These gloves not only provide Dexterity of movement that is impossible with heavy mittens, but also severely punish the slightest mistake... &lt;br&gt;Being a surgeon is a huge responsibility!</content>
+    <content contentuid="h3e19d7c8a56041508861eed41e45fd964572" version="1">Dangerous work</content>
+    <content contentuid="ha2202b47b8014a5a8e0e5e1674e6380c3018" version="1">If the melee attack is missed, the wielder will be stabbed with his own weapon for [1], and if he fails a Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt; &lt;LSTag Tooltip="DifficultyClass"&gt;DC&lt;/LSTag&gt; [2], he will &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;bleed&lt;/LSTag&gt; (on a critical miss without a saving throw).</content>
+    <content contentuid="ha305c14d4a8f4f7bb33b6bd86ec0816a6830" version="1">Surgeon's accuracy</content>
+    <content contentuid="h54c585d8ab7a43a39ae7cafae59f56642ac2" version="1">Gain &lt;LSTag Type="Status" Tooltip="SURGEONS_DEXTERITY"&gt;Surgeon's Accuracy&lt;/LSTag&gt; and a bonus [1] to &lt;LSTag Tooltip="SleightOfHand"&gt;Sleight Of Hand&lt;/LSTag&gt; rolls.</content>
+    <content contentuid="h348928a8f4a14d73acf27b538ba8131ec1gc" version="1">Gain an attack bonus [1] and &lt;LSTag Tooltip="Advantage"&gt;advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; &lt;LSTag Tooltip="AbilityCheck"&gt;checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;saving throws&lt;/LSTag&gt;.</content>
+
+	<!-- Щит в морге возле дома целителей -->
+    <content contentuid="h3178aa65711f4ada8952a04027145a80cg3c" version="1">Olam Shield</content>
+    <content contentuid="hf034e7c64f1c4d2a89a987473b0d270107f9" version="1">The shield is dented and jagged, but it is imbued with the magic that Olam imbued it with in his desperate attempts to escape the Shadows.</content>
+	<content contentuid="hf13524bd47884d0b9f60cf81669954563670" version="1">Protection from evil</content>
+    <content contentuid="ha4e5aa0f16584ab692911ee716b3e910562b" version="1">The target is protected from beasts, undead and creatures woven from shadows. Such creatures' &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt; have &lt;LSTag Tooltip="Disadvantage"&gt;disadvantage&lt;/LSTag&gt;.</content>
+    <content contentuid="h04bab7e48e6343c188926a739b25b811687e" version="1">Olam Shield: Shines</content>
+    <content contentuid="hb1f8bcb5b07b402394122ec4c905ccad9fea" version="1">Light of Hope</content>
+    <content contentuid="h5d8c0965b61e43eb83bd8f20cdd649315260" version="1">Gain &lt;LSTag Type="Status" Tooltip="PROTECTION_FROM_EVIL"&gt;protection from evil&lt;/LSTag&gt; and a melee attack bonus [1] against illuminated enemies, as well as &lt;LSTag Tooltip="Advantage"&gt;advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt; against beasts, undead, and creatures woven from shadows.</content>
+
+	<!-- Амулеты Абсолют -->
+    <content contentuid="ha168ea5a660e495881d1f5a48639c079bc90" version="1">The Branded Connection</content>
+    <content contentuid="h85d4bdd115424fd5993415f000c67d8003e3" version="1">Will of the Absolute extends the passive properties of the Absolute amulets to all characters with the Absolute brand within a radius of [1] from the wearer of the amulet.</content>
+
+	<!-- Селунитский амулет, напоенный кровью пикси -->
+	<content contentuid="h3bf1621b18e34b7c81975e406559fff2b117" version="1">Pixie Moon Amulet</content>
+    <content contentuid="h1463150fc7774f50b7a59cd4d89a39e3491d" version="1">This amulet of Selune is filled to the brim with the suffering and blood of pixies who died in the moon lanterns... &lt;br&gt;The result of experiments by the perverted, but very inquisitive mind of Balthazar.</content>
+	<!-- Пассивка -->
+	<content contentuid="ha887ed412c0d49ce880b2ce44ef507f7458b" version="1">Pixie Despair</content>
+    <content contentuid="h126585cfdb2b40ec98c282447fb65d749c3b" version="1">A wielder with the Absolute brand has &lt;LSTag Tooltip="Disadvantage"&gt;disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;saving throws&lt;/LSTag&gt;, but the Lunar Shield aura gives him a &lt;b&gt;half&lt;/b&gt; reduction in all incoming spell damage.</content>
+
+	<!-- Кольцо Гаргота из гробницы Хуннов -->
+    <content contentuid="h493ff0b080984eeda1b22989f33cf09d9g44" version="1">Ring of Gargoth</content>
+    <content contentuid="h25ea51cc6c0d48ffacccb3686bd3962ad446" version="1">Only an influential follower of Gargoth, also known as the Tenth Lord of the Nine or the Hidden Lord, could wear such a ring. </content>
+    <content contentuid="h13277cec238d40979c7a1ca9b57878bafc08" version="1">Fool me</content>
+    <content contentuid="h09e5bc5e7a4b4bcfb444f2281495c71827g4" version="1">&lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; increases by [1], up to [2]. In addition, the wearer gains &lt;LSTag Tooltip="Advantage"&gt;advantage&lt;/LSTag&gt; when attempting to deceive those whose Charisma is lower than his, otherwise the deception check will be with &lt;LSTag Tooltip="Disadvantage"&gt;disadvantage&lt;/LSTag&gt;.</content>
+    <content contentuid="ha9952c41fdd343f8896a144616d4955202c1" version="1">Lord's Defense</content>
+    <content contentuid="h28fc24f214da4356b12a044cbd0024a6e933" version="1">If a humanoid inflicts melee damage on the owner, it must successfully pass a &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt; with a &lt;LSTag Tooltip="DifficultyClass"&gt;DC&lt;/LSTag&gt; equal to the owner's Charisma, otherwise it will fall under the owner's &lt;LSTag Type="Status" Tooltip="CHARM_GARROT"&gt;influence&lt;/LSTag&gt; for [1] turns. &lt;br&gt;The wielder's attacks against all charmed enemies have &lt;LSTag Tooltip="Advantage"&gt;advantage&lt;/LSTag&gt;.</content>
+    <content contentuid="h06fb21dd2bd9486d93579e98953c8a4f529c" version="1">Lord's Influence</content>
+    <content contentuid="hf4f0e56004f045e782700ebef7f7409a6edc" version="1">The creature is under your influence and cannot attack you in any way. Taking damage removes the effect.</content>
+
+	<!-- Оружие из подвала Грушки -->
+    <content contentuid="h562e399d0dd64861b20be752efe679fag6c7" version="1">Reinforced Heavy Crossbow</content>
+    <content contentuid="h1429461a9e974fc08d81186e487b1eebb15a" version="1">Reinforced Battle Axe</content>
+    <content contentuid="hf56ad34f247147fd81865aa12b3c202293d7" version="1">Reinforced Two-Handed Sword</content>
+    <content contentuid="hf11c9e99d4c94e95b2b533cc9f79588fgf1d" version="1">Reinforced Two-Handed Axe</content>
+    <content contentuid="ha757e2b3dae4415ab3df6a9a20fb6877675d" version="1">Reinforced Dagger</content>
+    <content contentuid="hb0925dcae11f40c19558090d46571d28413a" version="1">Reinforced pilum</content>
+    <content contentuid="h16a1a00745a741629dc6011baaa618b37b5a" version="1">Reinforced Longsword</content>
+    <content contentuid="h34b73e5944054837b6a4c5eb084733551c60" version="1">Reinforced Short Sword</content>
+    <content contentuid="h08f49419fc964c179496add43d747f5e4745" version="1">Reinforced Longbow</content>
+    <content contentuid="hd99c218988d74fcba3c1f963872fc7f58g88" version="1">Reinforced Short Bow</content>
+    <content contentuid="h0f137619c053492ba560533b2fb0fb90fbgg" version="1">A weapon from Peartree's last batch, which he didn't manage to send. The infernal iron used in its manufacture gave it special properties.</content>
+    <content contentuid="hd19ca53c778d41f6af4c7cf302b3c79f60g9" version="1">Reinforced Large Shield</content>
+    <content contentuid="h06332ed23fce4c5087dbff0b7a0a3772713c" version="1">Reinforced shield with spikes</content>
+    <content contentuid="h545e1c0d6cd240b2b094f67758e8a49181cd" version="1">A shield from Peartree's last batch, which he didn't manage to send. The infernal iron used in its manufacture gave it special properties.</content>
+    <content contentuid="h531a8f350f744e158c1a30f3fe3e56a80c81" version="1">Reinforced armor</content>
+    <content contentuid="h27f4de47e83a4cf59303c0be163e5367187f" version="1">Armor from Peartree's last batch, which he didn't manage to send. The infernal iron used in its manufacture gave it special properties.</content>
+
+	<!-- Кинжал фокусника, найденный в чультских джунглях -->
+    <content contentuid="h9d36317b78a144f89d5cf62390d2a43fbcfd" version="1">The Cheater's Dagger</content>
+    <content contentuid="h3d2ee3ff6b154314b8ed36abe64edc48bf8g" version="1">Found in the Chult Jungles, this simple dagger fits perfectly in the hand, suggesting to its wielder that it can disembowel an enemy before they even know it.</content>
+	<!-- Пассивка -->
+    <content contentuid="h5fe7c4c5b04948b5858d97dc753095c5e5dc" version="1">Sleight of hand</content>
+    <content contentuid="h7d3fa66a843249eb99ed36aa0309a1529610" version="1">Attacking with this weapon using &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; gains &lt;LSTag Tooltip="Advantage"&gt;advantage&lt;/LSTag&gt; or &lt;LSTag Tooltip="Disadvantage"&gt;disadvantage&lt;/LSTag&gt;, depending on who is more Dexterous.</content>
+    <content contentuid="he4b1c45447e94c0d8c0c2f28b70b79ded3c5" version="1">No fraud</content>
+    <content contentuid="h326d32b5f4c24777adb63971a58879f3c402" version="1">When a &lt;LSTag Tooltip="CriticalHit"&gt;critical hit&lt;/LSTag&gt; is dealt, &lt;LSTag Type="Status" Tooltip="COLOR_SPRAY"&gt;«Color Sprays»&lt;/LSTag&gt; will rain down from the enemy’s eyes.</content>
+
+	<!-- Двуручный топор Джингулшада из хранилища с книгой Карсуса -->
+    <content contentuid="h231c710626f94ca4afe23fb0b0e41887f081" version="1">Jingulshad's Axe</content>
+    <content contentuid="h60b3b4aca7e7437abe159615ad6d0581egfe" version="1">A legendary axe that possesses incredible strength and increased striking range, but is too bulky and heavy for most mortals. Only a giant would be able to fight with it.</content>
+    <content contentuid="ha0ecc5e1b3d040cf9a69eb5e00809ce453aa" version="1">Strength required [1]</content>
+    <content contentuid="hc6fb1b5096dc4cfb88a2fd9f4a24dc60f3c8" version="1">Carcass in half</content>
+	<content contentuid="h672b30d6bf574a34a85dd140ddfe86d3ae4b" version="1">Chopped</content>
+    <content contentuid="h91745d9a4ed44f2da939a8552d64f937880a" version="1">Attempt to cut an enemy in half, adding your proficiency bonus to damage rolls. This strike can &lt;LSTag Type="Status" Tooltip="CRIPPLED"&gt;cripple&lt;/LSTag&gt;, and will certainly cause &lt;LSTag Type="Status" Tooltip="BLEEDING"&gt;bleeding&lt;/LSTag&gt;. &lt;br&gt;On a &lt;LSTag Tooltip="CriticalHit"&gt;critical hit&lt;/LSTag&gt;, the enemy must succeed on a &lt;LSTag Tooltip="Constitution"&gt;constitution&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt; with a &lt;LSTag Tooltip="DifficultyClass"&gt;DC&lt;/LSTag&gt;, equal to your Strength or take [1].</content>
+    <content contentuid="h571da0d5890f4416930f1621b3de1c5b89cg" version="1">Flying creatures cannot be crippled, and undead and constructs cannot suffer from bleeding.</content>
+
+	<!-- Молот изобретателя Красного молота -->
+    <content contentuid="hedba1cf831694357ad4fe2bb0237376b337c" version="1">Hammer of the Red Hammer</content>
+    <content contentuid="hd69728e5925a435f9aef0b64cb51ff4dec73" version="1">What, if not a war hammer, could be the favorite weapon of the Inventor of the Red Hammer! Forged with special skill, this hammer is a formidable weapon in skilled hands.</content>
+    <content contentuid="hd7fb840a351e45a4b0393d2a17803cc19876" version="1">Especially good against constructs</content>
+    <content contentuid="h7b46bb6724894db885b5692801a56b0a705b" version="1">Thresher</content>
+    <content contentuid="h56e7873d26c149e1943f8772ab724200b95a" version="1">If you have &lt;LSTag Tooltip="Proficiency"&gt;proficiency&lt;/LSTag&gt; with warhammers and a &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; or &lt;LSTag Tooltip="Charisma"&gt;Charisma&lt;/LSTag&gt; (if the hammer is &lt;LSTag Type="Status" Tooltip="PACT_BLADE"&gt;bound&lt;/LSTag&gt; by a warlock) score greater than [1], you can make an additional melee attack with that hammer.</content>
+    <content contentuid="hd4c16454b9374c849a7090e1c51abab7b69f" version="1">Mechanical knowledge</content>
+    <content contentuid="h99c3ccd909054b53afd82b9532756aa6aa5b" version="1">Attacks on constructs deal an additional [1], ignoring  &lt;LSTag Tooltip="Resistant"&gt;resistant&lt;/LSTag&gt;, and attacks on &lt;LSTag Type="Status" Tooltip="MAG_ATTACK_DEBUFF"&gt;shaken&lt;/LSTag&gt; constructs have &lt;LSTag Tooltip="Advantage"&gt;advantage&lt;/LSTag&gt;.</content>
+
+    <!-- Кольцо Велиота -->
+    <content contentuid="h7f9c7b52b7ff43adb1b2f08e54cd2a4351ec" version="1">Vellioth's Ring</content>
+    <content contentuid="h2770bb65511b45bf97215325151fd4635b1e" version="1">The Ring of Vellioth, one of the greatest vampires who ruled the Baldur's Gate clan before Kasador Zarr. &lt;br&gt;On the inside is engraved "What is the power...".</content>
+    <!-- Пассивка -->
+    <content contentuid="hd38d6e6d06da4754b153da55da68bef53g91" version="1">Vellioth's lessons</content>
+    <content contentuid="h80246f0d3a4448be87cb8c24354b7bfd73bf" version="1">Those who have learned Vellioth's lessons master the full power of the Ring, and also receive an &lt;LSTag Tooltip="Advantage"&gt;advantage&lt;/LSTag&gt; in &lt;LSTag Tooltip="SavingThrow"&gt;saving throws&lt;/LSTag&gt; and bonus [1], but not more than [2], to &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; and &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;.</content>
+    <content contentuid="h2bcb048b52054b60893cb3ac79410c95b8b2" version="1">A fool who puts on the Ring of Vellioth without proper preparation receives only crumbs of the Ring's true power, as well as &lt;LSTag Tooltip="Disadvantage"&gt;disadvantages&lt;/LSTag&gt; in &lt;LSTag Tooltip="SavingThrow"&gt;saving throws&lt;/LSTag&gt; and a penalty of [1] to &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; и &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;.</content>
+    <content contentuid="h39e70e976ce24372a3d06d9e6bc5dba3747g" version="1">Vellioth's health</content>
+    <content contentuid="hde04409920454925ac1d82680685357db1ab" version="1">The wearer of Vellioth's Ring increases Health by [1], Health and also regains [2] at the start of their turn if they are not in sunlight or taking radiant or holy water damage.</content>
+    <content contentuid="h003f1b6947ef4d248b1a572bd85abc9bce9e" version="1">Vellioth's Untouchability</content>
+    <content contentuid="h7cf26438559b4d0c8235ea28c2245087bc40" version="1">The wearer of Vellioth's Ring receives the weak spells Fly, Misty Escape, and Dominate Person.</content>    
+    <content contentuid="h91514502abc944e6a18d0692c6ff7f84d7ag" version="1">The wearer of Vellioth's Ring receives additional action and powerful spells Fly, Misty Escape, and Dominate Person.</content>       
+    <!-- Заклинания -->
+   	<content contentuid="hcf933ac19c224376ad60f9f72a734152cc2c" version="1">Transform into a tiny mist cloud. It can't fall, and fits through small openings. It is very hard to damage. Foes within [1] of the cloud may be &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinded&lt;/LSTag&gt; and take [2] at the start of the owner of Vellioth's Ring turn.</content>
+
+    <!-- Ключ от сейфа Касадора -->
+    <content contentuid="h3e4fa9e0864b4f0a98c614b9cb13af88fd1g" version="1">Graceful key</content>
+    <content contentuid="h42a9f5d7b8004d13b3285f7d8041f2d79899" version="1">A graceful key, looks like it belongs to some safe. We need to find out what it opens. &lt;br&gt;On one side of the key, two symbols of the Zarr family are engraved...</content>
+
+	<!-- ПАССИВКИ -->
+	<content contentuid="h405fc3ceg7adag499bgb860g76fce3dfc4df" version="1">The owner of the Absolute brand receives a bonuses [1] in &lt;LSTag Tooltip="SavingThrow"&gt;saving throws&lt;/LSTag&gt; and [2] to AC.</content>
+	
+    <content contentuid="hd95336299d6f4ae2aadf8ab4e451172a7e7a" version="1">Astral Rust</content>
+    <content contentuid="he8643be9753f46e5add4dab677e4ebd39e70" version="1">The weapon is covered in a strange astral rust. Targets struck by it can be &lt;LSTag Type="Status" Tooltip="PARALYZED"&gt;paralyzed&lt;/LSTag&gt; and &lt;LSTag Type="Status" Tooltip="POISONED"&gt;poisoned&lt;/LSTag&gt;.</content>
+    <content contentuid="h6bc2159d5e354594a50b85461a64eb98e072" version="1">Inoculated: Astral Rust</content>
+    <content contentuid="hb2c6e449f59c44658a76961ee2405358adb4" version="1">You have successfully passed the &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt; against &lt;LSTag Type="Status" Tooltip="POISON_ASTRAL_RUSTY_CONDITION"&gt;astral rust&lt;/LSTag&gt; and can no longer be affected by it.</content>
+    <content contentuid="h81e30024964840a39d948731b3c81d926baf" version="1">Stricken with &lt;LSTag Type="Status" Tooltip="POISON_ASTRAL_RUSTY_CONDITION"&gt;astral rust&lt;/LSTag&gt;</content>
+
+    <content contentuid="h58d48e61d3bf4ad08603a8b1696d7bd0dg4g" version="1">Infernal Iron Coating</content>
+    <content contentuid="h1c002f880c6040c8b8fad3d8ebdafc026418" version="1">Attacks on &lt;LSTag Type="Status" Tooltip="BURNING"&gt;burning&lt;/LSTag&gt; targets are dealt with &lt;LSTag Tooltip="Advantage"&gt;advantage&lt;/LSTag&gt;, and this weapon also ignores &lt;LSTag Tooltip="Resistant"&gt;resistance&lt;/LSTag&gt; to fire damage.</content>
+    <content contentuid="hb8d24b12fbfb4669a28c0fa19d88cecd5526" version="1">&lt;LSTag Type="Status" Tooltip="BURNING"&gt;Burning&lt;/LSTag&gt; enemies have &lt;LSTag Tooltip="Disadvantage"&gt;disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt; against the wielder.</content>
+
+    <content contentuid="ha7b77d73cb5942b8b328a3b39356ea08e260" version="1">Exhausted</content>
+    <content contentuid="h0083f7d209894425b972e41b2bc0abd3af2e" version="1">Not enough power for the ammunition used. &lt;br&gt;Your movement speed is reduced to a minimum, your attack and damage are reduced, you also have disadvantage on all checks and tests, and enemies have advantage on attack rolls against you.</content>
+
+    <content contentuid="h56686a51e2884badbe451e97f27c059bd4b5" version="1">Your weapon hits so hard that a target hit must succeed on a &lt;LSTag Tooltip="Constitution"&gt;constitution&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt; with a &lt;LSTag Tooltip="DifficultyClass"&gt;DC&lt;/LSTag&gt; or be &lt;LSTag Type="Status" Tooltip="MAG_ATTACK_DEBUFF"&gt;staggered&lt;/LSTag&gt; for [1] turns if you are wielding the weapon one-handed, or [2] turns if you are wielding it with two hands.</content>
+
+    <content contentuid="h7a30f6cdde6d4040b8e5117423b3c26144ab" version="1">Strong hands</content>
+    <content contentuid="h1551ed1bd375421786f9f07fc2252b5c2fa8" version="1">You gain a bonus [1] on &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;saving throws&lt;/LSTag&gt;.</content>
+
+</contentList>

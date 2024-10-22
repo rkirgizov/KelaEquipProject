@@ -62,8 +62,8 @@
 					<attribute id="GroupID" type="uint32" value="45392" />
 					<attribute id="Key" type="FixedString" value="CazadorDungeonSafe" />
 					<attribute id="LevelName" type="FixedString" value="CTY_Main_A" />
-					<attribute id="LockDifficultyClassID" type="guid" value="60916b01-ba4c-418e-9f30-19a669704b4d" />
-					<!-- <attribute id="LockDifficultyClassID" type="guid" value="7bf230a0-b68a-4c79-a785-79b498d6c36b" /> -->
+					<!-- <attribute id="LockDifficultyClassID" type="guid" value="60916b01-ba4c-418e-9f30-19a669704b4d" /> -->
+					<attribute id="LockDifficultyClassID" type="guid" value="7bf230a0-b68a-4c79-a785-79b498d6c36b" />
 					<attribute id="MapKey" type="FixedString" value="c14676c1-5f0a-4712-8830-bd573f00756a" />
 					<attribute id="Name" type="LSString" value="CTY_Cazador_DungeontSafe" />
 					<attribute id="SeeThrough" type="bool" value="True" />
