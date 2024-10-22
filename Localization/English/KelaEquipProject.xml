@@ -8,6 +8,17 @@
     <content contentuid="h3e5ea688d80a4afe8cf47f9b1def05295gf2" version="1">&lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; should be less than [1]</content>
     <content contentuid="h3254b79ce288491f84cae053d7d06a2401aa" version="1">&lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; must be at least [1]</content>
 	
+	<!-- /////////////////////////////////////////////////////// -->
+	<!-- Типографское дело-->
+	<!-- /////////////////////////////////////////////////////// -->
+
+	<!-- Записки -->
+	<!-- Общее для записок -->
+    <content contentuid="hec8bed0008b04d11b7c7c82ab861677020g2" version="1">Note</content>
+    <content contentuid="hd45034c6d47e4ead9b53347e774095dece18" version="1">A slightly crumpled piece of paper that seems to have something important written on it</content>
+	<!-- Записка Бальтазара о возможности напоения амулета Селунэ кровью пикси из лунных фонарей -->
+    <content contentuid="hd2f0dd936b3e48cfa9b82cd00a6f88518cc3" version="1">Silly, chatty little creatures! &lt;br&gt;They thought that by dying they would be able to avoid the honorable duty of serving the cause of the Absolute... &lt;br&gt;But experiments have shown that pain and despair have so permeated their bodies and blood that if a moon witch's amulet is given a squeeze of it, they can still serve well, ha-ha. &lt;br&gt;Need two pixies, one is not enough...</content>
+	
     <!-- Оружие -->
 	<!-- Любимый молот кузнеца, не сделан чертёж -->
    	<content contentuid="h512e0c4eb53e4fee8688b8fdced9ce503b2d" version="1">The Blacksmith's Favorite Hammer</content>
@@ -36,11 +47,11 @@
     <content contentuid="h348928a8f4a14d73acf27b538ba8131ec1gc" version="1">Gain an attack bonus [1] and &lt;LSTag Tooltip="Advantage"&gt;advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="Dexterity"&gt;Dexterity&lt;/LSTag&gt; &lt;LSTag Tooltip="AbilityCheck"&gt;checks&lt;/LSTag&gt; and &lt;LSTag Tooltip="SavingThrow"&gt;saving throws&lt;/LSTag&gt;.</content>
 
 	<!-- Щит в морге возле дома целителей -->
-    <content contentuid="h3178aa65711f4ada8952a04027145a80cg3c" version="1">Olam Shield</content>
+    <content contentuid="h3178aa65711f4ada8952a04027145a80cg3c" version="1">Olam's Shield</content>
     <content contentuid="hf034e7c64f1c4d2a89a987473b0d270107f9" version="1">The shield is dented and jagged, but it is imbued with the magic that Olam imbued it with in his desperate attempts to escape the Shadows.</content>
 	<content contentuid="hf13524bd47884d0b9f60cf81669954563670" version="1">Protection from evil</content>
     <content contentuid="ha4e5aa0f16584ab692911ee716b3e910562b" version="1">The target is protected from beasts, undead and creatures woven from shadows. Such creatures' &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt; have &lt;LSTag Tooltip="Disadvantage"&gt;disadvantage&lt;/LSTag&gt;.</content>
-    <content contentuid="h04bab7e48e6343c188926a739b25b811687e" version="1">Olam Shield: Shines</content>
+    <content contentuid="h04bab7e48e6343c188926a739b25b811687e" version="1">Olam's Shield: Shines</content>
     <content contentuid="hb1f8bcb5b07b402394122ec4c905ccad9fea" version="1">Light of Hope</content>
     <content contentuid="h5d8c0965b61e43eb83bd8f20cdd649315260" version="1">Gain &lt;LSTag Type="Status" Tooltip="PROTECTION_FROM_EVIL"&gt;protection from evil&lt;/LSTag&gt; and a melee attack bonus [1] against illuminated enemies, as well as &lt;LSTag Tooltip="Advantage"&gt;advantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt; against beasts, undead, and creatures woven from shadows.</content>
 

@@ -10,6 +10,16 @@ new equipment "MOO_Executioner_Zarell"
     add equipmentgroup
     add equipment entry "GOB_Priest_Amulet_B"
 
+// Кризт, изменение доспехов
+new equipment "EQP_Zealot_Krizt"
+    add initialweaponset "Melee"
+    add equipmentgroup
+    add equipment entry "WPN_Halberd"
+    add equipmentgroup
+    add equipment entry "ARM_Plate_Body_Zealot"
+    add equipmentgroup
+    add equipment entry "WPN_Shortbow"
+
 // Красный Молот, добавление Красного молота
 new equipment "EQP_RedHammer"
     add initialweaponset "Melee"

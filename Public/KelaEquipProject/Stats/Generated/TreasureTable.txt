@@ -139,14 +139,6 @@ object category "I_WPN_KELA_Peartree_Shortbow_2",1,0,0,0,0,0,0,0
 
 // 2 Act Moon Tower
 
-// Торговец в Лунных башнях
-new treasuretable "MOO_BugBearvendor_Trade"
-CanMerge 1
-new subtable "-1"
-object category "I_ARM_Plate_Body_Zealot",1,0,0,0,0,0,0,0
-new subtable "-1"
-object category "T_Weapon_Oil_Supply",1,0,0,0,0,0,0,0
-
 // 3 Act
 
 // Сейф в подземелье Касадора

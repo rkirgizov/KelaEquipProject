@@ -8,6 +8,17 @@
     <content contentuid="h3e5ea688d80a4afe8cf47f9b1def05295gf2" version="1">&lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; should be less than [1]</content>
     <content contentuid="h3254b79ce288491f84cae053d7d06a2401aa" version="1">&lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; must be at least [1]</content>
 	
+	<!-- /////////////////////////////////////////////////////// -->
+	<!-- Типографское дело-->
+	<!-- /////////////////////////////////////////////////////// -->
+
+	<!-- Записки -->
+	<!-- Общее для записок -->
+    <content contentuid="hec8bed0008b04d11b7c7c82ab861677020g2" version="1">Note</content>
+    <content contentuid="hd45034c6d47e4ead9b53347e774095dece18" version="1">A slightly crumpled piece of paper that seems to have something important written on it</content>
+	<!-- Записка Бальтазара о возможности напоения амулета Селунэ кровью пикси из лунных фонарей -->
+    <content contentuid="hd2f0dd936b3e48cfa9b82cd00a6f88518cc3" version="1">Silly, chatty little creatures! &lt;br&gt;They thought that by dying they would be able to avoid the honorable duty of serving the cause of the Absolute... &lt;br&gt;But experiments have shown that pain and despair have so permeated their bodies and blood that if a moon witch's amulet is given a squeeze of it, they can still serve well, ha-ha. &lt;br&gt;Need two pixies, one is not enough...</content>
+	
     <!-- Оружие -->
 	<!-- Любимый молот кузнеца, не сделан чертёж -->
    	<content contentuid="h512e0c4eb53e4fee8688b8fdced9ce503b2d" version="1">The Blacksmith's Favorite Hammer</content>
