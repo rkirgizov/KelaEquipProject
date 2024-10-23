@@ -125,10 +125,10 @@
     <content contentuid="h7f9c7b52b7ff43adb1b2f08e54cd2a4351ec" version="1">Vellioth's Ring</content>
     <content contentuid="h2770bb65511b45bf97215325151fd4635b1e" version="1">The Ring of Vellioth, one of the greatest vampires who ruled the Baldur's Gate clan before Kasador Zarr. &lt;br&gt;On the inside is engraved "What is the power...".</content>
     <!-- Пассивка -->
-    <content contentuid="hd38d6e6d06da4754b153da55da68bef53g91" version="1">Vellioth's lessons</content>
+    <content contentuid="hd38d6e6d06da4754b153da55da68bef53g91" version="1">Vellioth's Lessons</content>
     <content contentuid="h80246f0d3a4448be87cb8c24354b7bfd73bf" version="1">Those who have learned Vellioth's lessons master the full power of the Ring, and also receive an &lt;LSTag Tooltip="Advantage"&gt;advantage&lt;/LSTag&gt; in &lt;LSTag Tooltip="SavingThrow"&gt;saving throws&lt;/LSTag&gt; and bonus [1], but not more than [2], to &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; and &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;.</content>
     <content contentuid="h2bcb048b52054b60893cb3ac79410c95b8b2" version="1">A fool who puts on the Ring of Vellioth without proper preparation receives only crumbs of the Ring's true power, as well as &lt;LSTag Tooltip="Disadvantage"&gt;disadvantages&lt;/LSTag&gt; in &lt;LSTag Tooltip="SavingThrow"&gt;saving throws&lt;/LSTag&gt; and a penalty of [1] to &lt;LSTag Tooltip="Wisdom"&gt;Wisdom&lt;/LSTag&gt; и &lt;LSTag Tooltip="Intelligence"&gt;Intelligence&lt;/LSTag&gt;.</content>
-    <content contentuid="h39e70e976ce24372a3d06d9e6bc5dba3747g" version="1">Vellioth's health</content>
+    <content contentuid="h39e70e976ce24372a3d06d9e6bc5dba3747g" version="1">Vellioth's Health</content>
     <content contentuid="hde04409920454925ac1d82680685357db1ab" version="1">The wearer of Vellioth's Ring increases Health by [1], Health and also regains [2] at the start of their turn if they are not in sunlight or taking radiant or holy water damage.</content>
     <content contentuid="h003f1b6947ef4d248b1a572bd85abc9bce9e" version="1">Vellioth's Untouchability</content>
     <content contentuid="h7cf26438559b4d0c8235ea28c2245087bc40" version="1">The wearer of Vellioth's Ring receives the weak spells Fly, Misty Escape, and Dominate Person.</content>    
@@ -160,5 +160,10 @@
 
     <content contentuid="h7a30f6cdde6d4040b8e5117423b3c26144ab" version="1">Strong hands</content>
     <content contentuid="h1551ed1bd375421786f9f07fc2252b5c2fa8" version="1">You gain a bonus [1] on &lt;LSTag Tooltip="AttackRoll"&gt;attack rolls&lt;/LSTag&gt; and &lt;LSTag Tooltip="Strength"&gt;Strength&lt;/LSTag&gt; &lt;LSTag Tooltip="SavingThrow"&gt;saving throws&lt;/LSTag&gt;.</content>
-
+    
+    <!-- DEBUG -->
+    <content contentuid="hb175583df3844a8f977a6bdd354faf1de8gc" version="1">Kela Equip Project</content>
+    <content contentuid="h489eeab4b5a34300b0c462f3ba81d1f1b890" version="1">Kela Equip Project mod's debug chest for Act 1 items</content>
+    <content contentuid="h277d2e784dd94666bc31ba4dae9f7b6907e7" version="1">Kela Equip Project mod's debug chest for Act 2 items</content>
+    <content contentuid="hbf8246a8593b411e912e1c1d444e343ba3g7" version="1">Kela Equip Project mod's debug chest for Act 3 items</content>
 </contentList>

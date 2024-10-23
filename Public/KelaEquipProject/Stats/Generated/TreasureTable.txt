@@ -67,7 +67,7 @@
 // Вещи 
 // Доспехи ревнителя для сундука с конфискатом в тюрьме Лунных башен
 new treasuretable "TRE_ARM_Plate_Body_Zealot"
-new subtable "1,1"
+new subtable "-1"
 object category "I_ARM_Plate_Body_Zealot",1,0,0,0,0,0,0,0
 
 // 2 Act Moon Tower
@@ -94,5 +94,5 @@ object category "T_ST_GEN_Valuables_Ring_Gold",1,0,0,0,0,0,0,0
 new treasuretable "LOW_PeartreeBasement_Treasures"
 new subtable "2,1"
 object category "I_OBJ_InfernalPlate",1,0,0,0,0,0,0,0
-new subtable "1,1"
+new subtable "-1"
 object category "I_ARM_KELA_Peartree_HalfPlate_Body_2",1,0,0,0,0,0,0,0

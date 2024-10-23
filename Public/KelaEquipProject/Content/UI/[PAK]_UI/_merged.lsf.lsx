@@ -25,7 +25,7 @@
                    <attribute id="Localized" type="bool" value="False" />
                    <attribute id="Name" type="LSString" value="Icons_Weapons" />
                    <attribute id="SRGB" type="bool" value="True" />
-                   <attribute id="SourceFile" type="LSString" value="Public/KelaEquipProject/Assets/Textures/Icons/KelaEquipProject_Weapons_Icons.dds" />
+                   <attribute id="SourceFile" type="LSString" value="Public/KelaEquipProject/Assets/Textures/Icons/KelaEquipProject_Item_Icons.dds" />
                    <attribute id="Streaming" type="bool" value="True" />
                    <attribute id="Template" type="FixedString" value="Icons_Items" />
                    <attribute id="Type" type="int32" value="0" />

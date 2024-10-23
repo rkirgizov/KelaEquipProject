@@ -8,7 +8,7 @@
                    <attribute id="Width" type="int64" value="64"/>
                </node>
                <node id="TextureAtlasPath">
-                   <attribute id="Path" type="LSString" value="Public/KelaEquipProject/Assets/Textures/Icons/KelaEquipProject_Weapons_Icons.dds"/>
+                   <attribute id="Path" type="LSString" value="Public/KelaEquipProject/Assets/Textures/Icons/KelaEquipProject_Item_Icons.dds"/>
                    <attribute id="UUID" type="FixedString" value="27cf2398-831b-4ad8-a924-5d1af5119c90"/>
                </node>
                <node id="TextureAtlasTextureSize">
@@ -22,7 +22,7 @@
        <node id="root">
            <children>
                <node id="IconUV">
-                   <attribute id="MapKey" type="FixedString" value="Item_WPN_KELA_Favorite_LightHammer_A"/> 1
+                   <attribute id="MapKey" type="FixedString" value="Item_ARM_Plate_Body_Zealot"/> 1
                    <attribute id="U1" type="float" value="0.0"/> Left
                    <attribute id="U2" type="float" value="0.25"/> Right
                    <attribute id="V1" type="float" value="0.0"/> Top
