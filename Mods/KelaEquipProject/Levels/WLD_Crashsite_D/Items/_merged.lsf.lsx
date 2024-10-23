@@ -13,10 +13,12 @@
 				<!-- Дебажный сундук для спавна -->
 				<node id="GameObjects">
 					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="Description" type="TranslatedString" handle="h489eeab4b5a34300b0c462f3ba81d1f1b890" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb175583df3844a8f977a6bdd354faf1de8gc" version="1" />
 					<attribute id="LevelName" type="FixedString" value="WLD_Crashsite_D" />
 					<attribute id="MapKey" type="FixedString" value="5f416b96-2028-466d-a9a1-92820cd5d2f6" />
-					<attribute id="Name" type="LSString" value="KELAEQUIPPROJECT_DEBUG_Chest" />
-					<attribute id="TemplateName" type="FixedString" value="0e600db2-aa76-4c98-b4d5-a55c0853e7f1" />
+					<attribute id="Name" type="LSString" value="KELAEQUIPPROJECT_DEBUG_Chest_001" />
+					<attribute id="TemplateName" type="FixedString" value="b1487efd-4ae8-4747-866d-717df74169cd" />
 					<attribute id="Type" type="FixedString" value="item" />
 					<attribute id="WalkThrough" type="bool" value="False" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960758167" />
@@ -24,7 +26,7 @@
 						<node id="InventoryList">
 							<children>
 								<node id="InventoryItem">
-									<attribute id="Object" type="FixedString" value="KELAEQUIPPROJECT_DEBUG_Supply" />
+									<attribute id="Object" type="FixedString" value="KELAEQUIPPROJECT_DEBUG_Supply_1" />
 								</node>
 							</children>
 						</node>
@@ -48,12 +50,14 @@
 							</children>
 						</node>
 						<node id="Transform">
-							<attribute id="Position" type="fvec3" value="295.158 1.474 219.442" />
-							<attribute id="RotationQuat" type="fvec4" value="0 -0.3442353 0 0.8389326" />
-							<attribute id="Scale" type="float" value="0.5" />
+							<attribute id="Position" type="fvec3" value="283.26 -0.125 202.277" />
+							<attribute id="RotationQuat" type="fvec4" value="-0.0477988 0.8666972 -0.101888 0.4859734" />
+							<attribute id="Scale" type="float" value="0.6" />
 						</node>
 					</children>
 				</node>
+
+
 
 			</children>
 		</node>

@@ -4,7 +4,7 @@
 
 // Ключ от сейфа Касадора
 new entry "S_LOW_CazadorDungeonSafe_key"
-type "Object"
-using "PUZ_Key"
-data "RootTemplate" "0f510839-c02a-47e0-b077-fff073f0b210"
-data "Unique" "1"
+    type "Object"
+    using "PUZ_Key"
+    data "RootTemplate" "0f510839-c02a-47e0-b077-fff073f0b210"
+    //data "Unique" "1"

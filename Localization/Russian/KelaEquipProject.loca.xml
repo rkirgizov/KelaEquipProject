@@ -161,4 +161,12 @@
     <content contentuid="h7a30f6cdde6d4040b8e5117423b3c26144ab" version="1">Крепкие руки</content>
     <content contentuid="h1551ed1bd375421786f9f07fc2252b5c2fa8" version="1">Вы получаете бонус [1] к &lt;LSTag Tooltip="AttackRoll"&gt;броскам атаки&lt;/LSTag&gt; и &lt;LSTag Tooltip="SavingThrow"&gt;испытаниям&lt;/LSTag&gt; на силу.</content>
 
+    <!-- DEBUG -->
+    <content contentuid="hb175583df3844a8f977a6bdd354faf1de8gc" version="1">Kela Equip Project</content>
+    <content contentuid="h489eeab4b5a34300b0c462f3ba81d1f1b890" version="1">Дебажный сундук мода Kela Equip Project для вещей из Акта 1</content>
+    <content contentuid="h277d2e784dd94666bc31ba4dae9f7b6907e7" version="1">Дебажный сундук мода Kela Equip Project для вещей из Акта 2</content>
+    <content contentuid="hbf8246a8593b411e912e1c1d444e343ba3g7" version="1">Дебажный сундук мода Kela Equip Project для вещей из Акта 3</content>
+
+
+
 </contentList>

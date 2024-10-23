@@ -118,6 +118,57 @@
 
 
 
+
+				<!-- Дебажный сундук для спавна -->
+				<node id="GameObjects">
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="Description" type="TranslatedString" handle="h277d2e784dd94666bc31ba4dae9f7b6907e7" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb175583df3844a8f977a6bdd354faf1de8gc" version="1" />
+					<attribute id="LevelName" type="FixedString" value="SCL_Main_A" />
+					<attribute id="MapKey" type="FixedString" value="2eb9d551-3657-4277-aa0a-53df0bd48a58" />
+					<attribute id="Name" type="LSString" value="KELAEQUIPPROJECT_DEBUG_Chest_002" />
+					<attribute id="TemplateName" type="FixedString" value="b1487efd-4ae8-4747-866d-717df74169cd" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="WalkThrough" type="bool" value="False" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115200960758167" />
+					<children>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="KELAEQUIPPROJECT_DEBUG_Supply_2" />
+								</node>
+							</children>
+						</node>
+						<node id="LayerList">
+							<children>
+								<node id="Layers">
+									<children>
+										<node id="Object">
+											<attribute id="MapKey" type="FixedString" value="SCL_Main_A" />
+											<children>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="1afdce5a-4c84-f16d-29c8-faec3ee4f4b3" />
+												</node>
+												<node id="Layer">
+													<attribute id="Object" type="guid" value="c059d77c-23e5-9d0f-2fd6-8fbb16efd0db" />
+												</node>
+											</children>
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="66.349 4.996 -1160.611" />
+							<attribute id="RotationQuat" type="fvec4" value="-0.1363428 -0.2732249 0.1289884 0.9434621" />
+							<attribute id="Scale" type="float" value="0.6" />
+						</node>
+					</children>
+				</node>
+
+
+
+
 			</children>
 		</node>
 	</region>

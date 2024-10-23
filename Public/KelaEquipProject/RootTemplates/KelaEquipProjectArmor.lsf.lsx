@@ -9,10 +9,10 @@
 				<node id="GameObjects">
 					<attribute id="DisplayName" type="TranslatedString" handle="hc7ae9c0fgb0fag4d74g9d0egadbe96e840bf" version="1" />
 					<attribute id="Description" type="TranslatedString" handle="ha66c7629g2b25g4734g92bfg12871f8453d5" version="1" />
-					<attribute id="Icon" type="FixedString" value="Item_ARM_Plate" />
+					<attribute id="Icon" type="FixedString" value="Item_ARM_Plate_Body_Zealot" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="MapKey" type="FixedString" value="4a13a447-70b0-4c24-bc09-5f05afc823cf" />
-					<attribute id="Name" type="LSString" value="ARM_Plate_Zealot" />
+					<attribute id="Name" type="LSString" value="ARM_Plate_Body_Zealot" />
 					<attribute id="ParentTemplateId" type="FixedString" value="95b4e2c4-759a-4d33-a2d1-4e0ee6ed4f29" />
 					<attribute id="VisualTemplate" type="FixedString" value="5f229664-6975-45b5-5b7d-5d30aa130e3e" />
 					<attribute id="PhysicsTemplate" type="FixedString" value="60559836-7278-46b6-e2e2-40fb4f00ed6c" />
@@ -719,7 +719,7 @@
 					<attribute id="DisplayName" type="TranslatedString" handle="h531a8f350f744e158c1a30f3fe3e56a80c81" version="1" />
 					<attribute id="Icon" type="FixedString" value="Generated_ARM_HalfPlate_2_Magic" />
 					<attribute id="MapKey" type="FixedString" value="e084bbcf-8180-42c0-880c-efb5aae66a8c" />
-					<attribute id="Name" type="LSString" value="ARM_KELA_Peartree_HalfPlate_Body" />
+					<attribute id="Name" type="LSString" value="ARM_KELA_Peartree_HalfPlate_Body_2" />
 					<attribute id="ParentTemplateId" type="FixedString" value="15338da1-c4f8-4b43-912c-c14e7d9a8579" />
 					<attribute id="Stats" type="FixedString" value="ARM_KELA_Peartree_HalfPlate_Body_2" />
 					<attribute id="Type" type="FixedString" value="item" />
