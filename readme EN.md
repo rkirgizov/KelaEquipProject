@@ -28,7 +28,7 @@ Adds new equipment and reworks some old ones.
 | Item  | UUID     | Installation moment | Where to find | Mod version | Verified | + |
 |----------|----------|------------------|-----------|-------------|----------|---|
 | **Accessories**
-| Ring of Gargoth | 4a13a447-70b0-4c24-bc09-5f05afc823cf | Any | [spoiler][HhuneMausoleum] | 0.9 Beta | No | +
+| Ring of Gargoth | 81b1f7cf-4b41-4132-ae81-b2fe8af6dc99 | Any | [spoiler][HhuneMausoleum] | 0.9 Beta | No | +
 | Pixie Moon Amulet | 00c06411-8621-45fc-a4d7-0849f8b8011d | Before Act 3 | [spoiler][MoonTower] | 0.9 Beta | No | +
 | Vellioth's Ring | 059eb57e-08d3-4846-87ba-d311e6dd3b4d | New game (if before Act 3, then the key simply won't appear) | [spoiler][CazadorsDungeon] | 0.9 Beta | No | +
 | **Броня**
